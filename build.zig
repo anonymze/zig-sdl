@@ -15,10 +15,14 @@ pub fn build(b: *std.Build) void {
         // on macos you add a path where it will search for xxx.framework
         exe.addFrameworkPath(b.path("libs/sdl2/macos"));
         // then link it based on that path
-        exe.linkFramework("SDL2");
+        exe.linkFramework("SDL3");
     } else if (target_os.tag == .windows) {} else {
         @panic("Unsupported OS");
     }
 
     b.installArtifact(exe);
+
+    const run = b.step("run", "Run the demo");
+    const run_cmd = b.addRunArtifact(exe);
+    run.dependOn(&run_cmd.step);
 }

@@ -24636,243 +24636,229 @@ const listHintId = [
 	},
 ];
 
-
 function huntClueSearch(x, y, direction, clueName) {
-	if (true) {
-		var _0x2d98cd = x;
-		var _0x2c5af7 = y;
-		var _0x45a1e8 = direction;
-		var _0x1e7122 = listHintId.find((hint) => hint.hintfr.toLowerCase() === clueName.toLowerCase())?.clueid ?? "error";
+	var _0x2d98cd = x;
+	var _0x2c5af7 = y;
+	var _0x45a1e8 = direction;
+	var _0x1e7122 =
+		listHintId.find((hint) => hint.hintfr.toLowerCase() === clueName.toLowerCase())?.clueid ?? "error";
 
-		if (_0x45a1e8 == "bas") {
-			if (_0x2d98cd == -31 && _0x2c5af7 == 34) {
-				var _0x2d98cd = String(parseInt(-30));
+	if (_0x45a1e8 == "bas") {
+		if (_0x2d98cd == -31 && _0x2c5af7 == 34) {
+			var _0x2d98cd = String(parseInt(-30));
+			console.log(_0x2d98cd);
+		} else {
+			if (_0x2d98cd == -34 && _0x2c5af7 == -16) {
+				var _0x2d98cd = String(parseInt(-33));
 				console.log(_0x2d98cd);
 			} else {
-				if (_0x2d98cd == -34 && _0x2c5af7 == -16) {
-					var _0x2d98cd = String(parseInt(-33));
-					console.log(_0x2d98cd);
-				} else {
-				}
 			}
-			var _0xc5c960 = String(parseInt(_0x2c5af7) + parseInt(1));
-			var _0x2980aa = String(parseInt(_0x2c5af7) + parseInt(2));
-			var _0x16672c = String(parseInt(_0x2c5af7) + parseInt(3));
-			var _0x216dbc = String(parseInt(_0x2c5af7) + parseInt(4));
-			var _0x528f54 = String(parseInt(_0x2c5af7) + parseInt(5));
-			var _0x2f25b9 = String(parseInt(_0x2c5af7) + parseInt(6));
-			var _0x14b2f0 = String(parseInt(_0x2c5af7) + parseInt(7));
-			var _0x3fa916 = String(parseInt(_0x2c5af7) + parseInt(8));
-			var _0xb6585d = String(parseInt(_0x2c5af7) + parseInt(9));
-			var _0x575918 = String(parseInt(_0x2c5af7) + parseInt(10));
-			var _0x48e86 =
-				listHuntClues.find((_0x155335) => _0x155335.y === _0xc5c960 && _0x155335.x === _0x2d98cd)?.[
-					"clues"
-				] ?? "error";
-			console.log(_0x48e86);
-			var _0x5463e7 =
-				listHuntClues.find((_0x31b0fc) => _0x31b0fc.y === _0x2980aa && _0x31b0fc.x === _0x2d98cd)?.[
-					"clues"
-				] ?? "error";
-			var _0x28e333 =
-				listHuntClues.find((_0x35e6cb) => _0x35e6cb.y === _0x16672c && _0x35e6cb.x === _0x2d98cd)?.[
-					"clues"
-				] ?? "error";
-			var _0x15cc9a =
-				listHuntClues.find((_0x346d15) => _0x346d15.y === _0x216dbc && _0x346d15.x === _0x2d98cd)?.[
-					"clues"
-				] ?? "error";
-			var _0x466a39 =
-				listHuntClues.find((_0x4213e6) => _0x4213e6.y === _0x528f54 && _0x4213e6.x === _0x2d98cd)?.[
-					"clues"
-				] ?? "error";
-			var _0x545312 =
-				listHuntClues.find((_0x10d49b) => _0x10d49b.y === _0x2f25b9 && _0x10d49b.x === _0x2d98cd)?.[
-					"clues"
-				] ?? "error";
-			var _0x2c656b =
-				listHuntClues.find((_0x2de583) => _0x2de583.y === _0x14b2f0 && _0x2de583.x === _0x2d98cd)?.[
-					"clues"
-				] ?? "error";
-			var _0x4e716c =
-				listHuntClues.find((_0x4d2305) => _0x4d2305.y === _0x3fa916 && _0x4d2305.x === _0x2d98cd)?.[
-					"clues"
-				] ?? "error";
-			var _0x379297 =
-				listHuntClues.find((_0x2d2185) => _0x2d2185.y === _0xb6585d && _0x2d2185.x === _0x2d98cd)?.[
-					"clues"
-				] ?? "error";
+		}
+		var _0xc5c960 = String(parseInt(_0x2c5af7) + parseInt(1));
+		var _0x2980aa = String(parseInt(_0x2c5af7) + parseInt(2));
+		var _0x16672c = String(parseInt(_0x2c5af7) + parseInt(3));
+		var _0x216dbc = String(parseInt(_0x2c5af7) + parseInt(4));
+		var _0x528f54 = String(parseInt(_0x2c5af7) + parseInt(5));
+		var _0x2f25b9 = String(parseInt(_0x2c5af7) + parseInt(6));
+		var _0x14b2f0 = String(parseInt(_0x2c5af7) + parseInt(7));
+		var _0x3fa916 = String(parseInt(_0x2c5af7) + parseInt(8));
+		var _0xb6585d = String(parseInt(_0x2c5af7) + parseInt(9));
+		var _0x575918 = String(parseInt(_0x2c5af7) + parseInt(10));
+		var _0x48e86 =
+			listHuntClues.find((_0x155335) => _0x155335.y === _0xc5c960 && _0x155335.x === _0x2d98cd)?.["clues"] ??
+			"error";
+		console.log(_0x48e86);
+		var _0x5463e7 =
+			listHuntClues.find((_0x31b0fc) => _0x31b0fc.y === _0x2980aa && _0x31b0fc.x === _0x2d98cd)?.["clues"] ??
+			"error";
+		var _0x28e333 =
+			listHuntClues.find((_0x35e6cb) => _0x35e6cb.y === _0x16672c && _0x35e6cb.x === _0x2d98cd)?.["clues"] ??
+			"error";
+		var _0x15cc9a =
+			listHuntClues.find((_0x346d15) => _0x346d15.y === _0x216dbc && _0x346d15.x === _0x2d98cd)?.["clues"] ??
+			"error";
+		var _0x466a39 =
+			listHuntClues.find((_0x4213e6) => _0x4213e6.y === _0x528f54 && _0x4213e6.x === _0x2d98cd)?.["clues"] ??
+			"error";
+		var _0x545312 =
+			listHuntClues.find((_0x10d49b) => _0x10d49b.y === _0x2f25b9 && _0x10d49b.x === _0x2d98cd)?.["clues"] ??
+			"error";
+		var _0x2c656b =
+			listHuntClues.find((_0x2de583) => _0x2de583.y === _0x14b2f0 && _0x2de583.x === _0x2d98cd)?.["clues"] ??
+			"error";
+		var _0x4e716c =
+			listHuntClues.find((_0x4d2305) => _0x4d2305.y === _0x3fa916 && _0x4d2305.x === _0x2d98cd)?.["clues"] ??
+			"error";
+		var _0x379297 =
+			listHuntClues.find((_0x2d2185) => _0x2d2185.y === _0xb6585d && _0x2d2185.x === _0x2d98cd)?.["clues"] ??
+			"error";
+		var _0x9298d1 =
+			listHuntClues.find((_0x5252b9) => _0x5252b9.y === _0x575918 && _0x5252b9.x === _0x2d98cd)?.["clues"] ??
+			"error";
+		if (_0x2d98cd == 20 && _0x2c5af7 == -33) {
 			var _0x9298d1 =
-				listHuntClues.find((_0x5252b9) => _0x5252b9.y === _0x575918 && _0x5252b9.x === _0x2d98cd)?.[
-					"clues"
-				] ?? "error";
-			if (_0x2d98cd == 20 && _0x2c5af7 == -33) {
-				var _0x9298d1 =
-					listHuntClues.find((_0x2ff23e) => _0x2ff23e.y === _0x575918 && _0x2ff23e.x === "21")?.["clues"] ??
+				listHuntClues.find((_0x2ff23e) => _0x2ff23e.y === _0x575918 && _0x2ff23e.x === "21")?.["clues"] ??
+				"error";
+		} else {
+			if (_0x2d98cd == 20 && _0x2c5af7 == -32) {
+				var _0x379297 =
+					listHuntClues.find((_0x3ae35c) => _0x3ae35c.y === _0xb6585d && _0x3ae35c.x === "21")?.["clues"] ??
 					"error";
 			} else {
-				if (_0x2d98cd == 20 && _0x2c5af7 == -32) {
-					var _0x379297 =
-						listHuntClues.find((_0x3ae35c) => _0x3ae35c.y === _0xb6585d && _0x3ae35c.x === "21")?.["clues"] ??
+				if (_0x2d98cd == 20 && _0x2c5af7 == -31) {
+					var _0x4e716c =
+						listHuntClues.find((_0x4f19dc) => _0x4f19dc.y === _0x3fa916 && _0x4f19dc.x === "21")?.["clues"] ??
 						"error";
 				} else {
-					if (_0x2d98cd == 20 && _0x2c5af7 == -31) {
-						var _0x4e716c =
-							listHuntClues.find((_0x4f19dc) => _0x4f19dc.y === _0x3fa916 && _0x4f19dc.x === "21")?.[
+					if (_0x2d98cd == 20 && _0x2c5af7 == -30) {
+						var _0x2c656b =
+							listHuntClues.find((_0x2470c0) => _0x2470c0.y === _0x14b2f0 && _0x2470c0.x === "21")?.[
 								"clues"
 							] ?? "error";
 					} else {
-						if (_0x2d98cd == 20 && _0x2c5af7 == -30) {
-							var _0x2c656b =
-								listHuntClues.find((_0x2470c0) => _0x2470c0.y === _0x14b2f0 && _0x2470c0.x === "21")?.[
+						if (_0x2d98cd == 20 && _0x2c5af7 == -29) {
+							var _0x545312 =
+								listHuntClues.find((_0x2f8908) => _0x2f8908.y === _0x2f25b9 && _0x2f8908.x === "21")?.[
 									"clues"
 								] ?? "error";
 						} else {
-							if (_0x2d98cd == 20 && _0x2c5af7 == -29) {
-								var _0x545312 =
-									listHuntClues.find((_0x2f8908) => _0x2f8908.y === _0x2f25b9 && _0x2f8908.x === "21")?.[
+							if (_0x2d98cd == 20 && _0x2c5af7 == -28) {
+								var _0x466a39 =
+									listHuntClues.find((_0x42013f) => _0x42013f.y === _0x528f54 && _0x42013f.x === "21")?.[
 										"clues"
 									] ?? "error";
 							} else {
-								if (_0x2d98cd == 20 && _0x2c5af7 == -28) {
-									var _0x466a39 =
-										listHuntClues.find((_0x42013f) => _0x42013f.y === _0x528f54 && _0x42013f.x === "21")?.[
+								if (_0x2d98cd == 20 && _0x2c5af7 == -27) {
+									var _0x15cc9a =
+										listHuntClues.find((_0x2b6f67) => _0x2b6f67.y === _0x216dbc && _0x2b6f67.x === "21")?.[
 											"clues"
 										] ?? "error";
 								} else {
-									if (_0x2d98cd == 20 && _0x2c5af7 == -27) {
-										var _0x15cc9a =
-											listHuntClues.find((_0x2b6f67) => _0x2b6f67.y === _0x216dbc && _0x2b6f67.x === "21")?.[
+									if (_0x2d98cd == 20 && _0x2c5af7 == -26) {
+										var _0x28e333 =
+											listHuntClues.find((_0x5df3c5) => _0x5df3c5.y === _0x16672c && _0x5df3c5.x === "21")?.[
 												"clues"
 											] ?? "error";
 									} else {
-										if (_0x2d98cd == 20 && _0x2c5af7 == -26) {
-											var _0x28e333 =
+										if (_0x2d98cd == 20 && _0x2c5af7 == -25) {
+											var _0x5463e7 =
 												listHuntClues.find(
-													(_0x5df3c5) => _0x5df3c5.y === _0x16672c && _0x5df3c5.x === "21"
+													(_0x4ac365) => _0x4ac365.y === _0x2980aa && _0x4ac365.x === "21"
 												)?.["clues"] ?? "error";
 										} else {
-											if (_0x2d98cd == 20 && _0x2c5af7 == -25) {
-												var _0x5463e7 =
+											if (_0x2d98cd == 20 && _0x2c5af7 == -24) {
+												var _0x48e86 =
 													listHuntClues.find(
-														(_0x4ac365) => _0x4ac365.y === _0x2980aa && _0x4ac365.x === "21"
+														(_0x43cff8) => _0x43cff8.y === _0xc5c960 && _0x43cff8.x === "21"
 													)?.["clues"] ?? "error";
 											} else {
-												if (_0x2d98cd == 20 && _0x2c5af7 == -24) {
-													var _0x48e86 =
+												if (_0x2d98cd == -25 && _0x2c5af7 == 29) {
+													var _0x5463e7 =
 														listHuntClues.find(
-															(_0x43cff8) => _0x43cff8.y === _0xc5c960 && _0x43cff8.x === "21"
+															(_0x396fe4) => _0x396fe4.y === _0x2980aa && _0x396fe4.x === "-26"
+														)?.["clues"] ?? "error";
+													var _0x28e333 =
+														listHuntClues.find(
+															(_0xd07d6e) => _0xd07d6e.y === _0x16672c && _0xd07d6e.x === "-26"
+														)?.["clues"] ?? "error";
+													var _0x15cc9a =
+														listHuntClues.find(
+															(_0x232856) => _0x232856.y === _0x216dbc && _0x232856.x === "-26"
+														)?.["clues"] ?? "error";
+													var _0x466a39 =
+														listHuntClues.find(
+															(_0x3a3d50) => _0x3a3d50.y === _0x528f54 && _0x3a3d50.x === "-26"
 														)?.["clues"] ?? "error";
 												} else {
-													if (_0x2d98cd == -25 && _0x2c5af7 == 29) {
+													if (_0x2d98cd == -25 && _0x2c5af7 == 30) {
+														var _0x48e86 =
+															listHuntClues.find(
+																(_0x1e6b30) => _0x1e6b30.y === _0xc5c960 && _0x1e6b30.x === "-26"
+															)?.["clues"] ?? "error";
 														var _0x5463e7 =
 															listHuntClues.find(
-																(_0x396fe4) => _0x396fe4.y === _0x2980aa && _0x396fe4.x === "-26"
+																(_0x4096f4) => _0x4096f4.y === _0x2980aa && _0x4096f4.x === "-26"
 															)?.["clues"] ?? "error";
 														var _0x28e333 =
 															listHuntClues.find(
-																(_0xd07d6e) => _0xd07d6e.y === _0x16672c && _0xd07d6e.x === "-26"
+																(_0x480a2e) => _0x480a2e.y === _0x16672c && _0x480a2e.x === "-26"
 															)?.["clues"] ?? "error";
 														var _0x15cc9a =
 															listHuntClues.find(
-																(_0x232856) => _0x232856.y === _0x216dbc && _0x232856.x === "-26"
-															)?.["clues"] ?? "error";
-														var _0x466a39 =
-															listHuntClues.find(
-																(_0x3a3d50) => _0x3a3d50.y === _0x528f54 && _0x3a3d50.x === "-26"
+																(_0x5e7c04) => _0x5e7c04.y === _0x216dbc && _0x5e7c04.x === "-26"
 															)?.["clues"] ?? "error";
 													} else {
-														if (_0x2d98cd == -25 && _0x2c5af7 == 30) {
-															var _0x48e86 =
-																listHuntClues.find(
-																	(_0x1e6b30) => _0x1e6b30.y === _0xc5c960 && _0x1e6b30.x === "-26"
-																)?.["clues"] ?? "error";
+														if (_0x2d98cd == -12 && _0x2c5af7 == 32) {
 															var _0x5463e7 =
 																listHuntClues.find(
-																	(_0x4096f4) => _0x4096f4.y === _0x2980aa && _0x4096f4.x === "-26"
+																	(_0x573cf2) => _0x573cf2.y === "33" && _0x573cf2.x === "-13"
 																)?.["clues"] ?? "error";
 															var _0x28e333 =
 																listHuntClues.find(
-																	(_0x480a2e) => _0x480a2e.y === _0x16672c && _0x480a2e.x === "-26"
-																)?.["clues"] ?? "error";
-															var _0x15cc9a =
-																listHuntClues.find(
-																	(_0x5e7c04) => _0x5e7c04.y === _0x216dbc && _0x5e7c04.x === "-26"
+																	(_0x5647b0) => _0x5647b0.y === "34" && _0x5647b0.x === "-13"
 																)?.["clues"] ?? "error";
 														} else {
-															if (_0x2d98cd == -12 && _0x2c5af7 == 32) {
+															if (_0x2d98cd == -12 && _0x2c5af7 == 33) {
+																var _0x48e86 =
+																	listHuntClues.find(
+																		(_0x4a94e2) => _0x4a94e2.y === "33" && _0x4a94e2.x === "-13"
+																	)?.["clues"] ?? "error";
 																var _0x5463e7 =
 																	listHuntClues.find(
-																		(_0x573cf2) => _0x573cf2.y === "33" && _0x573cf2.x === "-13"
-																	)?.["clues"] ?? "error";
-																var _0x28e333 =
-																	listHuntClues.find(
-																		(_0x5647b0) => _0x5647b0.y === "34" && _0x5647b0.x === "-13"
+																		(_0x1e7115) => _0x1e7115.y === "34" && _0x1e7115.x === "-13"
 																	)?.["clues"] ?? "error";
 															} else {
-																if (_0x2d98cd == -12 && _0x2c5af7 == 33) {
-																	var _0x48e86 =
+																if (_0x2d98cd == 13 && _0x2c5af7 == -65) {
+																	var _0x4e716c =
 																		listHuntClues.find(
-																			(_0x4a94e2) => _0x4a94e2.y === "33" && _0x4a94e2.x === "-13"
-																		)?.["clues"] ?? "error";
-																	var _0x5463e7 =
-																		listHuntClues.find(
-																			(_0x1e7115) => _0x1e7115.y === "34" && _0x1e7115.x === "-13"
+																			(_0x2409bc) => _0x2409bc.y === _0x3fa916 && _0x2409bc.x === "12"
 																		)?.["clues"] ?? "error";
 																} else {
-																	if (_0x2d98cd == 13 && _0x2c5af7 == -65) {
-																		var _0x4e716c =
+																	if (_0x2d98cd == 13 && _0x2c5af7 == -64) {
+																		var _0x2c656b =
 																			listHuntClues.find(
-																				(_0x2409bc) => _0x2409bc.y === _0x3fa916 && _0x2409bc.x === "12"
+																				(_0x2e717a) => _0x2e717a.y === _0x14b2f0 && _0x2e717a.x === "12"
 																			)?.["clues"] ?? "error";
 																	} else {
-																		if (_0x2d98cd == 13 && _0x2c5af7 == -64) {
-																			var _0x2c656b =
+																		if (_0x2d98cd == 13 && _0x2c5af7 == -63) {
+																			var _0x545312 =
 																				listHuntClues.find(
-																					(_0x2e717a) => _0x2e717a.y === _0x14b2f0 && _0x2e717a.x === "12"
+																					(_0x35e4e3) => _0x35e4e3.y === _0x2f25b9 && _0x35e4e3.x === "12"
 																				)?.["clues"] ?? "error";
 																		} else {
-																			if (_0x2d98cd == 13 && _0x2c5af7 == -63) {
-																				var _0x545312 =
+																			if (_0x2d98cd == 13 && _0x2c5af7 == -62) {
+																				var _0x466a39 =
 																					listHuntClues.find(
-																						(_0x35e4e3) => _0x35e4e3.y === _0x2f25b9 && _0x35e4e3.x === "12"
+																						(_0x107d25) => _0x107d25.y === _0x528f54 && _0x107d25.x === "12"
 																					)?.["clues"] ?? "error";
 																			} else {
-																				if (_0x2d98cd == 13 && _0x2c5af7 == -62) {
-																					var _0x466a39 =
+																				if (_0x2d98cd == 13 && _0x2c5af7 == -61) {
+																					var _0x15cc9a =
 																						listHuntClues.find(
-																							(_0x107d25) => _0x107d25.y === _0x528f54 && _0x107d25.x === "12"
+																							(_0x494c49) => _0x494c49.y === _0x216dbc && _0x494c49.x === "12"
 																						)?.["clues"] ?? "error";
 																				} else {
-																					if (_0x2d98cd == 13 && _0x2c5af7 == -61) {
-																						var _0x15cc9a =
+																					if (_0x2d98cd == 13 && _0x2c5af7 == -60) {
+																						var _0x28e333 =
 																							listHuntClues.find(
-																								(_0x494c49) =>
-																									_0x494c49.y === _0x216dbc && _0x494c49.x === "12"
+																								(_0x25a61a) =>
+																									_0x25a61a.y === _0x16672c && _0x25a61a.x === "12"
 																							)?.["clues"] ?? "error";
 																					} else {
-																						if (_0x2d98cd == 13 && _0x2c5af7 == -60) {
-																							var _0x28e333 =
+																						if (_0x2d98cd == 13 && _0x2c5af7 == -59) {
+																							var _0x5463e7 =
 																								listHuntClues.find(
-																									(_0x25a61a) =>
-																										_0x25a61a.y === _0x16672c && _0x25a61a.x === "12"
+																									(_0xb936ff) =>
+																										_0xb936ff.y === _0x2980aa && _0xb936ff.x === "12"
 																								)?.["clues"] ?? "error";
 																						} else {
-																							if (_0x2d98cd == 13 && _0x2c5af7 == -59) {
-																								var _0x5463e7 =
+																							if (_0x2d98cd == 13 && _0x2c5af7 == -58) {
+																								var _0x48e86 =
 																									listHuntClues.find(
-																										(_0xb936ff) =>
-																											_0xb936ff.y === _0x2980aa && _0xb936ff.x === "12"
+																										(_0x3c5c28) =>
+																											_0x3c5c28.y === _0xc5c960 && _0x3c5c28.x === "12"
 																									)?.["clues"] ?? "error";
 																							} else {
-																								if (_0x2d98cd == 13 && _0x2c5af7 == -58) {
-																									var _0x48e86 =
-																										listHuntClues.find(
-																											(_0x3c5c28) =>
-																												_0x3c5c28.y === _0xc5c960 && _0x3c5c28.x === "12"
-																										)?.["clues"] ?? "error";
-																								} else {
-																								}
 																							}
 																						}
 																					}
@@ -24894,9 +24880,40 @@ function huntClueSearch(x, y, direction, clueName) {
 					}
 				}
 			}
-			if (_0x48e86.includes(_0x1e7122)) {
-				var _0x2e6e7e = listHuntClues.find((_0x186dec) => _0x186dec.y === _0xc5c960).y;
-				if (_0x2d98cd == 20 && _0x2c5af7 == -24) {
+		}
+		if (_0x48e86.includes(_0x1e7122)) {
+			var _0x2e6e7e = listHuntClues.find((_0x186dec) => _0x186dec.y === _0xc5c960).y;
+			if (_0x2d98cd == 20 && _0x2c5af7 == -24) {
+				var _0x2d98cd = String(parseInt(21));
+				console.log(_0x2d98cd);
+			} else {
+				if (_0x2d98cd == -25 && _0x2c5af7 == 30) {
+					var _0x2d98cd = String(parseInt(-26));
+					console.log(_0x2d98cd);
+				} else {
+					if (_0x2d98cd == -12 && _0x2c5af7 == 33) {
+						var _0x2e6e7e = String(parseInt(33));
+						var _0x2d98cd = String(parseInt(-13));
+						var _0x2c5af7 = String(parseInt(32));
+						console.log(_0x2d98cd, _0x2e6e7e, _0x2c5af7);
+					} else {
+						if (_0x2d98cd == 13 && _0x2c5af7 == -58) {
+							var _0x2d98cd = String(parseInt(12));
+							console.log(_0x2d98cd);
+						} else {
+						}
+					}
+				}
+			}
+
+			console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
+			// updateOptionClues();
+
+			return [_0x2d98cd, _0x2e6e7e];
+		} else {
+			if (_0x5463e7.includes(_0x1e7122)) {
+				var _0x2e6e7e = listHuntClues.find((_0x1aabc8) => _0x1aabc8.y === _0x2980aa).y;
+				if (_0x2d98cd == 20 && _0x2c5af7 == -25) {
 					var _0x2d98cd = String(parseInt(21));
 					console.log(_0x2d98cd);
 				} else {
@@ -24904,29 +24921,40 @@ function huntClueSearch(x, y, direction, clueName) {
 						var _0x2d98cd = String(parseInt(-26));
 						console.log(_0x2d98cd);
 					} else {
-						if (_0x2d98cd == -12 && _0x2c5af7 == 33) {
-							var _0x2e6e7e = String(parseInt(33));
-							var _0x2d98cd = String(parseInt(-13));
-							var _0x2c5af7 = String(parseInt(32));
-							console.log(_0x2d98cd, _0x2e6e7e, _0x2c5af7);
+						if (_0x2d98cd == -25 && _0x2c5af7 == 29) {
+							var _0x2d98cd = String(parseInt(-26));
+							console.log(_0x2d98cd);
 						} else {
-							if (_0x2d98cd == 13 && _0x2c5af7 == -58) {
-								var _0x2d98cd = String(parseInt(12));
-								console.log(_0x2d98cd);
+							if (_0x2d98cd == -12 && _0x2c5af7 == 33) {
+								var _0x2e6e7e = String(parseInt(34));
+								var _0x2d98cd = String(parseInt(-13));
+								var _0x2c5af7 = String(parseInt(32));
+								console.log(_0x2d98cd, _0x2e6e7e, _0x2c5af7);
 							} else {
+								if (_0x2d98cd == -12 && _0x2c5af7 == 32) {
+									var _0x2e6e7e = String(parseInt(33));
+									var _0x2d98cd = String(parseInt(-13));
+									var _0x2c5af7 = String(parseInt(31));
+									console.log(_0x2d98cd, _0x2e6e7e, _0x2c5af7);
+								} else {
+									if (_0x2d98cd == 13 && _0x2c5af7 == -59) {
+										var _0x2d98cd = String(parseInt(12));
+										console.log(_0x2d98cd);
+									} else {
+									}
+								}
 							}
 						}
 					}
 				}
-
 				console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
 				// updateOptionClues();
-				
-				return [_0x2d98cd, _0x2e6e7e];
+
+				return;
 			} else {
-				if (_0x5463e7.includes(_0x1e7122)) {
-					var _0x2e6e7e = listHuntClues.find((_0x1aabc8) => _0x1aabc8.y === _0x2980aa).y;
-					if (_0x2d98cd == 20 && _0x2c5af7 == -25) {
+				if (_0x28e333.includes(_0x1e7122)) {
+					var _0x2e6e7e = listHuntClues.find((_0x584c44) => _0x584c44.y === _0x16672c).y;
+					if (_0x2d98cd == 20 && _0x2c5af7 == -26) {
 						var _0x2d98cd = String(parseInt(21));
 						console.log(_0x2d98cd);
 					} else {
@@ -24938,23 +24966,16 @@ function huntClueSearch(x, y, direction, clueName) {
 								var _0x2d98cd = String(parseInt(-26));
 								console.log(_0x2d98cd);
 							} else {
-								if (_0x2d98cd == -12 && _0x2c5af7 == 33) {
+								if (_0x2d98cd == -12 && _0x2c5af7 == 32) {
 									var _0x2e6e7e = String(parseInt(34));
 									var _0x2d98cd = String(parseInt(-13));
-									var _0x2c5af7 = String(parseInt(32));
+									var _0x2c5af7 = String(parseInt(31));
 									console.log(_0x2d98cd, _0x2e6e7e, _0x2c5af7);
 								} else {
-									if (_0x2d98cd == -12 && _0x2c5af7 == 32) {
-										var _0x2e6e7e = String(parseInt(33));
-										var _0x2d98cd = String(parseInt(-13));
-										var _0x2c5af7 = String(parseInt(31));
-										console.log(_0x2d98cd, _0x2e6e7e, _0x2c5af7);
+									if (_0x2d98cd == 13 && _0x2c5af7 == -60) {
+										var _0x2d98cd = String(parseInt(12));
+										console.log(_0x2d98cd);
 									} else {
-										if (_0x2d98cd == 13 && _0x2c5af7 == -59) {
-											var _0x2d98cd = String(parseInt(12));
-											console.log(_0x2d98cd);
-										} else {
-										}
 									}
 								}
 							}
@@ -24962,12 +24983,11 @@ function huntClueSearch(x, y, direction, clueName) {
 					}
 					console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
 					// updateOptionClues();
-					
-					return;
+
+					return [_0x2d98cd, _0x2e6e7e];
 				} else {
-					if (_0x28e333.includes(_0x1e7122)) {
-						var _0x2e6e7e = listHuntClues.find((_0x584c44) => _0x584c44.y === _0x16672c).y;
-						if (_0x2d98cd == 20 && _0x2c5af7 == -26) {
+					if (_0x15cc9a.includes(_0x1e7122)) {
+						if (_0x2d98cd == 20 && _0x2c5af7 == -27) {
 							var _0x2d98cd = String(parseInt(21));
 							console.log(_0x2d98cd);
 						} else {
@@ -24979,148 +24999,321 @@ function huntClueSearch(x, y, direction, clueName) {
 									var _0x2d98cd = String(parseInt(-26));
 									console.log(_0x2d98cd);
 								} else {
-									if (_0x2d98cd == -12 && _0x2c5af7 == 32) {
-										var _0x2e6e7e = String(parseInt(34));
-										var _0x2d98cd = String(parseInt(-13));
-										var _0x2c5af7 = String(parseInt(31));
-										console.log(_0x2d98cd, _0x2e6e7e, _0x2c5af7);
+									if (_0x2d98cd == 13 && _0x2c5af7 == -61) {
+										var _0x2d98cd = String(parseInt(12));
+										console.log(_0x2d98cd);
 									} else {
-										if (_0x2d98cd == 13 && _0x2c5af7 == -60) {
-											var _0x2d98cd = String(parseInt(12));
-											console.log(_0x2d98cd);
-										} else {
-										}
 									}
 								}
 							}
 						}
+						var _0x2e6e7e = listHuntClues.find((_0x23c8ba) => _0x23c8ba.y === _0x216dbc).y;
 						console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
 						// updateOptionClues();
-						
+
 						return [_0x2d98cd, _0x2e6e7e];
 					} else {
-						if (_0x15cc9a.includes(_0x1e7122)) {
-							if (_0x2d98cd == 20 && _0x2c5af7 == -27) {
+						if (_0x466a39.includes(_0x1e7122)) {
+							if (_0x2d98cd == 20 && _0x2c5af7 == -28) {
 								var _0x2d98cd = String(parseInt(21));
 								console.log(_0x2d98cd);
 							} else {
-								if (_0x2d98cd == -25 && _0x2c5af7 == 30) {
+								if (_0x2d98cd == -25 && _0x2c5af7 == 29) {
 									var _0x2d98cd = String(parseInt(-26));
 									console.log(_0x2d98cd);
 								} else {
-									if (_0x2d98cd == -25 && _0x2c5af7 == 29) {
-										var _0x2d98cd = String(parseInt(-26));
+									if (_0x2d98cd == 13 && _0x2c5af7 == -62) {
+										var _0x2d98cd = String(parseInt(12));
 										console.log(_0x2d98cd);
 									} else {
-										if (_0x2d98cd == 13 && _0x2c5af7 == -61) {
-											var _0x2d98cd = String(parseInt(12));
-											console.log(_0x2d98cd);
-										} else {
-										}
 									}
 								}
 							}
-							var _0x2e6e7e = listHuntClues.find((_0x23c8ba) => _0x23c8ba.y === _0x216dbc).y;
+							var _0x2e6e7e = listHuntClues.find((_0x5c6ffc) => _0x5c6ffc.y === _0x528f54).y;
 							console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
 							// updateOptionClues();
-							
+
 							return [_0x2d98cd, _0x2e6e7e];
 						} else {
-							if (_0x466a39.includes(_0x1e7122)) {
-								if (_0x2d98cd == 20 && _0x2c5af7 == -28) {
+							if (_0x545312.includes(_0x1e7122)) {
+								if (_0x2d98cd == 20 && _0x2c5af7 == -29) {
 									var _0x2d98cd = String(parseInt(21));
 									console.log(_0x2d98cd);
 								} else {
-									if (_0x2d98cd == -25 && _0x2c5af7 == 29) {
-										var _0x2d98cd = String(parseInt(-26));
+									if (_0x2d98cd == 13 && _0x2c5af7 == -63) {
+										var _0x2d98cd = String(parseInt(12));
 										console.log(_0x2d98cd);
 									} else {
-										if (_0x2d98cd == 13 && _0x2c5af7 == -62) {
-											var _0x2d98cd = String(parseInt(12));
-											console.log(_0x2d98cd);
-										} else {
-										}
 									}
 								}
-								var _0x2e6e7e = listHuntClues.find((_0x5c6ffc) => _0x5c6ffc.y === _0x528f54).y;
+								var _0x2e6e7e = listHuntClues.find((_0x22cd0d) => _0x22cd0d.y === _0x2f25b9).y;
 								console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
 								// updateOptionClues();
-								
+
 								return [_0x2d98cd, _0x2e6e7e];
 							} else {
-								if (_0x545312.includes(_0x1e7122)) {
-									if (_0x2d98cd == 20 && _0x2c5af7 == -29) {
+								if (_0x2c656b.includes(_0x1e7122)) {
+									if (_0x2d98cd == 20 && _0x2c5af7 == -30) {
 										var _0x2d98cd = String(parseInt(21));
 										console.log(_0x2d98cd);
 									} else {
-										if (_0x2d98cd == 13 && _0x2c5af7 == -63) {
+										if (_0x2d98cd == 13 && _0x2c5af7 == -64) {
 											var _0x2d98cd = String(parseInt(12));
 											console.log(_0x2d98cd);
 										} else {
 										}
 									}
-									var _0x2e6e7e = listHuntClues.find((_0x22cd0d) => _0x22cd0d.y === _0x2f25b9).y;
+									var _0x2e6e7e = listHuntClues.find((_0x309318) => _0x309318.y === _0x14b2f0).y;
 									console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
 									// updateOptionClues();
-									
+
 									return [_0x2d98cd, _0x2e6e7e];
 								} else {
-									if (_0x2c656b.includes(_0x1e7122)) {
-										if (_0x2d98cd == 20 && _0x2c5af7 == -30) {
+									if (_0x4e716c.includes(_0x1e7122)) {
+										if (_0x2d98cd == 20 && _0x2c5af7 == -31) {
 											var _0x2d98cd = String(parseInt(21));
 											console.log(_0x2d98cd);
 										} else {
-											if (_0x2d98cd == 13 && _0x2c5af7 == -64) {
+											if (_0x2d98cd == 13 && _0x2c5af7 == -65) {
 												var _0x2d98cd = String(parseInt(12));
 												console.log(_0x2d98cd);
 											} else {
 											}
 										}
-										var _0x2e6e7e = listHuntClues.find((_0x309318) => _0x309318.y === _0x14b2f0).y;
+										var _0x2e6e7e = listHuntClues.find((_0x477f82) => _0x477f82.y === _0x3fa916).y;
 										console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
 										// updateOptionClues();
-										
+
 										return [_0x2d98cd, _0x2e6e7e];
 									} else {
-										if (_0x4e716c.includes(_0x1e7122)) {
-											if (_0x2d98cd == 20 && _0x2c5af7 == -31) {
+										if (_0x379297.includes(_0x1e7122)) {
+											if (_0x2d98cd == 20 && _0x2c5af7 == -32) {
 												var _0x2d98cd = String(parseInt(21));
 												console.log(_0x2d98cd);
 											} else {
-												if (_0x2d98cd == 13 && _0x2c5af7 == -65) {
-													var _0x2d98cd = String(parseInt(12));
-													console.log(_0x2d98cd);
-												} else {
-												}
 											}
-											var _0x2e6e7e = listHuntClues.find((_0x477f82) => _0x477f82.y === _0x3fa916).y;
+											var _0x2e6e7e = listHuntClues.find((_0x1db2a9) => _0x1db2a9.y === _0xb6585d).y;
 											console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
 											// updateOptionClues();
-											
+
 											return [_0x2d98cd, _0x2e6e7e];
 										} else {
-											if (_0x379297.includes(_0x1e7122)) {
-												if (_0x2d98cd == 20 && _0x2c5af7 == -32) {
+											if (_0x9298d1.includes(_0x1e7122)) {
+												if (_0x2d98cd == 20 && _0x2c5af7 == -33) {
 													var _0x2d98cd = String(parseInt(21));
 													console.log(_0x2d98cd);
 												} else {
 												}
-												var _0x2e6e7e = listHuntClues.find((_0x1db2a9) => _0x1db2a9.y === _0xb6585d).y;
+												var _0x2e6e7e = listHuntClues.find((_0x397d5e) => _0x397d5e.y === _0x575918).y;
 												console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
 												// updateOptionClues();
-												
+
+												return [_0x2d98cd, _0x2e6e7e];
+											} else {
+												console.log("Aucun résultat");
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	} else {
+		if (_0x45a1e8 == "haut") {
+			var _0xc5c960 = String(parseInt(_0x2c5af7) - parseInt(1));
+			var _0x2980aa = String(parseInt(_0x2c5af7) - parseInt(2));
+			var _0x16672c = String(parseInt(_0x2c5af7) - parseInt(3));
+			var _0x216dbc = String(parseInt(_0x2c5af7) - parseInt(4));
+			var _0x528f54 = String(parseInt(_0x2c5af7) - parseInt(5));
+			var _0x2f25b9 = String(parseInt(_0x2c5af7) - parseInt(6));
+			var _0x14b2f0 = String(parseInt(_0x2c5af7) - parseInt(7));
+			var _0x3fa916 = String(parseInt(_0x2c5af7) - parseInt(8));
+			var _0xb6585d = String(parseInt(_0x2c5af7) - parseInt(9));
+			var _0x575918 = String(parseInt(_0x2c5af7) - parseInt(10));
+
+			console.log(
+				_0x2d98cd,
+				_0x2c5af7,
+				_0xc5c960,
+				_0x2980aa,
+				_0x16672c,
+				_0x216dbc,
+				_0x528f54,
+				_0x2f25b9,
+				_0x14b2f0,
+				_0x3fa916,
+				_0xb6585d,
+				_0x575918
+			);
+
+			var _0x48e86 =
+				listHuntClues.find((_0x424072) => _0x424072.y === _0xc5c960 && _0x424072.x === _0x2d98cd)?.[
+					"clues"
+				] ?? "error";
+
+			console.log(_0x48e86);
+			console.log(_0x1e7122);
+
+			var _0x5463e7 =
+				listHuntClues.find((_0x10bccb) => _0x10bccb.y === _0x2980aa && _0x10bccb.x === _0x2d98cd)?.[
+					"clues"
+				] ?? "error";
+			var _0x28e333 =
+				listHuntClues.find((_0x4d9d0b) => _0x4d9d0b.y === _0x16672c && _0x4d9d0b.x === _0x2d98cd)?.[
+					"clues"
+				] ?? "error";
+			var _0x15cc9a =
+				listHuntClues.find((_0x492f71) => _0x492f71.y === _0x216dbc && _0x492f71.x === _0x2d98cd)?.[
+					"clues"
+				] ?? "error";
+			var _0x466a39 =
+				listHuntClues.find((_0x4473ce) => _0x4473ce.y === _0x528f54 && _0x4473ce.x === _0x2d98cd)?.[
+					"clues"
+				] ?? "error";
+			var _0x545312 =
+				listHuntClues.find((_0x35b6d7) => _0x35b6d7.y === _0x2f25b9 && _0x35b6d7.x === _0x2d98cd)?.[
+					"clues"
+				] ?? "error";
+			var _0x2c656b =
+				listHuntClues.find((_0x1e7553) => _0x1e7553.y === _0x14b2f0 && _0x1e7553.x === _0x2d98cd)?.[
+					"clues"
+				] ?? "error";
+			var _0x4e716c =
+				listHuntClues.find((_0x2627b8) => _0x2627b8.y === _0x3fa916 && _0x2627b8.x === _0x2d98cd)?.[
+					"clues"
+				] ?? "error";
+			var _0x379297 =
+				listHuntClues.find((_0x220d37) => _0x220d37.y === _0xb6585d && _0x220d37.x === _0x2d98cd)?.[
+					"clues"
+				] ?? "error";
+			var _0x9298d1 =
+				listHuntClues.find((_0x29b5c2) => _0x29b5c2.y === _0x575918 && _0x29b5c2.x === _0x2d98cd)?.[
+					"clues"
+				] ?? "error";
+			if (_0x2d98cd == 3 && _0x2c5af7 == -4) {
+				var _0x15cc9a =
+					listHuntClues.find((_0x1257bb) => _0x1257bb.y === _0x216dbc && _0x1257bb.x === "4")?.["clues"] ??
+					"error";
+			} else {
+				if (_0x2d98cd == 3 && _0x2c5af7 == -5) {
+					var _0x28e333 =
+						listHuntClues.find((_0x5737cc) => _0x5737cc.y === _0x16672c && _0x5737cc.x === "4")?.["clues"] ??
+						"error";
+				} else {
+					if (_0x2d98cd == 3 && _0x2c5af7 == -6) {
+						var _0x5463e7 =
+							listHuntClues.find((_0x1f6c3c) => _0x1f6c3c.y === _0x2980aa && _0x1f6c3c.x === "4")?.[
+								"clues"
+							] ?? "error";
+					} else {
+						if (_0x2d98cd == 3 && _0x2c5af7 == -7) {
+							var _0x48e86 =
+								listHuntClues.find((_0x427cd9) => _0x427cd9.y === _0xc5c960 && _0x427cd9.x === "4")?.[
+									"clues"
+								] ?? "error";
+						} else {
+						}
+					}
+				}
+			}
+			if (_0x48e86.includes(_0x1e7122)) {
+				var _0x2e6e7e = listHuntClues.find((_0x3cd21d) => _0x3cd21d.y === _0xc5c960).y;
+				if (_0x2d98cd == 3 && _0x2c5af7 == -7) {
+					var _0x2d98cd = String(parseInt(4));
+					console.log(_0x2d98cd);
+				} else {
+				}
+				console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
+				// updateOptionClues();
+
+				return [_0x2d98cd, _0x2e6e7e];
+			} else {
+				if (_0x5463e7.includes(_0x1e7122)) {
+					var _0x2e6e7e = listHuntClues.find((_0x141022) => _0x141022.y === _0x2980aa).y;
+					if (_0x2d98cd == 3 && _0x2c5af7 == -6) {
+						var _0x2d98cd = String(parseInt(4));
+						console.log(_0x2d98cd);
+					} else {
+					}
+					console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
+					// updateOptionClues();
+
+					return [_0x2d98cd, _0x2e6e7e];
+				} else {
+					if (_0x28e333.includes(_0x1e7122)) {
+						var _0x2e6e7e = listHuntClues.find((_0x1ded84) => _0x1ded84.y === _0x16672c).y;
+						if (_0x2d98cd == 3 && _0x2c5af7 == -5) {
+							var _0x2d98cd = String(parseInt(4));
+							console.log(_0x2d98cd);
+						} else {
+						}
+						console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
+						// updateOptionClues();
+
+						return [_0x2d98cd, _0x2e6e7e];
+					} else {
+						if (_0x15cc9a.includes(_0x1e7122)) {
+							var _0x2e6e7e = listHuntClues.find((_0x1e5025) => _0x1e5025.y === _0x216dbc).y;
+							if (_0x2d98cd == 3 && _0x2c5af7 == -4) {
+								var _0x2d98cd = String(parseInt(4));
+								console.log(_0x2d98cd);
+							} else {
+							}
+							console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
+							// updateOptionClues();
+
+							return [_0x2d98cd, _0x2e6e7e];
+						} else {
+							if (_0x466a39.includes(_0x1e7122)) {
+								var _0x2e6e7e = listHuntClues.find((_0x156e19) => _0x156e19.y === _0x528f54).y;
+
+								console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
+
+								// updateOptionClues();
+								return [_0x2d98cd, _0x2e6e7e];
+							} else {
+								if (_0x545312.includes(_0x1e7122)) {
+									var _0x2e6e7e = listHuntClues.find((_0x1d6e96) => _0x1d6e96.y === _0x2f25b9).y;
+
+									console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
+									// updateOptionClues();
+									return [_0x2d98cd, _0x2e6e7e];
+								} else {
+									if (_0x2c656b.includes(_0x1e7122)) {
+										var _0x2e6e7e = listHuntClues.find((_0x142e72) => _0x142e72.y === _0x14b2f0).y;
+
+										console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
+
+										// updateOptionClues();
+
+										return [_0x2d98cd, _0x2e6e7e];
+									} else {
+										if (_0x4e716c.includes(_0x1e7122)) {
+											var _0x2e6e7e = listHuntClues.find((_0x42486a) => _0x42486a.y === _0x3fa916).y;
+
+											console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
+
+											// updateOptionClues();
+
+											return [_0x2d98cd, _0x2e6e7e];
+										} else {
+											if (_0x379297.includes(_0x1e7122)) {
+												var _0x2e6e7e = listHuntClues.find((_0x52bf43) => _0x52bf43.y === _0xb6585d).y;
+												console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
+												// updateOptionClues();
+
 												return [_0x2d98cd, _0x2e6e7e];
 											} else {
 												if (_0x9298d1.includes(_0x1e7122)) {
-													if (_0x2d98cd == 20 && _0x2c5af7 == -33) {
-														var _0x2d98cd = String(parseInt(21));
-														console.log(_0x2d98cd);
-													} else {
-													}
-													var _0x2e6e7e = listHuntClues.find((_0x397d5e) => _0x397d5e.y === _0x575918).y;
+													var _0x2e6e7e = listHuntClues.find((_0xf6db79) => _0xf6db79.y === _0x575918).y;
+
 													console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
+
 													// updateOptionClues();
-													
+
 													return [_0x2d98cd, _0x2e6e7e];
 												} else {
 													console.log("Aucun résultat");
@@ -25135,508 +25328,300 @@ function huntClueSearch(x, y, direction, clueName) {
 				}
 			}
 		} else {
-			if (_0x45a1e8 == "haut") {
-				var _0xc5c960 = String(parseInt(_0x2c5af7) - parseInt(1));
-				var _0x2980aa = String(parseInt(_0x2c5af7) - parseInt(2));
-				var _0x16672c = String(parseInt(_0x2c5af7) - parseInt(3));
-				var _0x216dbc = String(parseInt(_0x2c5af7) - parseInt(4));
-				var _0x528f54 = String(parseInt(_0x2c5af7) - parseInt(5));
-				var _0x2f25b9 = String(parseInt(_0x2c5af7) - parseInt(6));
-				var _0x14b2f0 = String(parseInt(_0x2c5af7) - parseInt(7));
-				var _0x3fa916 = String(parseInt(_0x2c5af7) - parseInt(8));
-				var _0xb6585d = String(parseInt(_0x2c5af7) - parseInt(9));
-				var _0x575918 = String(parseInt(_0x2c5af7) - parseInt(10));
-
-				console.log(
-					_0x2d98cd,
-					_0x2c5af7,
-					_0xc5c960,
-					_0x2980aa,
-					_0x16672c,
-					_0x216dbc,
-					_0x528f54,
-					_0x2f25b9,
-					_0x14b2f0,
-					_0x3fa916,
-					_0xb6585d,
-					_0x575918
-				);
-
-				var _0x48e86 =
-					listHuntClues.find((_0x424072) => _0x424072.y === _0xc5c960 && _0x424072.x === _0x2d98cd)?.[
-						"clues"
-					] ?? "error";
-
-				console.log(_0x48e86);
-				console.log(_0x1e7122);
-
-				var _0x5463e7 =
-					listHuntClues.find((_0x10bccb) => _0x10bccb.y === _0x2980aa && _0x10bccb.x === _0x2d98cd)?.[
-						"clues"
-					] ?? "error";
-				var _0x28e333 =
-					listHuntClues.find((_0x4d9d0b) => _0x4d9d0b.y === _0x16672c && _0x4d9d0b.x === _0x2d98cd)?.[
-						"clues"
-					] ?? "error";
-				var _0x15cc9a =
-					listHuntClues.find((_0x492f71) => _0x492f71.y === _0x216dbc && _0x492f71.x === _0x2d98cd)?.[
-						"clues"
-					] ?? "error";
-				var _0x466a39 =
-					listHuntClues.find((_0x4473ce) => _0x4473ce.y === _0x528f54 && _0x4473ce.x === _0x2d98cd)?.[
-						"clues"
-					] ?? "error";
-				var _0x545312 =
-					listHuntClues.find((_0x35b6d7) => _0x35b6d7.y === _0x2f25b9 && _0x35b6d7.x === _0x2d98cd)?.[
-						"clues"
-					] ?? "error";
-				var _0x2c656b =
-					listHuntClues.find((_0x1e7553) => _0x1e7553.y === _0x14b2f0 && _0x1e7553.x === _0x2d98cd)?.[
-						"clues"
-					] ?? "error";
-				var _0x4e716c =
-					listHuntClues.find((_0x2627b8) => _0x2627b8.y === _0x3fa916 && _0x2627b8.x === _0x2d98cd)?.[
-						"clues"
-					] ?? "error";
-				var _0x379297 =
-					listHuntClues.find((_0x220d37) => _0x220d37.y === _0xb6585d && _0x220d37.x === _0x2d98cd)?.[
-						"clues"
-					] ?? "error";
-				var _0x9298d1 =
-					listHuntClues.find((_0x29b5c2) => _0x29b5c2.y === _0x575918 && _0x29b5c2.x === _0x2d98cd)?.[
-						"clues"
-					] ?? "error";
-				if (_0x2d98cd == 3 && _0x2c5af7 == -4) {
-					var _0x15cc9a =
-						listHuntClues.find((_0x1257bb) => _0x1257bb.y === _0x216dbc && _0x1257bb.x === "4")?.["clues"] ??
-						"error";
+			if (_0x45a1e8 == "droite") {
+				if (_0x2d98cd == -81 && _0x2c5af7 == -37) {
+					var _0x2c5af7 = String(parseInt(-38));
+					console.log(_0x2c5af7);
 				} else {
-					if (_0x2d98cd == 3 && _0x2c5af7 == -5) {
-						var _0x28e333 =
-							listHuntClues.find((_0x5737cc) => _0x5737cc.y === _0x16672c && _0x5737cc.x === "4")?.[
-								"clues"
-							] ?? "error";
-					} else {
-						if (_0x2d98cd == 3 && _0x2c5af7 == -6) {
-							var _0x5463e7 =
-								listHuntClues.find((_0x1f6c3c) => _0x1f6c3c.y === _0x2980aa && _0x1f6c3c.x === "4")?.[
-									"clues"
-								] ?? "error";
-						} else {
-							if (_0x2d98cd == 3 && _0x2c5af7 == -7) {
-								var _0x48e86 =
-									listHuntClues.find((_0x427cd9) => _0x427cd9.y === _0xc5c960 && _0x427cd9.x === "4")?.[
-										"clues"
-									] ?? "error";
-							} else {
-							}
-						}
-					}
-				}
-				if (_0x48e86.includes(_0x1e7122)) {
-					var _0x2e6e7e = listHuntClues.find((_0x3cd21d) => _0x3cd21d.y === _0xc5c960).y;
-					if (_0x2d98cd == 3 && _0x2c5af7 == -7) {
-						var _0x2d98cd = String(parseInt(4));
-						console.log(_0x2d98cd);
-					} else {
-					}
-					console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
-					// updateOptionClues();
-					
-					return [_0x2d98cd, _0x2e6e7e];
-				} else {
-					if (_0x5463e7.includes(_0x1e7122)) {
-						var _0x2e6e7e = listHuntClues.find((_0x141022) => _0x141022.y === _0x2980aa).y;
-						if (_0x2d98cd == 3 && _0x2c5af7 == -6) {
-							var _0x2d98cd = String(parseInt(4));
-							console.log(_0x2d98cd);
-						} else {
-						}
-						console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
-						// updateOptionClues();
-						
-						return [_0x2d98cd, _0x2e6e7e];
-					} else {
-						if (_0x28e333.includes(_0x1e7122)) {
-							var _0x2e6e7e = listHuntClues.find((_0x1ded84) => _0x1ded84.y === _0x16672c).y;
-							if (_0x2d98cd == 3 && _0x2c5af7 == -5) {
-								var _0x2d98cd = String(parseInt(4));
-								console.log(_0x2d98cd);
-							} else {
-							}
-							console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
-							// updateOptionClues();
-							
-							return [_0x2d98cd, _0x2e6e7e];
-						} else {
-							if (_0x15cc9a.includes(_0x1e7122)) {
-								var _0x2e6e7e = listHuntClues.find((_0x1e5025) => _0x1e5025.y === _0x216dbc).y;
-								if (_0x2d98cd == 3 && _0x2c5af7 == -4) {
-									var _0x2d98cd = String(parseInt(4));
-									console.log(_0x2d98cd);
-								} else {
-								}
-								console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
-								// updateOptionClues();
-								
-								return [_0x2d98cd, _0x2e6e7e];
-							} else {
-								if (_0x466a39.includes(_0x1e7122)) {
-									var _0x2e6e7e = listHuntClues.find((_0x156e19) => _0x156e19.y === _0x528f54).y;
-
-									console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
-
-									// updateOptionClues();
-									return [_0x2d98cd, _0x2e6e7e];
-								} else {
-									if (_0x545312.includes(_0x1e7122)) {
-										var _0x2e6e7e = listHuntClues.find((_0x1d6e96) => _0x1d6e96.y === _0x2f25b9).y;
-
-										console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
-										// updateOptionClues();
-										return [_0x2d98cd, _0x2e6e7e];
-									} else {
-										if (_0x2c656b.includes(_0x1e7122)) {
-											var _0x2e6e7e = listHuntClues.find((_0x142e72) => _0x142e72.y === _0x14b2f0).y;
-
-											console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
-
-											// updateOptionClues();
-											
-											return [_0x2d98cd, _0x2e6e7e];
-										} else {
-											if (_0x4e716c.includes(_0x1e7122)) {
-												var _0x2e6e7e = listHuntClues.find((_0x42486a) => _0x42486a.y === _0x3fa916).y;
-
-												console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
-
-												// updateOptionClues();
-												
-												return [_0x2d98cd, _0x2e6e7e];
-											} else {
-												if (_0x379297.includes(_0x1e7122)) {
-													var _0x2e6e7e = listHuntClues.find((_0x52bf43) => _0x52bf43.y === _0xb6585d).y;
-													console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
-													// updateOptionClues();
-													
-													return [_0x2d98cd, _0x2e6e7e];
-												} else {
-													if (_0x9298d1.includes(_0x1e7122)) {
-														var _0x2e6e7e = listHuntClues.find((_0xf6db79) => _0xf6db79.y === _0x575918).y;
-
-														console.log("[" + _0x2d98cd + "," + _0x2e6e7e + "]");
-
-														// updateOptionClues();
-
-														return [_0x2d98cd, _0x2e6e7e];
-													} else {
-														console.log("Aucun résultat");
-													}
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			} else {
-				if (_0x45a1e8 == "droite") {
-					if (_0x2d98cd == -81 && _0x2c5af7 == -37) {
-						var _0x2c5af7 = String(parseInt(-38));
+					if (_0x2d98cd == 16 && _0x2c5af7 == -26) {
+						var _0x2d98cd = String(parseInt(18));
+						var _0x2c5af7 = String(parseInt(-28));
 						console.log(_0x2c5af7);
 					} else {
-						if (_0x2d98cd == 16 && _0x2c5af7 == -26) {
-							var _0x2d98cd = String(parseInt(18));
+						if (_0x2d98cd == 16 && _0x2c5af7 == -24) {
+							var _0x2d98cd = String(parseInt(17));
 							var _0x2c5af7 = String(parseInt(-28));
 							console.log(_0x2c5af7);
 						} else {
-							if (_0x2d98cd == 16 && _0x2c5af7 == -24) {
-								var _0x2d98cd = String(parseInt(17));
-								var _0x2c5af7 = String(parseInt(-28));
+							if (_0x2d98cd == -26 && _0x2c5af7 == 31) {
+								var _0x2c5af7 = String(parseInt(30));
 								console.log(_0x2c5af7);
 							} else {
-								if (_0x2d98cd == -26 && _0x2c5af7 == 31) {
-									var _0x2c5af7 = String(parseInt(30));
+								if (_0x2d98cd == -34 && _0x2c5af7 == -16) {
+									var _0x2c5af7 = String(parseInt(-15));
 									console.log(_0x2c5af7);
 								} else {
-									if (_0x2d98cd == -34 && _0x2c5af7 == -16) {
-										var _0x2c5af7 = String(parseInt(-15));
+									if (_0x2d98cd == -27 && _0x2c5af7 == -51) {
+										var _0x2c5af7 = String(parseInt(-49));
 										console.log(_0x2c5af7);
 									} else {
-										if (_0x2d98cd == -27 && _0x2c5af7 == -51) {
+										if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
 											var _0x2c5af7 = String(parseInt(-49));
 											console.log(_0x2c5af7);
 										} else {
-											if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
-												var _0x2c5af7 = String(parseInt(-49));
-												console.log(_0x2c5af7);
-											} else {
-											}
 										}
 									}
 								}
 							}
 						}
 					}
-					var _0x19c59d = String(parseInt(_0x2d98cd) + parseInt(1));
-					var _0x48c673 = String(parseInt(_0x2d98cd) + parseInt(2));
-					var _0x4dd2ee = String(parseInt(_0x2d98cd) + parseInt(3));
-					var _0x5ceb99 = String(parseInt(_0x2d98cd) + parseInt(4));
-					var _0x3ce40d = String(parseInt(_0x2d98cd) + parseInt(5));
-					var _0x3314ef = String(parseInt(_0x2d98cd) + parseInt(6));
-					var _0x13f043 = String(parseInt(_0x2d98cd) + parseInt(7));
-					var _0x2b9dbf = String(parseInt(_0x2d98cd) + parseInt(8));
-					var _0x535578 = String(parseInt(_0x2d98cd) + parseInt(9));
-					var _0x4c73af = String(parseInt(_0x2d98cd) + parseInt(10));
-					var _0x48e86 =
-						listHuntClues.find((_0x59ac2c) => _0x59ac2c.x === _0x19c59d && _0x59ac2c.y === _0x2c5af7)?.[
-							"clues"
-						] ?? "error";
-					var _0x5463e7 =
-						listHuntClues.find((_0x1b7891) => _0x1b7891.x === _0x48c673 && _0x1b7891.y === _0x2c5af7)?.[
-							"clues"
-						] ?? "error";
-					var _0x28e333 =
-						listHuntClues.find((_0x5e2694) => _0x5e2694.x === _0x4dd2ee && _0x5e2694.y === _0x2c5af7)?.[
-							"clues"
-						] ?? "error";
-					var _0x15cc9a =
-						listHuntClues.find((_0x284623) => _0x284623.x === _0x5ceb99 && _0x284623.y === _0x2c5af7)?.[
-							"clues"
-						] ?? "error";
-					var _0x466a39 =
-						listHuntClues.find((_0x4ed74c) => _0x4ed74c.x === _0x3ce40d && _0x4ed74c.y === _0x2c5af7)?.[
-							"clues"
-						] ?? "error";
-					var _0x545312 =
-						listHuntClues.find((_0x46f8f4) => _0x46f8f4.x === _0x3314ef && _0x46f8f4.y === _0x2c5af7)?.[
-							"clues"
-						] ?? "error";
+				}
+				var _0x19c59d = String(parseInt(_0x2d98cd) + parseInt(1));
+				var _0x48c673 = String(parseInt(_0x2d98cd) + parseInt(2));
+				var _0x4dd2ee = String(parseInt(_0x2d98cd) + parseInt(3));
+				var _0x5ceb99 = String(parseInt(_0x2d98cd) + parseInt(4));
+				var _0x3ce40d = String(parseInt(_0x2d98cd) + parseInt(5));
+				var _0x3314ef = String(parseInt(_0x2d98cd) + parseInt(6));
+				var _0x13f043 = String(parseInt(_0x2d98cd) + parseInt(7));
+				var _0x2b9dbf = String(parseInt(_0x2d98cd) + parseInt(8));
+				var _0x535578 = String(parseInt(_0x2d98cd) + parseInt(9));
+				var _0x4c73af = String(parseInt(_0x2d98cd) + parseInt(10));
+				var _0x48e86 =
+					listHuntClues.find((_0x59ac2c) => _0x59ac2c.x === _0x19c59d && _0x59ac2c.y === _0x2c5af7)?.[
+						"clues"
+					] ?? "error";
+				var _0x5463e7 =
+					listHuntClues.find((_0x1b7891) => _0x1b7891.x === _0x48c673 && _0x1b7891.y === _0x2c5af7)?.[
+						"clues"
+					] ?? "error";
+				var _0x28e333 =
+					listHuntClues.find((_0x5e2694) => _0x5e2694.x === _0x4dd2ee && _0x5e2694.y === _0x2c5af7)?.[
+						"clues"
+					] ?? "error";
+				var _0x15cc9a =
+					listHuntClues.find((_0x284623) => _0x284623.x === _0x5ceb99 && _0x284623.y === _0x2c5af7)?.[
+						"clues"
+					] ?? "error";
+				var _0x466a39 =
+					listHuntClues.find((_0x4ed74c) => _0x4ed74c.x === _0x3ce40d && _0x4ed74c.y === _0x2c5af7)?.[
+						"clues"
+					] ?? "error";
+				var _0x545312 =
+					listHuntClues.find((_0x46f8f4) => _0x46f8f4.x === _0x3314ef && _0x46f8f4.y === _0x2c5af7)?.[
+						"clues"
+					] ?? "error";
+				var _0x2c656b =
+					listHuntClues.find((_0x51c36c) => _0x51c36c.x === _0x13f043 && _0x51c36c.y === _0x2c5af7)?.[
+						"clues"
+					] ?? "error";
+				var _0x4e716c =
+					listHuntClues.find((_0x149638) => _0x149638.x === _0x2b9dbf && _0x149638.y === _0x2c5af7)?.[
+						"clues"
+					] ?? "error";
+				var _0x379297 =
+					listHuntClues.find((_0x482493) => _0x482493.x === _0x535578 && _0x482493.y === _0x2c5af7)?.[
+						"clues"
+					] ?? "error";
+				var _0x9298d1 =
+					listHuntClues.find((_0x48d6f5) => _0x48d6f5.x === _0x4c73af && _0x48d6f5.y === _0x2c5af7)?.[
+						"clues"
+					] ?? "error";
+				if (_0x2d98cd == -36 && _0x2c5af7 == -60) {
 					var _0x2c656b =
-						listHuntClues.find((_0x51c36c) => _0x51c36c.x === _0x13f043 && _0x51c36c.y === _0x2c5af7)?.[
+						listHuntClues.find((_0x18ddcd) => _0x18ddcd.x === _0x13f043 && _0x18ddcd.y === "-61")?.[
 							"clues"
 						] ?? "error";
-					var _0x4e716c =
-						listHuntClues.find((_0x149638) => _0x149638.x === _0x2b9dbf && _0x149638.y === _0x2c5af7)?.[
-							"clues"
-						] ?? "error";
-					var _0x379297 =
-						listHuntClues.find((_0x482493) => _0x482493.x === _0x535578 && _0x482493.y === _0x2c5af7)?.[
-							"clues"
-						] ?? "error";
-					var _0x9298d1 =
-						listHuntClues.find((_0x48d6f5) => _0x48d6f5.x === _0x4c73af && _0x48d6f5.y === _0x2c5af7)?.[
-							"clues"
-						] ?? "error";
-					if (_0x2d98cd == -36 && _0x2c5af7 == -60) {
-						var _0x2c656b =
-							listHuntClues.find((_0x18ddcd) => _0x18ddcd.x === _0x13f043 && _0x18ddcd.y === "-61")?.[
+				} else {
+					if (_0x2d98cd == -35 && _0x2c5af7 == -60) {
+						var _0x545312 =
+							listHuntClues.find((_0x3caa09) => _0x3caa09.x === _0x3314ef && _0x3caa09.y === "-61")?.[
 								"clues"
 							] ?? "error";
 					} else {
-						if (_0x2d98cd == -35 && _0x2c5af7 == -60) {
-							var _0x545312 =
-								listHuntClues.find((_0x3caa09) => _0x3caa09.x === _0x3314ef && _0x3caa09.y === "-61")?.[
+						if (_0x2d98cd == -34 && _0x2c5af7 == -60) {
+							var _0x466a39 =
+								listHuntClues.find((_0x494eb9) => _0x494eb9.x === _0x3ce40d && _0x494eb9.y === "-61")?.[
 									"clues"
 								] ?? "error";
 						} else {
-							if (_0x2d98cd == -34 && _0x2c5af7 == -60) {
-								var _0x466a39 =
-									listHuntClues.find((_0x494eb9) => _0x494eb9.x === _0x3ce40d && _0x494eb9.y === "-61")?.[
+							if (_0x2d98cd == -33 && _0x2c5af7 == -60) {
+								var _0x15cc9a =
+									listHuntClues.find((_0x2227ad) => _0x2227ad.x === _0x5ceb99 && _0x2227ad.y === "-61")?.[
 										"clues"
 									] ?? "error";
 							} else {
-								if (_0x2d98cd == -33 && _0x2c5af7 == -60) {
-									var _0x15cc9a =
-										listHuntClues.find((_0x2227ad) => _0x2227ad.x === _0x5ceb99 && _0x2227ad.y === "-61")?.[
+								if (_0x2d98cd == -32 && _0x2c5af7 == -60) {
+									var _0x28e333 =
+										listHuntClues.find((_0x505b40) => _0x505b40.x === _0x4dd2ee && _0x505b40.y === "-61")?.[
 											"clues"
 										] ?? "error";
 								} else {
-									if (_0x2d98cd == -32 && _0x2c5af7 == -60) {
-										var _0x28e333 =
-											listHuntClues.find((_0x505b40) => _0x505b40.x === _0x4dd2ee && _0x505b40.y === "-61")?.[
+									if (_0x2d98cd == -31 && _0x2c5af7 == -60) {
+										var _0x5463e7 =
+											listHuntClues.find((_0x53a5b3) => _0x53a5b3.x === _0x48c673 && _0x53a5b3.y === "-61")?.[
 												"clues"
 											] ?? "error";
 									} else {
-										if (_0x2d98cd == -31 && _0x2c5af7 == -60) {
-											var _0x5463e7 =
+										if (_0x2d98cd == -30 && _0x2c5af7 == -60) {
+											var _0x48e86 =
 												listHuntClues.find(
-													(_0x53a5b3) => _0x53a5b3.x === _0x48c673 && _0x53a5b3.y === "-61"
+													(_0x4b29fb) => _0x4b29fb.x === _0x19c59d && _0x4b29fb.y === "-61"
 												)?.["clues"] ?? "error";
 										} else {
-											if (_0x2d98cd == -30 && _0x2c5af7 == -60) {
-												var _0x48e86 =
+											if (_0x2d98cd == -31 && _0x2c5af7 == 41) {
+												var _0x545312 =
 													listHuntClues.find(
-														(_0x4b29fb) => _0x4b29fb.x === _0x19c59d && _0x4b29fb.y === "-61"
+														(_0x31be95) => _0x31be95.x === _0x3314ef && _0x31be95.y === "40"
 													)?.["clues"] ?? "error";
 											} else {
-												if (_0x2d98cd == -31 && _0x2c5af7 == 41) {
-													var _0x545312 =
+												if (_0x2d98cd == -30 && _0x2c5af7 == 41) {
+													var _0x466a39 =
 														listHuntClues.find(
-															(_0x31be95) => _0x31be95.x === _0x3314ef && _0x31be95.y === "40"
+															(_0x23b955) => _0x23b955.x === _0x3ce40d && _0x23b955.y === "40"
 														)?.["clues"] ?? "error";
 												} else {
-													if (_0x2d98cd == -30 && _0x2c5af7 == 41) {
-														var _0x466a39 =
+													if (_0x2d98cd == -29 && _0x2c5af7 == 41) {
+														var _0x15cc9a =
 															listHuntClues.find(
-																(_0x23b955) => _0x23b955.x === _0x3ce40d && _0x23b955.y === "40"
+																(_0x495922) => _0x495922.x === _0x5ceb99 && _0x495922.y === "40"
 															)?.["clues"] ?? "error";
 													} else {
-														if (_0x2d98cd == -29 && _0x2c5af7 == 41) {
-															var _0x15cc9a =
+														if (_0x2d98cd == -28 && _0x2c5af7 == 41) {
+															var _0x28e333 =
 																listHuntClues.find(
-																	(_0x495922) => _0x495922.x === _0x5ceb99 && _0x495922.y === "40"
+																	(_0x13a37) => _0x13a37.x === _0x4dd2ee && _0x13a37.y === "40"
 																)?.["clues"] ?? "error";
 														} else {
-															if (_0x2d98cd == -28 && _0x2c5af7 == 41) {
-																var _0x28e333 =
+															if (_0x2d98cd == -27 && _0x2c5af7 == 41) {
+																var _0x5463e7 =
 																	listHuntClues.find(
-																		(_0x13a37) => _0x13a37.x === _0x4dd2ee && _0x13a37.y === "40"
+																		(_0x395e4d) => _0x395e4d.x === _0x48c673 && _0x395e4d.y === "40"
 																	)?.["clues"] ?? "error";
 															} else {
-																if (_0x2d98cd == -27 && _0x2c5af7 == 41) {
-																	var _0x5463e7 =
+																if (_0x2d98cd == -26 && _0x2c5af7 == 41) {
+																	var _0x48e86 =
 																		listHuntClues.find(
-																			(_0x395e4d) => _0x395e4d.x === _0x48c673 && _0x395e4d.y === "40"
+																			(_0x567dc5) => _0x567dc5.x === _0x19c59d && _0x567dc5.y === "40"
 																		)?.["clues"] ?? "error";
 																} else {
-																	if (_0x2d98cd == -26 && _0x2c5af7 == 41) {
-																		var _0x48e86 =
+																	if (_0x2d98cd == -24 && _0x2c5af7 == 36) {
+																		var _0x15cc9a =
 																			listHuntClues.find(
-																				(_0x567dc5) => _0x567dc5.x === _0x19c59d && _0x567dc5.y === "40"
+																				(_0x2b9c78) => _0x2b9c78.x === "-19" && _0x2b9c78.y === "37"
+																			)?.["clues"] ?? "error";
+																		var _0x466a39 =
+																			listHuntClues.find(
+																				(_0x4fcee1) => _0x4fcee1.x === "-18" && _0x4fcee1.y === "37"
 																			)?.["clues"] ?? "error";
 																	} else {
-																		if (_0x2d98cd == -24 && _0x2c5af7 == 36) {
+																		if (_0x2d98cd == -23 && _0x2c5af7 == 36) {
+																			var _0x28e333 =
+																				listHuntClues.find(
+																					(_0x435c2f) => _0x435c2f.x === "-19" && _0x435c2f.y === "37"
+																				)?.["clues"] ?? "error";
 																			var _0x15cc9a =
 																				listHuntClues.find(
-																					(_0x2b9c78) => _0x2b9c78.x === "-19" && _0x2b9c78.y === "37"
-																				)?.["clues"] ?? "error";
-																			var _0x466a39 =
-																				listHuntClues.find(
-																					(_0x4fcee1) => _0x4fcee1.x === "-18" && _0x4fcee1.y === "37"
+																					(_0x5cb219) => _0x5cb219.x === "-18" && _0x5cb219.y === "37"
 																				)?.["clues"] ?? "error";
 																		} else {
-																			if (_0x2d98cd == -23 && _0x2c5af7 == 36) {
+																			if (_0x2d98cd == -22 && _0x2c5af7 == 36) {
+																				var _0x5463e7 =
+																					listHuntClues.find(
+																						(_0x2eb381) => _0x2eb381.x === "-19" && _0x2eb381.y === "37"
+																					)?.["clues"] ?? "error";
 																				var _0x28e333 =
 																					listHuntClues.find(
-																						(_0x435c2f) => _0x435c2f.x === "-19" && _0x435c2f.y === "37"
-																					)?.["clues"] ?? "error";
-																				var _0x15cc9a =
-																					listHuntClues.find(
-																						(_0x5cb219) => _0x5cb219.x === "-18" && _0x5cb219.y === "37"
+																						(_0x398aba) => _0x398aba.x === "-18" && _0x398aba.y === "37"
 																					)?.["clues"] ?? "error";
 																			} else {
-																				if (_0x2d98cd == -22 && _0x2c5af7 == 36) {
+																				if (_0x2d98cd == -21 && _0x2c5af7 == 36) {
+																					var _0x48e86 =
+																						listHuntClues.find(
+																							(_0x9ef45f) => _0x9ef45f.x === "-19" && _0x9ef45f.y === "37"
+																						)?.["clues"] ?? "error";
 																					var _0x5463e7 =
 																						listHuntClues.find(
-																							(_0x2eb381) => _0x2eb381.x === "-19" && _0x2eb381.y === "37"
-																						)?.["clues"] ?? "error";
-																					var _0x28e333 =
-																						listHuntClues.find(
-																							(_0x398aba) => _0x398aba.x === "-18" && _0x398aba.y === "37"
+																							(_0x23a42b) => _0x23a42b.x === "-18" && _0x23a42b.y === "37"
 																						)?.["clues"] ?? "error";
 																				} else {
-																					if (_0x2d98cd == -21 && _0x2c5af7 == 36) {
-																						var _0x48e86 =
-																							listHuntClues.find(
-																								(_0x9ef45f) => _0x9ef45f.x === "-19" && _0x9ef45f.y === "37"
-																							)?.["clues"] ?? "error";
+																					if (_0x2d98cd == 11 && _0x2c5af7 == -57) {
 																						var _0x5463e7 =
 																							listHuntClues.find(
-																								(_0x23a42b) => _0x23a42b.x === "-18" && _0x23a42b.y === "37"
+																								(_0x284f4f) =>
+																									_0x284f4f.x === _0x48c673 && _0x284f4f.y === "-58"
+																							)?.["clues"] ?? "error";
+																						var _0x28e333 =
+																							listHuntClues.find(
+																								(_0x2e36a1) =>
+																									_0x2e36a1.x === _0x4dd2ee && _0x2e36a1.y === "-58"
+																							)?.["clues"] ?? "error";
+																						var _0x15cc9a =
+																							listHuntClues.find(
+																								(_0x498891) =>
+																									_0x498891.x === _0x5ceb99 && _0x498891.y === "-58"
+																							)?.["clues"] ?? "error";
+																						var _0x466a39 =
+																							listHuntClues.find(
+																								(_0x164633) =>
+																									_0x164633.x === _0x3ce40d && _0x164633.y === "-58"
+																							)?.["clues"] ?? "error";
+																						var _0x545312 =
+																							listHuntClues.find(
+																								(_0x9001e7) =>
+																									_0x9001e7.x === _0x3314ef && _0x9001e7.y === "-58"
 																							)?.["clues"] ?? "error";
 																					} else {
-																						if (_0x2d98cd == 11 && _0x2c5af7 == -57) {
+																						if (_0x2d98cd == 12 && _0x2c5af7 == -57) {
+																							var _0x48e86 =
+																								listHuntClues.find(
+																									(_0x53a4d1) =>
+																										_0x53a4d1.x === _0x19c59d && _0x53a4d1.y === "-58"
+																								)?.["clues"] ?? "error";
 																							var _0x5463e7 =
 																								listHuntClues.find(
-																									(_0x284f4f) =>
-																										_0x284f4f.x === _0x48c673 && _0x284f4f.y === "-58"
+																									(_0x3f2f85) =>
+																										_0x3f2f85.x === _0x48c673 && _0x3f2f85.y === "-58"
 																								)?.["clues"] ?? "error";
 																							var _0x28e333 =
 																								listHuntClues.find(
-																									(_0x2e36a1) =>
-																										_0x2e36a1.x === _0x4dd2ee && _0x2e36a1.y === "-58"
+																									(_0x306147) =>
+																										_0x306147.x === _0x4dd2ee && _0x306147.y === "-58"
 																								)?.["clues"] ?? "error";
 																							var _0x15cc9a =
 																								listHuntClues.find(
-																									(_0x498891) =>
-																										_0x498891.x === _0x5ceb99 && _0x498891.y === "-58"
+																									(_0x325e08) =>
+																										_0x325e08.x === _0x5ceb99 && _0x325e08.y === "-58"
 																								)?.["clues"] ?? "error";
 																							var _0x466a39 =
 																								listHuntClues.find(
-																									(_0x164633) =>
-																										_0x164633.x === _0x3ce40d && _0x164633.y === "-58"
-																								)?.["clues"] ?? "error";
-																							var _0x545312 =
-																								listHuntClues.find(
-																									(_0x9001e7) =>
-																										_0x9001e7.x === _0x3314ef && _0x9001e7.y === "-58"
+																									(_0x36df53) =>
+																										_0x36df53.x === _0x3ce40d && _0x36df53.y === "-58"
 																								)?.["clues"] ?? "error";
 																						} else {
-																							if (_0x2d98cd == 12 && _0x2c5af7 == -57) {
-																								var _0x48e86 =
-																									listHuntClues.find(
-																										(_0x53a4d1) =>
-																											_0x53a4d1.x === _0x19c59d && _0x53a4d1.y === "-58"
-																									)?.["clues"] ?? "error";
+																							if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
 																								var _0x5463e7 =
 																									listHuntClues.find(
-																										(_0x3f2f85) =>
-																											_0x3f2f85.x === _0x48c673 && _0x3f2f85.y === "-58"
+																										(_0x35702a) =>
+																											_0x35702a.x === "-23" && _0x35702a.y === "35"
 																									)?.["clues"] ?? "error";
 																								var _0x28e333 =
 																									listHuntClues.find(
-																										(_0x306147) =>
-																											_0x306147.x === _0x4dd2ee && _0x306147.y === "-58"
+																										(_0x43a552) =>
+																											_0x43a552.x === "-22" && _0x43a552.y === "35"
 																									)?.["clues"] ?? "error";
 																								var _0x15cc9a =
 																									listHuntClues.find(
-																										(_0x325e08) =>
-																											_0x325e08.x === _0x5ceb99 && _0x325e08.y === "-58"
-																									)?.["clues"] ?? "error";
-																								var _0x466a39 =
-																									listHuntClues.find(
-																										(_0x36df53) =>
-																											_0x36df53.x === _0x3ce40d && _0x36df53.y === "-58"
+																										(_0x2abf01) =>
+																											_0x2abf01.x === "-21" && _0x2abf01.y === "35"
 																									)?.["clues"] ?? "error";
 																							} else {
-																								if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
+																								if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
+																									var _0x48e86 =
+																										listHuntClues.find(
+																											(_0xb8ffb2) =>
+																												_0xb8ffb2.x === "-23" && _0xb8ffb2.y === "35"
+																										)?.["clues"] ?? "error";
 																									var _0x5463e7 =
 																										listHuntClues.find(
-																											(_0x35702a) =>
-																												_0x35702a.x === "-23" && _0x35702a.y === "35"
+																											(_0x565ebd) =>
+																												_0x565ebd.x === "-22" && _0x565ebd.y === "35"
 																										)?.["clues"] ?? "error";
 																									var _0x28e333 =
 																										listHuntClues.find(
-																											(_0x43a552) =>
-																												_0x43a552.x === "-22" && _0x43a552.y === "35"
-																										)?.["clues"] ?? "error";
-																									var _0x15cc9a =
-																										listHuntClues.find(
-																											(_0x2abf01) =>
-																												_0x2abf01.x === "-21" && _0x2abf01.y === "35"
+																											(_0x480040) =>
+																												_0x480040.x === "-21" && _0x480040.y === "35"
 																										)?.["clues"] ?? "error";
 																								} else {
-																									if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
-																										var _0x48e86 =
-																											listHuntClues.find(
-																												(_0xb8ffb2) =>
-																													_0xb8ffb2.x === "-23" && _0xb8ffb2.y === "35"
-																											)?.["clues"] ?? "error";
-																										var _0x5463e7 =
-																											listHuntClues.find(
-																												(_0x565ebd) =>
-																													_0x565ebd.x === "-22" && _0x565ebd.y === "35"
-																											)?.["clues"] ?? "error";
-																										var _0x28e333 =
-																											listHuntClues.find(
-																												(_0x480040) =>
-																													_0x480040.x === "-21" && _0x480040.y === "35"
-																											)?.["clues"] ?? "error";
-																									} else {
-																									}
 																								}
 																							}
 																						}
@@ -25657,34 +25642,95 @@ function huntClueSearch(x, y, direction, clueName) {
 							}
 						}
 					}
-					if (_0x48e86.includes(_0x1e7122)) {
-						var _0xf0e6b9 = listHuntClues.find((_0x127428) => _0x127428.x === _0x19c59d).x;
-						if (_0x2d98cd == -30 && _0x2c5af7 == -60) {
+				}
+				if (_0x48e86.includes(_0x1e7122)) {
+					var _0xf0e6b9 = listHuntClues.find((_0x127428) => _0x127428.x === _0x19c59d).x;
+					if (_0x2d98cd == -30 && _0x2c5af7 == -60) {
+						var _0x2c5af7 = String(parseInt(-61));
+						console.log(_0x2c5af7);
+					} else {
+						if (_0x2d98cd == -26 && _0x2c5af7 == 41) {
+							var _0x2c5af7 = String(parseInt(40));
+							console.log(_0x2c5af7);
+						} else {
+							if (_0x2d98cd == -21 && _0x2c5af7 == 36) {
+								var _0xf0e6b9 = String(parseInt(-19));
+								var _0x2c5af7 = String(parseInt(37));
+
+								console.log(_0x2c5af7);
+								var _0x2d98cd = String(parseInt(-20));
+							} else {
+								if (_0x2d98cd == 12 && _0x2c5af7 == -57) {
+									var _0x2c5af7 = String(parseInt(-58));
+									console.log(_0x2c5af7);
+								} else {
+									if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
+										var _0xf0e6b9 = String(parseInt(-23));
+										var _0x2c5af7 = String(parseInt(35));
+
+										console.log(_0x2c5af7);
+										var _0x2d98cd = String(parseInt(-24));
+									} else {
+									}
+								}
+							}
+						}
+					}
+
+					console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
+					// updateOptionClues();
+
+					return [_0xf0e6b9, _0x2c5af7];
+				} else {
+					if (_0x5463e7.includes(_0x1e7122)) {
+						var _0xf0e6b9 = listHuntClues.find((_0x56ced0) => _0x56ced0.x === _0x48c673).x;
+						if (_0x2d98cd == -31 && _0x2c5af7 == -60) {
 							var _0x2c5af7 = String(parseInt(-61));
 							console.log(_0x2c5af7);
 						} else {
-							if (_0x2d98cd == -26 && _0x2c5af7 == 41) {
+							if (_0x2d98cd == -27 && _0x2c5af7 == 41) {
 								var _0x2c5af7 = String(parseInt(40));
 								console.log(_0x2c5af7);
 							} else {
 								if (_0x2d98cd == -21 && _0x2c5af7 == 36) {
-									var _0xf0e6b9 = String(parseInt(-19));
+									var _0xf0e6b9 = String(parseInt(-18));
 									var _0x2c5af7 = String(parseInt(37));
-									
+
 									console.log(_0x2c5af7);
 									var _0x2d98cd = String(parseInt(-20));
 								} else {
-									if (_0x2d98cd == 12 && _0x2c5af7 == -57) {
-										var _0x2c5af7 = String(parseInt(-58));
+									if (_0x2d98cd == -22 && _0x2c5af7 == 36) {
+										var _0xf0e6b9 = String(parseInt(-19));
+										var _0x2c5af7 = String(parseInt(37));
+
 										console.log(_0x2c5af7);
+										var _0x2d98cd = String(parseInt(-21));
 									} else {
-										if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
-											var _0xf0e6b9 = String(parseInt(-23));
-											var _0x2c5af7 = String(parseInt(35));
-											
+										if (_0x2d98cd == 11 && _0x2c5af7 == -57) {
+											var _0x2c5af7 = String(parseInt(-58));
 											console.log(_0x2c5af7);
-											var _0x2d98cd = String(parseInt(-24));
 										} else {
+											if (_0x2d98cd == 12 && _0x2c5af7 == -57) {
+												var _0x2c5af7 = String(parseInt(-58));
+												console.log(_0x2c5af7);
+											} else {
+												if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
+													var _0xf0e6b9 = String(parseInt(-22));
+													var _0x2c5af7 = String(parseInt(35));
+
+													console.log(_0x2c5af7);
+													var _0x2d98cd = String(parseInt(-24));
+												} else {
+													if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
+														var _0xf0e6b9 = String(parseInt(-23));
+														var _0x2c5af7 = String(parseInt(35));
+
+														console.log(_0x2c5af7);
+														var _0x2d98cd = String(parseInt(-25));
+													} else {
+													}
+												}
+											}
 										}
 									}
 								}
@@ -25692,33 +25738,34 @@ function huntClueSearch(x, y, direction, clueName) {
 						}
 
 						console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
+
 						// updateOptionClues();
-						
+
 						return [_0xf0e6b9, _0x2c5af7];
 					} else {
-						if (_0x5463e7.includes(_0x1e7122)) {
-							var _0xf0e6b9 = listHuntClues.find((_0x56ced0) => _0x56ced0.x === _0x48c673).x;
-							if (_0x2d98cd == -31 && _0x2c5af7 == -60) {
+						if (_0x28e333.includes(_0x1e7122)) {
+							var _0xf0e6b9 = listHuntClues.find((_0x4006a2) => _0x4006a2.x === _0x4dd2ee).x;
+							if (_0x2d98cd == -32 && _0x2c5af7 == -60) {
 								var _0x2c5af7 = String(parseInt(-61));
 								console.log(_0x2c5af7);
 							} else {
-								if (_0x2d98cd == -27 && _0x2c5af7 == 41) {
+								if (_0x2d98cd == -28 && _0x2c5af7 == 41) {
 									var _0x2c5af7 = String(parseInt(40));
 									console.log(_0x2c5af7);
 								} else {
-									if (_0x2d98cd == -21 && _0x2c5af7 == 36) {
+									if (_0x2d98cd == -22 && _0x2c5af7 == 36) {
 										var _0xf0e6b9 = String(parseInt(-18));
 										var _0x2c5af7 = String(parseInt(37));
-										
+
 										console.log(_0x2c5af7);
-										var _0x2d98cd = String(parseInt(-20));
+										var _0x2d98cd = String(parseInt(-21));
 									} else {
-										if (_0x2d98cd == -22 && _0x2c5af7 == 36) {
+										if (_0x2d98cd == -23 && _0x2c5af7 == 36) {
 											var _0xf0e6b9 = String(parseInt(-19));
 											var _0x2c5af7 = String(parseInt(37));
-											
+
 											console.log(_0x2c5af7);
-											var _0x2d98cd = String(parseInt(-21));
+											var _0x2d98cd = String(parseInt(-22));
 										} else {
 											if (_0x2d98cd == 11 && _0x2c5af7 == -57) {
 												var _0x2c5af7 = String(parseInt(-58));
@@ -25729,16 +25776,16 @@ function huntClueSearch(x, y, direction, clueName) {
 													console.log(_0x2c5af7);
 												} else {
 													if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
-														var _0xf0e6b9 = String(parseInt(-22));
+														var _0xf0e6b9 = String(parseInt(-21));
 														var _0x2c5af7 = String(parseInt(35));
-														
+
 														console.log(_0x2c5af7);
 														var _0x2d98cd = String(parseInt(-24));
 													} else {
 														if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
-															var _0xf0e6b9 = String(parseInt(-23));
+															var _0xf0e6b9 = String(parseInt(-22));
 															var _0x2c5af7 = String(parseInt(35));
-															
+
 															console.log(_0x2c5af7);
 															var _0x2d98cd = String(parseInt(-25));
 														} else {
@@ -25752,34 +25799,33 @@ function huntClueSearch(x, y, direction, clueName) {
 							}
 
 							console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-							
 							// updateOptionClues();
-							
+
 							return [_0xf0e6b9, _0x2c5af7];
 						} else {
-							if (_0x28e333.includes(_0x1e7122)) {
-								var _0xf0e6b9 = listHuntClues.find((_0x4006a2) => _0x4006a2.x === _0x4dd2ee).x;
-								if (_0x2d98cd == -32 && _0x2c5af7 == -60) {
+							if (_0x15cc9a.includes(_0x1e7122)) {
+								var _0xf0e6b9 = listHuntClues.find((_0x2e52d6) => _0x2e52d6.x === _0x5ceb99).x;
+								if (_0x2d98cd == -33 && _0x2c5af7 == -60) {
 									var _0x2c5af7 = String(parseInt(-61));
 									console.log(_0x2c5af7);
 								} else {
-									if (_0x2d98cd == -28 && _0x2c5af7 == 41) {
+									if (_0x2d98cd == -29 && _0x2c5af7 == 41) {
 										var _0x2c5af7 = String(parseInt(40));
 										console.log(_0x2c5af7);
 									} else {
-										if (_0x2d98cd == -22 && _0x2c5af7 == 36) {
+										if (_0x2d98cd == -23 && _0x2c5af7 == 36) {
 											var _0xf0e6b9 = String(parseInt(-18));
 											var _0x2c5af7 = String(parseInt(37));
-											
+
 											console.log(_0x2c5af7);
-											var _0x2d98cd = String(parseInt(-21));
+											var _0x2d98cd = String(parseInt(-22));
 										} else {
-											if (_0x2d98cd == -23 && _0x2c5af7 == 36) {
+											if (_0x2d98cd == -24 && _0x2c5af7 == 36) {
 												var _0xf0e6b9 = String(parseInt(-19));
 												var _0x2c5af7 = String(parseInt(37));
-												
+
 												console.log(_0x2c5af7);
-												var _0x2d98cd = String(parseInt(-22));
+												var _0x2d98cd = String(parseInt(-23));
 											} else {
 												if (_0x2d98cd == 11 && _0x2c5af7 == -57) {
 													var _0x2c5af7 = String(parseInt(-58));
@@ -25789,21 +25835,13 @@ function huntClueSearch(x, y, direction, clueName) {
 														var _0x2c5af7 = String(parseInt(-58));
 														console.log(_0x2c5af7);
 													} else {
-														if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
+														if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
 															var _0xf0e6b9 = String(parseInt(-21));
 															var _0x2c5af7 = String(parseInt(35));
-															
+
 															console.log(_0x2c5af7);
-															var _0x2d98cd = String(parseInt(-24));
+															var _0x2d98cd = String(parseInt(-25));
 														} else {
-															if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
-																var _0xf0e6b9 = String(parseInt(-22));
-																var _0x2c5af7 = String(parseInt(35));
-																
-																console.log(_0x2c5af7);
-																var _0x2d98cd = String(parseInt(-25));
-															} else {
-															}
 														}
 													}
 												}
@@ -25813,51 +25851,35 @@ function huntClueSearch(x, y, direction, clueName) {
 								}
 
 								console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
+
 								// updateOptionClues();
-								
 								return [_0xf0e6b9, _0x2c5af7];
 							} else {
-								if (_0x15cc9a.includes(_0x1e7122)) {
-									var _0xf0e6b9 = listHuntClues.find((_0x2e52d6) => _0x2e52d6.x === _0x5ceb99).x;
-									if (_0x2d98cd == -33 && _0x2c5af7 == -60) {
+								if (_0x466a39.includes(_0x1e7122)) {
+									var _0xf0e6b9 = listHuntClues.find((_0x5b27b7) => _0x5b27b7.x === _0x3ce40d).x;
+									if (_0x2d98cd == -34 && _0x2c5af7 == -60) {
 										var _0x2c5af7 = String(parseInt(-61));
 										console.log(_0x2c5af7);
 									} else {
-										if (_0x2d98cd == -29 && _0x2c5af7 == 41) {
+										if (_0x2d98cd == -30 && _0x2c5af7 == 41) {
 											var _0x2c5af7 = String(parseInt(40));
 											console.log(_0x2c5af7);
 										} else {
-											if (_0x2d98cd == -23 && _0x2c5af7 == 36) {
+											if (_0x2d98cd == -24 && _0x2c5af7 == 36) {
 												var _0xf0e6b9 = String(parseInt(-18));
 												var _0x2c5af7 = String(parseInt(37));
-												
+
 												console.log(_0x2c5af7);
-												var _0x2d98cd = String(parseInt(-22));
+												var _0x2d98cd = String(parseInt(-23));
 											} else {
-												if (_0x2d98cd == -24 && _0x2c5af7 == 36) {
-													var _0xf0e6b9 = String(parseInt(-19));
-													var _0x2c5af7 = String(parseInt(37));
-													
+												if (_0x2d98cd == 11 && _0x2c5af7 == -57) {
+													var _0x2c5af7 = String(parseInt(-58));
 													console.log(_0x2c5af7);
-													var _0x2d98cd = String(parseInt(-23));
 												} else {
-													if (_0x2d98cd == 11 && _0x2c5af7 == -57) {
+													if (_0x2d98cd == 12 && _0x2c5af7 == -57) {
 														var _0x2c5af7 = String(parseInt(-58));
 														console.log(_0x2c5af7);
 													} else {
-														if (_0x2d98cd == 12 && _0x2c5af7 == -57) {
-															var _0x2c5af7 = String(parseInt(-58));
-															console.log(_0x2c5af7);
-														} else {
-															if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
-																var _0xf0e6b9 = String(parseInt(-21));
-																var _0x2c5af7 = String(parseInt(35));
-																
-																console.log(_0x2c5af7);
-																var _0x2d98cd = String(parseInt(-25));
-															} else {
-															}
-														}
 													}
 												}
 											}
@@ -25865,113 +25887,75 @@ function huntClueSearch(x, y, direction, clueName) {
 									}
 
 									console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-									
+
 									// updateOptionClues();
+
 									return [_0xf0e6b9, _0x2c5af7];
 								} else {
-									if (_0x466a39.includes(_0x1e7122)) {
-										var _0xf0e6b9 = listHuntClues.find((_0x5b27b7) => _0x5b27b7.x === _0x3ce40d).x;
-										if (_0x2d98cd == -34 && _0x2c5af7 == -60) {
+									if (_0x545312.includes(_0x1e7122)) {
+										if (_0x2d98cd == -35 && _0x2c5af7 == -60) {
 											var _0x2c5af7 = String(parseInt(-61));
 											console.log(_0x2c5af7);
 										} else {
-											if (_0x2d98cd == -30 && _0x2c5af7 == 41) {
+											if (_0x2d98cd == -31 && _0x2c5af7 == 41) {
 												var _0x2c5af7 = String(parseInt(40));
 												console.log(_0x2c5af7);
 											} else {
-												if (_0x2d98cd == -24 && _0x2c5af7 == 36) {
-													var _0xf0e6b9 = String(parseInt(-18));
-													var _0x2c5af7 = String(parseInt(37));
-													
+												if (_0x2d98cd == 11 && _0x2c5af7 == -57) {
+													var _0x2c5af7 = String(parseInt(-58));
 													console.log(_0x2c5af7);
-													var _0x2d98cd = String(parseInt(-23));
 												} else {
-													if (_0x2d98cd == 11 && _0x2c5af7 == -57) {
-														var _0x2c5af7 = String(parseInt(-58));
-														console.log(_0x2c5af7);
-													} else {
-														if (_0x2d98cd == 12 && _0x2c5af7 == -57) {
-															var _0x2c5af7 = String(parseInt(-58));
-															console.log(_0x2c5af7);
-														} else {
-														}
-													}
 												}
 											}
 										}
+										var _0xf0e6b9 = listHuntClues.find((_0x5f5046) => _0x5f5046.x === _0x3314ef).x;
 
 										console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
 
 										// updateOptionClues();
-
 										return [_0xf0e6b9, _0x2c5af7];
 									} else {
-										if (_0x545312.includes(_0x1e7122)) {
-											if (_0x2d98cd == -35 && _0x2c5af7 == -60) {
+										if (_0x2c656b.includes(_0x1e7122)) {
+											if (_0x2d98cd == -36 && _0x2c5af7 == -60) {
 												var _0x2c5af7 = String(parseInt(-61));
 												console.log(_0x2c5af7);
 											} else {
-												if (_0x2d98cd == -31 && _0x2c5af7 == 41) {
-													var _0x2c5af7 = String(parseInt(40));
-													console.log(_0x2c5af7);
-												} else {
-													if (_0x2d98cd == 11 && _0x2c5af7 == -57) {
-														var _0x2c5af7 = String(parseInt(-58));
-														console.log(_0x2c5af7);
-													} else {
-													}
-												}
 											}
-											var _0xf0e6b9 = listHuntClues.find((_0x5f5046) => _0x5f5046.x === _0x3314ef).x;
+											var _0xf0e6b9 = listHuntClues.find((_0x152b96) => _0x152b96.x === _0x13f043).x;
 
 											console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-											
+
 											// updateOptionClues();
 											return [_0xf0e6b9, _0x2c5af7];
 										} else {
-											if (_0x2c656b.includes(_0x1e7122)) {
-												if (_0x2d98cd == -36 && _0x2c5af7 == -60) {
-													var _0x2c5af7 = String(parseInt(-61));
-													console.log(_0x2c5af7);
-												} else {
-												}
-												var _0xf0e6b9 = listHuntClues.find((_0x152b96) => _0x152b96.x === _0x13f043).x;
+											if (_0x4e716c.includes(_0x1e7122)) {
+												var _0xf0e6b9 = listHuntClues.find((_0x3ac7b4) => _0x3ac7b4.x === _0x2b9dbf).x;
 
 												console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-												
+
 												// updateOptionClues();
+
 												return [_0xf0e6b9, _0x2c5af7];
 											} else {
-												if (_0x4e716c.includes(_0x1e7122)) {
-													var _0xf0e6b9 = listHuntClues.find((_0x3ac7b4) => _0x3ac7b4.x === _0x2b9dbf).x;
+												if (_0x379297.includes(_0x1e7122)) {
+													var _0xf0e6b9 = listHuntClues.find((_0x38ff67) => _0x38ff67.x === _0x535578).x;
 
 													console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-													
+
 													// updateOptionClues();
-													
+
 													return [_0xf0e6b9, _0x2c5af7];
 												} else {
-													if (_0x379297.includes(_0x1e7122)) {
-														var _0xf0e6b9 = listHuntClues.find((_0x38ff67) => _0x38ff67.x === _0x535578).x;
+													if (_0x9298d1.includes(_0x1e7122)) {
+														var _0xf0e6b9 = listHuntClues.find((_0x23f57e) => _0x23f57e.x === _0x4c73af).x;
 
 														console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-														
+
 														// updateOptionClues();
-														
+
 														return [_0xf0e6b9, _0x2c5af7];
 													} else {
-														if (_0x9298d1.includes(_0x1e7122)) {
-															var _0xf0e6b9 = listHuntClues.find((_0x23f57e) => _0x23f57e.x === _0x4c73af).x;
-
-															console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-															
-						
-															// updateOptionClues();
-															
-															return [_0xf0e6b9, _0x2c5af7];
-														} else {
-															console.log("Aucun résultat")
-														}
+														console.log("Aucun résultat");
 													}
 												}
 											}
@@ -25981,872 +25965,856 @@ function huntClueSearch(x, y, direction, clueName) {
 							}
 						}
 					}
-				} else {
-					if (_0x45a1e8 == "gauche") {
-						if (_0x2d98cd == -29 && _0x2c5af7 == -61) {
-							var _0x2c5af7 = String(parseInt(-60));
+				}
+			} else {
+				if (_0x45a1e8 == "gauche") {
+					if (_0x2d98cd == -29 && _0x2c5af7 == -61) {
+						var _0x2c5af7 = String(parseInt(-60));
+						console.log(_0x2c5af7);
+					} else {
+						if (_0x2d98cd == -25 && _0x2c5af7 == 40) {
+							var _0x2c5af7 = String(parseInt(41));
 							console.log(_0x2c5af7);
 						} else {
-							if (_0x2d98cd == -25 && _0x2c5af7 == 40) {
-								var _0x2c5af7 = String(parseInt(41));
-								console.log(_0x2c5af7);
-							} else {
-							}
 						}
-						var _0x19c59d = String(parseInt(_0x2d98cd) - parseInt(1));
-						var _0x48c673 = String(parseInt(_0x2d98cd) - parseInt(2));
-						var _0x4dd2ee = String(parseInt(_0x2d98cd) - parseInt(3));
-						var _0x5ceb99 = String(parseInt(_0x2d98cd) - parseInt(4));
-						var _0x3ce40d = String(parseInt(_0x2d98cd) - parseInt(5));
-						var _0x3314ef = String(parseInt(_0x2d98cd) - parseInt(6));
-						var _0x13f043 = String(parseInt(_0x2d98cd) - parseInt(7));
-						var _0x2b9dbf = String(parseInt(_0x2d98cd) - parseInt(8));
-						var _0x535578 = String(parseInt(_0x2d98cd) - parseInt(9));
-						var _0x4c73af = String(parseInt(_0x2d98cd) - parseInt(10));
-						var _0x48e86 =
-							listHuntClues.find((_0x3b495d) => _0x3b495d.x === _0x19c59d && _0x3b495d.y === _0x2c5af7)?.[
-								"clues"
-							] ?? "error";
-						var _0x5463e7 =
-							listHuntClues.find((_0x2fa4b9) => _0x2fa4b9.x === _0x48c673 && _0x2fa4b9.y === _0x2c5af7)?.[
-								"clues"
-							] ?? "error";
+					}
+					var _0x19c59d = String(parseInt(_0x2d98cd) - parseInt(1));
+					var _0x48c673 = String(parseInt(_0x2d98cd) - parseInt(2));
+					var _0x4dd2ee = String(parseInt(_0x2d98cd) - parseInt(3));
+					var _0x5ceb99 = String(parseInt(_0x2d98cd) - parseInt(4));
+					var _0x3ce40d = String(parseInt(_0x2d98cd) - parseInt(5));
+					var _0x3314ef = String(parseInt(_0x2d98cd) - parseInt(6));
+					var _0x13f043 = String(parseInt(_0x2d98cd) - parseInt(7));
+					var _0x2b9dbf = String(parseInt(_0x2d98cd) - parseInt(8));
+					var _0x535578 = String(parseInt(_0x2d98cd) - parseInt(9));
+					var _0x4c73af = String(parseInt(_0x2d98cd) - parseInt(10));
+					var _0x48e86 =
+						listHuntClues.find((_0x3b495d) => _0x3b495d.x === _0x19c59d && _0x3b495d.y === _0x2c5af7)?.[
+							"clues"
+						] ?? "error";
+					var _0x5463e7 =
+						listHuntClues.find((_0x2fa4b9) => _0x2fa4b9.x === _0x48c673 && _0x2fa4b9.y === _0x2c5af7)?.[
+							"clues"
+						] ?? "error";
+					var _0x28e333 =
+						listHuntClues.find((_0xfa4e1d) => _0xfa4e1d.x === _0x4dd2ee && _0xfa4e1d.y === _0x2c5af7)?.[
+							"clues"
+						] ?? "error";
+					var _0x15cc9a =
+						listHuntClues.find((_0x43c31c) => _0x43c31c.x === _0x5ceb99 && _0x43c31c.y === _0x2c5af7)?.[
+							"clues"
+						] ?? "error";
+					var _0x466a39 =
+						listHuntClues.find((_0x4db12c) => _0x4db12c.x === _0x3ce40d && _0x4db12c.y === _0x2c5af7)?.[
+							"clues"
+						] ?? "error";
+					var _0x545312 =
+						listHuntClues.find((_0x55e7f1) => _0x55e7f1.x === _0x3314ef && _0x55e7f1.y === _0x2c5af7)?.[
+							"clues"
+						] ?? "error";
+					var _0x2c656b =
+						listHuntClues.find((_0x552656) => _0x552656.x === _0x13f043 && _0x552656.y === _0x2c5af7)?.[
+							"clues"
+						] ?? "error";
+					var _0x4e716c =
+						listHuntClues.find((_0x346664) => _0x346664.x === _0x2b9dbf && _0x346664.y === _0x2c5af7)?.[
+							"clues"
+						] ?? "error";
+					var _0x379297 =
+						listHuntClues.find((_0x3ef8bd) => _0x3ef8bd.x === _0x535578 && _0x3ef8bd.y === _0x2c5af7)?.[
+							"clues"
+						] ?? "error";
+					var _0x9298d1 =
+						listHuntClues.find((_0xc6b547) => _0xc6b547.x === _0x4c73af && _0xc6b547.y === _0x2c5af7)?.[
+							"clues"
+						] ?? "error";
+					if (_0x2d98cd == 6 && _0x2c5af7 == -8) {
 						var _0x28e333 =
-							listHuntClues.find((_0xfa4e1d) => _0xfa4e1d.x === _0x4dd2ee && _0xfa4e1d.y === _0x2c5af7)?.[
-								"clues"
-							] ?? "error";
+							listHuntClues.find((_0x3f32b5) => _0x3f32b5.x === "4" && _0x3f32b5.y === "-9")?.["clues"] ??
+							"error";
 						var _0x15cc9a =
-							listHuntClues.find((_0x43c31c) => _0x43c31c.x === _0x5ceb99 && _0x43c31c.y === _0x2c5af7)?.[
-								"clues"
-							] ?? "error";
+							listHuntClues.find((_0x11dbf2) => _0x11dbf2.x === "3" && _0x11dbf2.y === "-9")?.["clues"] ??
+							"error";
 						var _0x466a39 =
-							listHuntClues.find((_0x4db12c) => _0x4db12c.x === _0x3ce40d && _0x4db12c.y === _0x2c5af7)?.[
-								"clues"
-							] ?? "error";
+							listHuntClues.find((_0x290f69) => _0x290f69.x === "2" && _0x290f69.y === "-9")?.["clues"] ??
+							"error";
 						var _0x545312 =
-							listHuntClues.find((_0x55e7f1) => _0x55e7f1.x === _0x3314ef && _0x55e7f1.y === _0x2c5af7)?.[
-								"clues"
-							] ?? "error";
+							listHuntClues.find((_0x2f8400) => _0x2f8400.x === "1" && _0x2f8400.y === "-9")?.["clues"] ??
+							"error";
 						var _0x2c656b =
-							listHuntClues.find((_0x552656) => _0x552656.x === _0x13f043 && _0x552656.y === _0x2c5af7)?.[
-								"clues"
-							] ?? "error";
+							listHuntClues.find((_0x5e8229) => _0x5e8229.x === "0" && _0x5e8229.y === "-9")?.["clues"] ??
+							"error";
 						var _0x4e716c =
-							listHuntClues.find((_0x346664) => _0x346664.x === _0x2b9dbf && _0x346664.y === _0x2c5af7)?.[
-								"clues"
-							] ?? "error";
-						var _0x379297 =
-							listHuntClues.find((_0x3ef8bd) => _0x3ef8bd.x === _0x535578 && _0x3ef8bd.y === _0x2c5af7)?.[
-								"clues"
-							] ?? "error";
-						var _0x9298d1 =
-							listHuntClues.find((_0xc6b547) => _0xc6b547.x === _0x4c73af && _0xc6b547.y === _0x2c5af7)?.[
-								"clues"
-							] ?? "error";
-						if (_0x2d98cd == 6 && _0x2c5af7 == -8) {
+							listHuntClues.find((_0x32fe0d) => _0x32fe0d.x === "-1" && _0x32fe0d.y === "-9")?.["clues"] ??
+							"error";
+					} else {
+						if (_0x2d98cd == 5 && _0x2c5af7 == -8) {
+							var _0x5463e7 =
+								listHuntClues.find((_0x4456ee) => _0x4456ee.x === "4" && _0x4456ee.y === "-9")?.["clues"] ??
+								"error";
 							var _0x28e333 =
-								listHuntClues.find((_0x3f32b5) => _0x3f32b5.x === "4" && _0x3f32b5.y === "-9")?.["clues"] ??
+								listHuntClues.find((_0x16718a) => _0x16718a.x === "3" && _0x16718a.y === "-9")?.["clues"] ??
 								"error";
 							var _0x15cc9a =
-								listHuntClues.find((_0x11dbf2) => _0x11dbf2.x === "3" && _0x11dbf2.y === "-9")?.["clues"] ??
+								listHuntClues.find((_0x26dca6) => _0x26dca6.x === "2" && _0x26dca6.y === "-9")?.["clues"] ??
 								"error";
 							var _0x466a39 =
-								listHuntClues.find((_0x290f69) => _0x290f69.x === "2" && _0x290f69.y === "-9")?.["clues"] ??
+								listHuntClues.find((_0x3acd6e) => _0x3acd6e.x === "1" && _0x3acd6e.y === "-9")?.["clues"] ??
 								"error";
 							var _0x545312 =
-								listHuntClues.find((_0x2f8400) => _0x2f8400.x === "1" && _0x2f8400.y === "-9")?.["clues"] ??
+								listHuntClues.find((_0x2f19cc) => _0x2f19cc.x === "0" && _0x2f19cc.y === "-9")?.["clues"] ??
 								"error";
 							var _0x2c656b =
-								listHuntClues.find((_0x5e8229) => _0x5e8229.x === "0" && _0x5e8229.y === "-9")?.["clues"] ??
-								"error";
-							var _0x4e716c =
-								listHuntClues.find((_0x32fe0d) => _0x32fe0d.x === "-1" && _0x32fe0d.y === "-9")?.["clues"] ??
+								listHuntClues.find((_0x55d8fb) => _0x55d8fb.x === "-1" && _0x55d8fb.y === "-9")?.["clues"] ??
 								"error";
 						} else {
-							if (_0x2d98cd == 5 && _0x2c5af7 == -8) {
+							if (_0x2d98cd == 4 && _0x2c5af7 == -8) {
+								var _0x48e86 =
+									listHuntClues.find((_0x562f58) => _0x562f58.x === "4" && _0x562f58.y === "-9")?.["clues"] ??
+									"error";
 								var _0x5463e7 =
-									listHuntClues.find((_0x4456ee) => _0x4456ee.x === "4" && _0x4456ee.y === "-9")?.["clues"] ??
+									listHuntClues.find((_0x53a62d) => _0x53a62d.x === "3" && _0x53a62d.y === "-9")?.["clues"] ??
 									"error";
 								var _0x28e333 =
-									listHuntClues.find((_0x16718a) => _0x16718a.x === "3" && _0x16718a.y === "-9")?.["clues"] ??
+									listHuntClues.find((_0x4f70a9) => _0x4f70a9.x === "2" && _0x4f70a9.y === "-9")?.["clues"] ??
 									"error";
 								var _0x15cc9a =
-									listHuntClues.find((_0x26dca6) => _0x26dca6.x === "2" && _0x26dca6.y === "-9")?.["clues"] ??
+									listHuntClues.find((_0x11c2cc) => _0x11c2cc.x === "1" && _0x11c2cc.y === "-9")?.["clues"] ??
 									"error";
 								var _0x466a39 =
-									listHuntClues.find((_0x3acd6e) => _0x3acd6e.x === "1" && _0x3acd6e.y === "-9")?.["clues"] ??
+									listHuntClues.find((_0x267a0e) => _0x267a0e.x === "0" && _0x267a0e.y === "-9")?.["clues"] ??
 									"error";
 								var _0x545312 =
-									listHuntClues.find((_0x2f19cc) => _0x2f19cc.x === "0" && _0x2f19cc.y === "-9")?.["clues"] ??
-									"error";
-								var _0x2c656b =
-									listHuntClues.find((_0x55d8fb) => _0x55d8fb.x === "-1" && _0x55d8fb.y === "-9")?.[
+									listHuntClues.find((_0xc62b64) => _0xc62b64.x === "-1" && _0xc62b64.y === "-9")?.[
 										"clues"
 									] ?? "error";
 							} else {
-								if (_0x2d98cd == 4 && _0x2c5af7 == -8) {
-									var _0x48e86 =
-										listHuntClues.find((_0x562f58) => _0x562f58.x === "4" && _0x562f58.y === "-9")?.[
-											"clues"
-										] ?? "error";
-									var _0x5463e7 =
-										listHuntClues.find((_0x53a62d) => _0x53a62d.x === "3" && _0x53a62d.y === "-9")?.[
-											"clues"
-										] ?? "error";
-									var _0x28e333 =
-										listHuntClues.find((_0x4f70a9) => _0x4f70a9.x === "2" && _0x4f70a9.y === "-9")?.[
-											"clues"
-										] ?? "error";
+								if (_0x2d98cd == -27 && _0x2c5af7 == 35) {
 									var _0x15cc9a =
-										listHuntClues.find((_0x11c2cc) => _0x11c2cc.x === "1" && _0x11c2cc.y === "-9")?.[
+										listHuntClues.find((_0x21b41) => _0x21b41.x === "-31" && _0x21b41.y === "34")?.[
 											"clues"
 										] ?? "error";
 									var _0x466a39 =
-										listHuntClues.find((_0x267a0e) => _0x267a0e.x === "0" && _0x267a0e.y === "-9")?.[
+										listHuntClues.find((_0x4683f4) => _0x4683f4.x === "-32" && _0x4683f4.y === "34")?.[
 											"clues"
 										] ?? "error";
 									var _0x545312 =
-										listHuntClues.find((_0xc62b64) => _0xc62b64.x === "-1" && _0xc62b64.y === "-9")?.[
+										listHuntClues.find((_0x4181b5) => _0x4181b5.x === "-33" && _0x4181b5.y === "34")?.[
+											"clues"
+										] ?? "error";
+									var _0x2c656b =
+										listHuntClues.find((_0x6120a0) => _0x6120a0.x === "-34" && _0x6120a0.y === "34")?.[
 											"clues"
 										] ?? "error";
 								} else {
-									if (_0x2d98cd == -27 && _0x2c5af7 == 35) {
+									if (_0x2d98cd == -28 && _0x2c5af7 == 35) {
+										var _0x28e333 =
+											listHuntClues.find((_0x4159e6) => _0x4159e6.x === "-31" && _0x4159e6.y === "34")?.[
+												"clues"
+											] ?? "error";
 										var _0x15cc9a =
-											listHuntClues.find((_0x21b41) => _0x21b41.x === "-31" && _0x21b41.y === "34")?.[
+											listHuntClues.find((_0x3dc342) => _0x3dc342.x === "-32" && _0x3dc342.y === "34")?.[
 												"clues"
 											] ?? "error";
 										var _0x466a39 =
-											listHuntClues.find((_0x4683f4) => _0x4683f4.x === "-32" && _0x4683f4.y === "34")?.[
+											listHuntClues.find((_0x5e255e) => _0x5e255e.x === "-33" && _0x5e255e.y === "34")?.[
 												"clues"
 											] ?? "error";
 										var _0x545312 =
-											listHuntClues.find((_0x4181b5) => _0x4181b5.x === "-33" && _0x4181b5.y === "34")?.[
-												"clues"
-											] ?? "error";
-										var _0x2c656b =
-											listHuntClues.find((_0x6120a0) => _0x6120a0.x === "-34" && _0x6120a0.y === "34")?.[
+											listHuntClues.find((_0x3d367e) => _0x3d367e.x === "-34" && _0x3d367e.y === "34")?.[
 												"clues"
 											] ?? "error";
 									} else {
-										if (_0x2d98cd == -28 && _0x2c5af7 == 35) {
+										if (_0x2d98cd == -29 && _0x2c5af7 == 35) {
+											var _0x5463e7 =
+												listHuntClues.find((_0x5ba8cc) => _0x5ba8cc.x === "-31" && _0x5ba8cc.y === "34")?.[
+													"clues"
+												] ?? "error";
 											var _0x28e333 =
-												listHuntClues.find((_0x4159e6) => _0x4159e6.x === "-31" && _0x4159e6.y === "34")?.[
+												listHuntClues.find((_0xc191d6) => _0xc191d6.x === "-32" && _0xc191d6.y === "34")?.[
 													"clues"
 												] ?? "error";
 											var _0x15cc9a =
-												listHuntClues.find((_0x3dc342) => _0x3dc342.x === "-32" && _0x3dc342.y === "34")?.[
+												listHuntClues.find((_0x1dc1b1) => _0x1dc1b1.x === "-33" && _0x1dc1b1.y === "34")?.[
 													"clues"
 												] ?? "error";
 											var _0x466a39 =
-												listHuntClues.find((_0x5e255e) => _0x5e255e.x === "-33" && _0x5e255e.y === "34")?.[
-													"clues"
-												] ?? "error";
-											var _0x545312 =
-												listHuntClues.find((_0x3d367e) => _0x3d367e.x === "-34" && _0x3d367e.y === "34")?.[
+												listHuntClues.find((_0xa883a0) => _0xa883a0.x === "-34" && _0xa883a0.y === "34")?.[
 													"clues"
 												] ?? "error";
 										} else {
-											if (_0x2d98cd == -29 && _0x2c5af7 == 35) {
+											if (_0x2d98cd == -30 && _0x2c5af7 == 35) {
+												var _0x48e86 =
+													listHuntClues.find((_0x44df53) => _0x44df53.x === "-31" && _0x44df53.y === "34")?.[
+														"clues"
+													] ?? "error";
 												var _0x5463e7 =
-													listHuntClues.find((_0x5ba8cc) => _0x5ba8cc.x === "-31" && _0x5ba8cc.y === "34")?.[
+													listHuntClues.find((_0x17c923) => _0x17c923.x === "-32" && _0x17c923.y === "34")?.[
 														"clues"
 													] ?? "error";
 												var _0x28e333 =
-													listHuntClues.find((_0xc191d6) => _0xc191d6.x === "-32" && _0xc191d6.y === "34")?.[
+													listHuntClues.find((_0x3ef825) => _0x3ef825.x === "-33" && _0x3ef825.y === "34")?.[
 														"clues"
 													] ?? "error";
 												var _0x15cc9a =
-													listHuntClues.find((_0x1dc1b1) => _0x1dc1b1.x === "-33" && _0x1dc1b1.y === "34")?.[
-														"clues"
-													] ?? "error";
-												var _0x466a39 =
-													listHuntClues.find((_0xa883a0) => _0xa883a0.x === "-34" && _0xa883a0.y === "34")?.[
+													listHuntClues.find((_0x4dfbce) => _0x4dfbce.x === "-34" && _0x4dfbce.y === "34")?.[
 														"clues"
 													] ?? "error";
 											} else {
-												if (_0x2d98cd == -30 && _0x2c5af7 == 35) {
-													var _0x48e86 =
-														listHuntClues.find(
-															(_0x44df53) => _0x44df53.x === "-31" && _0x44df53.y === "34"
-														)?.["clues"] ?? "error";
+												if (_0x2d98cd == -18 && _0x2c5af7 == 37) {
 													var _0x5463e7 =
 														listHuntClues.find(
-															(_0x17c923) => _0x17c923.x === "-32" && _0x17c923.y === "34"
+															(_0x439fff) => _0x439fff.x === "-21" && _0x439fff.y === "36"
 														)?.["clues"] ?? "error";
 													var _0x28e333 =
 														listHuntClues.find(
-															(_0x3ef825) => _0x3ef825.x === "-33" && _0x3ef825.y === "34"
+															(_0x56baac) => _0x56baac.x === "-22" && _0x56baac.y === "36"
 														)?.["clues"] ?? "error";
 													var _0x15cc9a =
 														listHuntClues.find(
-															(_0x4dfbce) => _0x4dfbce.x === "-34" && _0x4dfbce.y === "34"
+															(_0x434a25) => _0x434a25.x === "-23" && _0x434a25.y === "36"
+														)?.["clues"] ?? "error";
+													var _0x466a39 =
+														listHuntClues.find(
+															(_0x5d26d7) => _0x5d26d7.x === "-24" && _0x5d26d7.y === "36"
 														)?.["clues"] ?? "error";
 												} else {
-													if (_0x2d98cd == -18 && _0x2c5af7 == 37) {
+													if (_0x2d98cd == -19 && _0x2c5af7 == 37) {
+														var _0x48e86 =
+															listHuntClues.find(
+																(_0x2d932b) => _0x2d932b.x === "-21" && _0x2d932b.y === "36"
+															)?.["clues"] ?? "error";
 														var _0x5463e7 =
 															listHuntClues.find(
-																(_0x439fff) => _0x439fff.x === "-21" && _0x439fff.y === "36"
+																(_0x3fbd4f) => _0x3fbd4f.x === "-22" && _0x3fbd4f.y === "36"
 															)?.["clues"] ?? "error";
 														var _0x28e333 =
 															listHuntClues.find(
-																(_0x56baac) => _0x56baac.x === "-22" && _0x56baac.y === "36"
+																(_0xf1115b) => _0xf1115b.x === "-23" && _0xf1115b.y === "36"
 															)?.["clues"] ?? "error";
 														var _0x15cc9a =
 															listHuntClues.find(
-																(_0x434a25) => _0x434a25.x === "-23" && _0x434a25.y === "36"
-															)?.["clues"] ?? "error";
-														var _0x466a39 =
-															listHuntClues.find(
-																(_0x5d26d7) => _0x5d26d7.x === "-24" && _0x5d26d7.y === "36"
+																(_0x19631e) => _0x19631e.x === "-24" && _0x19631e.y === "36"
 															)?.["clues"] ?? "error";
 													} else {
-														if (_0x2d98cd == -19 && _0x2c5af7 == 37) {
-															var _0x48e86 =
+														if (_0x2d98cd == -24 && _0x2c5af7 == -15) {
+															var _0x9298d1 =
 																listHuntClues.find(
-																	(_0x2d932b) => _0x2d932b.x === "-21" && _0x2d932b.y === "36"
-																)?.["clues"] ?? "error";
-															var _0x5463e7 =
-																listHuntClues.find(
-																	(_0x3fbd4f) => _0x3fbd4f.x === "-22" && _0x3fbd4f.y === "36"
-																)?.["clues"] ?? "error";
-															var _0x28e333 =
-																listHuntClues.find(
-																	(_0xf1115b) => _0xf1115b.x === "-23" && _0xf1115b.y === "36"
-																)?.["clues"] ?? "error";
-															var _0x15cc9a =
-																listHuntClues.find(
-																	(_0x19631e) => _0x19631e.x === "-24" && _0x19631e.y === "36"
+																	(_0x6e6445) => _0x6e6445.x === _0x4c73af && _0x6e6445.y === "-16"
 																)?.["clues"] ?? "error";
 														} else {
-															if (_0x2d98cd == -24 && _0x2c5af7 == -15) {
-																var _0x9298d1 =
+															if (_0x2d98cd == -25 && _0x2c5af7 == -15) {
+																var _0x379297 =
 																	listHuntClues.find(
-																		(_0x6e6445) => _0x6e6445.x === _0x4c73af && _0x6e6445.y === "-16"
+																		(_0x362ee1) => _0x362ee1.x === _0x535578 && _0x362ee1.y === "-16"
 																	)?.["clues"] ?? "error";
 															} else {
-																if (_0x2d98cd == -25 && _0x2c5af7 == -15) {
-																	var _0x379297 =
+																if (_0x2d98cd == -26 && _0x2c5af7 == -15) {
+																	var _0x4e716c =
 																		listHuntClues.find(
-																			(_0x362ee1) => _0x362ee1.x === _0x535578 && _0x362ee1.y === "-16"
+																			(_0x35c490) => _0x35c490.x === _0x2b9dbf && _0x35c490.y === "-16"
 																		)?.["clues"] ?? "error";
 																} else {
-																	if (_0x2d98cd == -26 && _0x2c5af7 == -15) {
-																		var _0x4e716c =
+																	if (_0x2d98cd == -27 && _0x2c5af7 == -15) {
+																		var _0x2c656b =
 																			listHuntClues.find(
-																				(_0x35c490) => _0x35c490.x === _0x2b9dbf && _0x35c490.y === "-16"
+																				(_0x3bd306) => _0x3bd306.x === _0x13f043 && _0x3bd306.y === "-16"
 																			)?.["clues"] ?? "error";
 																	} else {
-																		if (_0x2d98cd == -27 && _0x2c5af7 == -15) {
-																			var _0x2c656b =
+																		if (_0x2d98cd == -28 && _0x2c5af7 == -15) {
+																			var _0x545312 =
 																				listHuntClues.find(
-																					(_0x3bd306) => _0x3bd306.x === _0x13f043 && _0x3bd306.y === "-16"
+																					(_0x4271d4) => _0x4271d4.x === _0x3314ef && _0x4271d4.y === "-16"
 																				)?.["clues"] ?? "error";
 																		} else {
-																			if (_0x2d98cd == -28 && _0x2c5af7 == -15) {
-																				var _0x545312 =
+																			if (_0x2d98cd == -29 && _0x2c5af7 == -15) {
+																				var _0x466a39 =
 																					listHuntClues.find(
-																						(_0x4271d4) => _0x4271d4.x === _0x3314ef && _0x4271d4.y === "-16"
+																						(_0x259734) => _0x259734.x === _0x3ce40d && _0x259734.y === "-16"
 																					)?.["clues"] ?? "error";
 																			} else {
-																				if (_0x2d98cd == -29 && _0x2c5af7 == -15) {
-																					var _0x466a39 =
+																				if (_0x2d98cd == -30 && _0x2c5af7 == -15) {
+																					var _0x15cc9a =
 																						listHuntClues.find(
-																							(_0x259734) =>
-																								_0x259734.x === _0x3ce40d && _0x259734.y === "-16"
+																							(_0x27b288) =>
+																								_0x27b288.x === _0x5ceb99 && _0x27b288.y === "-16"
 																						)?.["clues"] ?? "error";
 																				} else {
-																					if (_0x2d98cd == -30 && _0x2c5af7 == -15) {
-																						var _0x15cc9a =
+																					if (_0x2d98cd == -31 && _0x2c5af7 == -15) {
+																						var _0x28e333 =
 																							listHuntClues.find(
-																								(_0x27b288) =>
-																									_0x27b288.x === _0x5ceb99 && _0x27b288.y === "-16"
+																								(_0x549f40) =>
+																									_0x549f40.x === _0x4dd2ee && _0x549f40.y === "-16"
 																							)?.["clues"] ?? "error";
 																					} else {
-																						if (_0x2d98cd == -31 && _0x2c5af7 == -15) {
-																							var _0x28e333 =
+																						if (_0x2d98cd == -32 && _0x2c5af7 == -15) {
+																							var _0x5463e7 =
 																								listHuntClues.find(
-																									(_0x549f40) =>
-																										_0x549f40.x === _0x4dd2ee && _0x549f40.y === "-16"
+																									(_0x15730a) =>
+																										_0x15730a.x === _0x48c673 && _0x15730a.y === "-16"
 																								)?.["clues"] ?? "error";
 																						} else {
-																							if (_0x2d98cd == -32 && _0x2c5af7 == -15) {
-																								var _0x5463e7 =
+																							if (_0x2d98cd == -33 && _0x2c5af7 == -15) {
+																								var _0x48e86 =
 																									listHuntClues.find(
-																										(_0x15730a) =>
-																											_0x15730a.x === _0x48c673 && _0x15730a.y === "-16"
+																										(_0x2e33e1) =>
+																											_0x2e33e1.x === _0x19c59d && _0x2e33e1.y === "-16"
 																									)?.["clues"] ?? "error";
 																							} else {
-																								if (_0x2d98cd == -33 && _0x2c5af7 == -15) {
-																									var _0x48e86 =
+																								if (_0x2d98cd == -25 && _0x2c5af7 == 37) {
+																									var _0x5463e7 =
 																										listHuntClues.find(
-																											(_0x2e33e1) =>
-																												_0x2e33e1.x === _0x19c59d && _0x2e33e1.y === "-16"
+																											(_0x10ecc6) =>
+																												_0x10ecc6.x === "-28" && _0x10ecc6.y === "36"
+																										)?.["clues"] ?? "error";
+																									var _0x28e333 =
+																										listHuntClues.find(
+																											(_0xe76b55) =>
+																												_0xe76b55.x === "-29" && _0xe76b55.y === "36"
+																										)?.["clues"] ?? "error";
+																									var _0x15cc9a =
+																										listHuntClues.find(
+																											(_0x501b4b) =>
+																												_0x501b4b.x === "-30" && _0x501b4b.y === "36"
 																										)?.["clues"] ?? "error";
 																								} else {
-																									if (_0x2d98cd == -25 && _0x2c5af7 == 37) {
+																									if (_0x2d98cd == -26 && _0x2c5af7 == 37) {
+																										var _0x48e86 =
+																											listHuntClues.find(
+																												(_0x558fb4) =>
+																													_0x558fb4.x === "-28" && _0x558fb4.y === "36"
+																											)?.["clues"] ?? "error";
 																										var _0x5463e7 =
 																											listHuntClues.find(
-																												(_0x10ecc6) =>
-																													_0x10ecc6.x === "-28" && _0x10ecc6.y === "36"
+																												(_0x220ab5) =>
+																													_0x220ab5.x === "-29" && _0x220ab5.y === "36"
 																											)?.["clues"] ?? "error";
 																										var _0x28e333 =
 																											listHuntClues.find(
-																												(_0xe76b55) =>
-																													_0xe76b55.x === "-29" && _0xe76b55.y === "36"
-																											)?.["clues"] ?? "error";
-																										var _0x15cc9a =
-																											listHuntClues.find(
-																												(_0x501b4b) =>
-																													_0x501b4b.x === "-30" && _0x501b4b.y === "36"
+																												(_0xe88fd2) =>
+																													_0xe88fd2.x === "-30" && _0xe88fd2.y === "36"
 																											)?.["clues"] ?? "error";
 																									} else {
-																										if (_0x2d98cd == -26 && _0x2c5af7 == 37) {
-																											var _0x48e86 =
-																												listHuntClues.find(
-																													(_0x558fb4) =>
-																														_0x558fb4.x === "-28" && _0x558fb4.y === "36"
-																												)?.["clues"] ?? "error";
+																										if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
 																											var _0x5463e7 =
 																												listHuntClues.find(
-																													(_0x220ab5) =>
-																														_0x220ab5.x === "-29" && _0x220ab5.y === "36"
+																													(_0x191116) =>
+																														_0x191116.x === "-28" && _0x191116.y === "35"
 																												)?.["clues"] ?? "error";
 																											var _0x28e333 =
 																												listHuntClues.find(
-																													(_0xe88fd2) =>
-																														_0xe88fd2.x === "-30" && _0xe88fd2.y === "36"
+																													(_0x5075c5) =>
+																														_0x5075c5.x === "-29" && _0x5075c5.y === "35"
+																												)?.["clues"] ?? "error";
+																											var _0x15cc9a =
+																												listHuntClues.find(
+																													(_0x328f19) =>
+																														_0x328f19.x === "-30" && _0x328f19.y === "35"
+																												)?.["clues"] ?? "error";
+																											var _0x466a39 =
+																												listHuntClues.find(
+																													(_0x340779) =>
+																														_0x340779.x === "-31" && _0x340779.y === "34"
+																												)?.["clues"] ?? "error";
+																											var _0x545312 =
+																												listHuntClues.find(
+																													(_0x46033d) =>
+																														_0x46033d.x === "-32" && _0x46033d.y === "34"
+																												)?.["clues"] ?? "error";
+																											var _0x2c656b =
+																												listHuntClues.find(
+																													(_0x21cc83) =>
+																														_0x21cc83.x === "-33" && _0x21cc83.y === "34"
+																												)?.["clues"] ?? "error";
+																											var _0x4e716c =
+																												listHuntClues.find(
+																													(_0x5caf4d) =>
+																														_0x5caf4d.x === "-34" && _0x5caf4d.y === "34"
 																												)?.["clues"] ?? "error";
 																										} else {
-																											if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
+																											if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
+																												var _0x48e86 =
+																													listHuntClues.find(
+																														(_0x15d9f3) =>
+																															_0x15d9f3.x === "-28" && _0x15d9f3.y === "35"
+																													)?.["clues"] ?? "error";
 																												var _0x5463e7 =
 																													listHuntClues.find(
-																														(_0x191116) =>
-																															_0x191116.x === "-28" && _0x191116.y === "35"
+																														(_0x2163b8) =>
+																															_0x2163b8.x === "-29" && _0x2163b8.y === "35"
 																													)?.["clues"] ?? "error";
 																												var _0x28e333 =
 																													listHuntClues.find(
-																														(_0x5075c5) =>
-																															_0x5075c5.x === "-29" && _0x5075c5.y === "35"
+																														(_0x46ebcd) =>
+																															_0x46ebcd.x === "-30" && _0x46ebcd.y === "35"
 																													)?.["clues"] ?? "error";
 																												var _0x15cc9a =
 																													listHuntClues.find(
-																														(_0x328f19) =>
-																															_0x328f19.x === "-30" && _0x328f19.y === "35"
+																														(_0x440766) =>
+																															_0x440766.x === "-31" && _0x440766.y === "34"
 																													)?.["clues"] ?? "error";
 																												var _0x466a39 =
 																													listHuntClues.find(
-																														(_0x340779) =>
-																															_0x340779.x === "-31" && _0x340779.y === "34"
+																														(_0x4774fa) =>
+																															_0x4774fa.x === "-32" && _0x4774fa.y === "34"
 																													)?.["clues"] ?? "error";
 																												var _0x545312 =
 																													listHuntClues.find(
-																														(_0x46033d) =>
-																															_0x46033d.x === "-32" && _0x46033d.y === "34"
+																														(_0x3710ec) =>
+																															_0x3710ec.x === "-33" && _0x3710ec.y === "34"
 																													)?.["clues"] ?? "error";
 																												var _0x2c656b =
 																													listHuntClues.find(
-																														(_0x21cc83) =>
-																															_0x21cc83.x === "-33" && _0x21cc83.y === "34"
-																													)?.["clues"] ?? "error";
-																												var _0x4e716c =
-																													listHuntClues.find(
-																														(_0x5caf4d) =>
-																															_0x5caf4d.x === "-34" && _0x5caf4d.y === "34"
+																														(_0x19fd25) =>
+																															_0x19fd25.x === "-34" && _0x19fd25.y === "34"
 																													)?.["clues"] ?? "error";
 																											} else {
-																												if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
-																													var _0x48e86 =
-																														listHuntClues.find(
-																															(_0x15d9f3) =>
-																																_0x15d9f3.x === "-28" && _0x15d9f3.y === "35"
-																														)?.["clues"] ?? "error";
-																													var _0x5463e7 =
-																														listHuntClues.find(
-																															(_0x2163b8) =>
-																																_0x2163b8.x === "-29" && _0x2163b8.y === "35"
-																														)?.["clues"] ?? "error";
-																													var _0x28e333 =
-																														listHuntClues.find(
-																															(_0x46ebcd) =>
-																																_0x46ebcd.x === "-30" && _0x46ebcd.y === "35"
-																														)?.["clues"] ?? "error";
-																													var _0x15cc9a =
-																														listHuntClues.find(
-																															(_0x440766) =>
-																																_0x440766.x === "-31" && _0x440766.y === "34"
-																														)?.["clues"] ?? "error";
-																													var _0x466a39 =
-																														listHuntClues.find(
-																															(_0x4774fa) =>
-																																_0x4774fa.x === "-32" && _0x4774fa.y === "34"
-																														)?.["clues"] ?? "error";
-																													var _0x545312 =
-																														listHuntClues.find(
-																															(_0x3710ec) =>
-																																_0x3710ec.x === "-33" && _0x3710ec.y === "34"
-																														)?.["clues"] ?? "error";
+																												if (_0x2d98cd == -19 && _0x2c5af7 == -49) {
 																													var _0x2c656b =
 																														listHuntClues.find(
-																															(_0x19fd25) =>
-																																_0x19fd25.x === "-34" && _0x19fd25.y === "34"
+																															(_0x9af99f) =>
+																																_0x9af99f.x === _0x13f043 &&
+																																_0x9af99f.y === "-50"
+																														)?.["clues"] ?? "error";
+																													var _0x4e716c =
+																														listHuntClues.find(
+																															(_0x4925ac) =>
+																																_0x4925ac.x === _0x2b9dbf &&
+																																_0x4925ac.y === "-51"
+																														)?.["clues"] ?? "error";
+																													var _0x379297 =
+																														listHuntClues.find(
+																															(_0x7d1c6c) =>
+																																_0x7d1c6c.x === _0x535578 &&
+																																_0x7d1c6c.y === "-52"
+																														)?.["clues"] ?? "error";
+																													var _0x9298d1 =
+																														listHuntClues.find(
+																															(_0x1bcd27) =>
+																																_0x1bcd27.x === _0x4c73af &&
+																																_0x1bcd27.y === "-53"
 																														)?.["clues"] ?? "error";
 																												} else {
-																													if (_0x2d98cd == -19 && _0x2c5af7 == -49) {
+																													if (_0x2d98cd == -20 && _0x2c5af7 == -49) {
+																														var _0x545312 =
+																															listHuntClues.find(
+																																(_0x44b0b6) =>
+																																	_0x44b0b6.x === _0x3314ef &&
+																																	_0x44b0b6.y === "-50"
+																															)?.["clues"] ?? "error";
 																														var _0x2c656b =
 																															listHuntClues.find(
-																																(_0x9af99f) =>
-																																	_0x9af99f.x === _0x13f043 &&
-																																	_0x9af99f.y === "-50"
+																																(_0xc51cbf) =>
+																																	_0xc51cbf.x === _0x13f043 &&
+																																	_0xc51cbf.y === "-51"
 																															)?.["clues"] ?? "error";
 																														var _0x4e716c =
 																															listHuntClues.find(
-																																(_0x4925ac) =>
-																																	_0x4925ac.x === _0x2b9dbf &&
-																																	_0x4925ac.y === "-51"
+																																(_0x4590b8) =>
+																																	_0x4590b8.x === _0x2b9dbf &&
+																																	_0x4590b8.y === "-52"
 																															)?.["clues"] ?? "error";
 																														var _0x379297 =
 																															listHuntClues.find(
-																																(_0x7d1c6c) =>
-																																	_0x7d1c6c.x === _0x535578 &&
-																																	_0x7d1c6c.y === "-52"
+																																(_0xc51aba) =>
+																																	_0xc51aba.x === _0x535578 &&
+																																	_0xc51aba.y === "-53"
 																															)?.["clues"] ?? "error";
 																														var _0x9298d1 =
 																															listHuntClues.find(
-																																(_0x1bcd27) =>
-																																	_0x1bcd27.x === _0x4c73af &&
-																																	_0x1bcd27.y === "-53"
+																																(_0x211d53) =>
+																																	_0x211d53.x === _0x4c73af &&
+																																	_0x211d53.y === "-53"
 																															)?.["clues"] ?? "error";
 																													} else {
-																														if (_0x2d98cd == -20 && _0x2c5af7 == -49) {
+																														if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
+																															var _0x466a39 =
+																																listHuntClues.find(
+																																	(_0x18b6c8) =>
+																																		_0x18b6c8.x === _0x3ce40d &&
+																																		_0x18b6c8.y === "-50"
+																																)?.["clues"] ?? "error";
 																															var _0x545312 =
 																																listHuntClues.find(
-																																	(_0x44b0b6) =>
-																																		_0x44b0b6.x === _0x3314ef &&
-																																		_0x44b0b6.y === "-50"
+																																	(_0x5c9a15) =>
+																																		_0x5c9a15.x === _0x3314ef &&
+																																		_0x5c9a15.y === "-51"
 																																)?.["clues"] ?? "error";
 																															var _0x2c656b =
 																																listHuntClues.find(
-																																	(_0xc51cbf) =>
-																																		_0xc51cbf.x === _0x13f043 &&
-																																		_0xc51cbf.y === "-51"
+																																	(_0x4c5585) =>
+																																		_0x4c5585.x === _0x13f043 &&
+																																		_0x4c5585.y === "-52"
 																																)?.["clues"] ?? "error";
 																															var _0x4e716c =
 																																listHuntClues.find(
-																																	(_0x4590b8) =>
-																																		_0x4590b8.x === _0x2b9dbf &&
-																																		_0x4590b8.y === "-52"
+																																	(_0x5a88b7) =>
+																																		_0x5a88b7.x === _0x2b9dbf &&
+																																		_0x5a88b7.y === "-53"
 																																)?.["clues"] ?? "error";
 																															var _0x379297 =
 																																listHuntClues.find(
-																																	(_0xc51aba) =>
-																																		_0xc51aba.x === _0x535578 &&
-																																		_0xc51aba.y === "-53"
+																																	(_0x1c0cd7) =>
+																																		_0x1c0cd7.x === _0x535578 &&
+																																		_0x1c0cd7.y === "-53"
 																																)?.["clues"] ?? "error";
 																															var _0x9298d1 =
 																																listHuntClues.find(
-																																	(_0x211d53) =>
-																																		_0x211d53.x === _0x4c73af &&
-																																		_0x211d53.y === "-53"
+																																	(_0x4a81b8) =>
+																																		_0x4a81b8.x === _0x4c73af &&
+																																		_0x4a81b8.y === "-53"
 																																)?.["clues"] ?? "error";
 																														} else {
-																															if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
+																															if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
+																																var _0x15cc9a =
+																																	listHuntClues.find(
+																																		(_0x336703) =>
+																																			_0x336703.x === _0x5ceb99 &&
+																																			_0x336703.y === "-50"
+																																	)?.["clues"] ?? "error";
 																																var _0x466a39 =
 																																	listHuntClues.find(
-																																		(_0x18b6c8) =>
-																																			_0x18b6c8.x === _0x3ce40d &&
-																																			_0x18b6c8.y === "-50"
+																																		(_0x43822d) =>
+																																			_0x43822d.x === _0x3ce40d &&
+																																			_0x43822d.y === "-51"
 																																	)?.["clues"] ?? "error";
 																																var _0x545312 =
 																																	listHuntClues.find(
-																																		(_0x5c9a15) =>
-																																			_0x5c9a15.x === _0x3314ef &&
-																																			_0x5c9a15.y === "-51"
+																																		(_0x296520) =>
+																																			_0x296520.x === _0x3314ef &&
+																																			_0x296520.y === "-52"
 																																	)?.["clues"] ?? "error";
 																																var _0x2c656b =
 																																	listHuntClues.find(
-																																		(_0x4c5585) =>
-																																			_0x4c5585.x === _0x13f043 &&
-																																			_0x4c5585.y === "-52"
+																																		(_0x5c55e6) =>
+																																			_0x5c55e6.x === _0x13f043 &&
+																																			_0x5c55e6.y === "-53"
 																																	)?.["clues"] ?? "error";
 																																var _0x4e716c =
 																																	listHuntClues.find(
-																																		(_0x5a88b7) =>
-																																			_0x5a88b7.x === _0x2b9dbf &&
-																																			_0x5a88b7.y === "-53"
+																																		(_0x5da9ef) =>
+																																			_0x5da9ef.x === _0x2b9dbf &&
+																																			_0x5da9ef.y === "-53"
 																																	)?.["clues"] ?? "error";
 																																var _0x379297 =
 																																	listHuntClues.find(
-																																		(_0x1c0cd7) =>
-																																			_0x1c0cd7.x === _0x535578 &&
-																																			_0x1c0cd7.y === "-53"
+																																		(_0x5aa1ab) =>
+																																			_0x5aa1ab.x === _0x535578 &&
+																																			_0x5aa1ab.y === "-53"
 																																	)?.["clues"] ?? "error";
 																																var _0x9298d1 =
 																																	listHuntClues.find(
-																																		(_0x4a81b8) =>
-																																			_0x4a81b8.x === _0x4c73af &&
-																																			_0x4a81b8.y === "-53"
+																																		(_0x3fb79f) =>
+																																			_0x3fb79f.x === _0x4c73af &&
+																																			_0x3fb79f.y === "-53"
 																																	)?.["clues"] ?? "error";
 																															} else {
-																																if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
+																																if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
+																																	var _0x28e333 =
+																																		listHuntClues.find(
+																																			(_0x3e19c7) =>
+																																				_0x3e19c7.x === _0x4dd2ee &&
+																																				_0x3e19c7.y === "-50"
+																																		)?.["clues"] ?? "error";
 																																	var _0x15cc9a =
 																																		listHuntClues.find(
-																																			(_0x336703) =>
-																																				_0x336703.x === _0x5ceb99 &&
-																																				_0x336703.y === "-50"
+																																			(_0x1eb245) =>
+																																				_0x1eb245.x === _0x5ceb99 &&
+																																				_0x1eb245.y === "-51"
 																																		)?.["clues"] ?? "error";
 																																	var _0x466a39 =
 																																		listHuntClues.find(
-																																			(_0x43822d) =>
-																																				_0x43822d.x === _0x3ce40d &&
-																																				_0x43822d.y === "-51"
+																																			(_0x3937c5) =>
+																																				_0x3937c5.x === _0x3ce40d &&
+																																				_0x3937c5.y === "-52"
 																																		)?.["clues"] ?? "error";
 																																	var _0x545312 =
 																																		listHuntClues.find(
-																																			(_0x296520) =>
-																																				_0x296520.x === _0x3314ef &&
-																																				_0x296520.y === "-52"
+																																			(_0x1c63cb) =>
+																																				_0x1c63cb.x === _0x3314ef &&
+																																				_0x1c63cb.y === "-53"
 																																		)?.["clues"] ?? "error";
 																																	var _0x2c656b =
 																																		listHuntClues.find(
-																																			(_0x5c55e6) =>
-																																				_0x5c55e6.x === _0x13f043 &&
-																																				_0x5c55e6.y === "-53"
+																																			(_0x39b392) =>
+																																				_0x39b392.x === _0x13f043 &&
+																																				_0x39b392.y === "-53"
 																																		)?.["clues"] ?? "error";
 																																	var _0x4e716c =
 																																		listHuntClues.find(
-																																			(_0x5da9ef) =>
-																																				_0x5da9ef.x === _0x2b9dbf &&
-																																				_0x5da9ef.y === "-53"
+																																			(_0x23891f) =>
+																																				_0x23891f.x === _0x2b9dbf &&
+																																				_0x23891f.y === "-53"
 																																		)?.["clues"] ?? "error";
 																																	var _0x379297 =
 																																		listHuntClues.find(
-																																			(_0x5aa1ab) =>
-																																				_0x5aa1ab.x === _0x535578 &&
-																																				_0x5aa1ab.y === "-53"
+																																			(_0x55b19c) =>
+																																				_0x55b19c.x === _0x535578 &&
+																																				_0x55b19c.y === "-53"
 																																		)?.["clues"] ?? "error";
 																																	var _0x9298d1 =
 																																		listHuntClues.find(
-																																			(_0x3fb79f) =>
-																																				_0x3fb79f.x === _0x4c73af &&
-																																				_0x3fb79f.y === "-53"
+																																			(_0x982b93) =>
+																																				_0x982b93.x === _0x4c73af &&
+																																				_0x982b93.y === "-53"
 																																		)?.["clues"] ?? "error";
 																																} else {
-																																	if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
+																																	if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
+																																		var _0x5463e7 =
+																																			listHuntClues.find(
+																																				(_0x5e3c44) =>
+																																					_0x5e3c44.x === _0x48c673 &&
+																																					_0x5e3c44.y === "-50"
+																																			)?.["clues"] ?? "error";
 																																		var _0x28e333 =
 																																			listHuntClues.find(
-																																				(_0x3e19c7) =>
-																																					_0x3e19c7.x === _0x4dd2ee &&
-																																					_0x3e19c7.y === "-50"
+																																				(_0x1a2012) =>
+																																					_0x1a2012.x === _0x4dd2ee &&
+																																					_0x1a2012.y === "-51"
 																																			)?.["clues"] ?? "error";
 																																		var _0x15cc9a =
 																																			listHuntClues.find(
-																																				(_0x1eb245) =>
-																																					_0x1eb245.x === _0x5ceb99 &&
-																																					_0x1eb245.y === "-51"
+																																				(_0x18c5d0) =>
+																																					_0x18c5d0.x === _0x5ceb99 &&
+																																					_0x18c5d0.y === "-52"
 																																			)?.["clues"] ?? "error";
 																																		var _0x466a39 =
 																																			listHuntClues.find(
-																																				(_0x3937c5) =>
-																																					_0x3937c5.x === _0x3ce40d &&
-																																					_0x3937c5.y === "-52"
+																																				(_0x48eb07) =>
+																																					_0x48eb07.x === _0x3ce40d &&
+																																					_0x48eb07.y === "-53"
 																																			)?.["clues"] ?? "error";
 																																		var _0x545312 =
 																																			listHuntClues.find(
-																																				(_0x1c63cb) =>
-																																					_0x1c63cb.x === _0x3314ef &&
-																																					_0x1c63cb.y === "-53"
+																																				(_0x4b2cfb) =>
+																																					_0x4b2cfb.x === _0x3314ef &&
+																																					_0x4b2cfb.y === "-53"
 																																			)?.["clues"] ?? "error";
 																																		var _0x2c656b =
 																																			listHuntClues.find(
-																																				(_0x39b392) =>
-																																					_0x39b392.x === _0x13f043 &&
-																																					_0x39b392.y === "-53"
+																																				(_0x383c01) =>
+																																					_0x383c01.x === _0x13f043 &&
+																																					_0x383c01.y === "-53"
 																																			)?.["clues"] ?? "error";
 																																		var _0x4e716c =
 																																			listHuntClues.find(
-																																				(_0x23891f) =>
-																																					_0x23891f.x === _0x2b9dbf &&
-																																					_0x23891f.y === "-53"
+																																				(_0x5a26cc) =>
+																																					_0x5a26cc.x === _0x2b9dbf &&
+																																					_0x5a26cc.y === "-53"
 																																			)?.["clues"] ?? "error";
 																																		var _0x379297 =
 																																			listHuntClues.find(
-																																				(_0x55b19c) =>
-																																					_0x55b19c.x === _0x535578 &&
-																																					_0x55b19c.y === "-53"
+																																				(_0x2f2bd6) =>
+																																					_0x2f2bd6.x === _0x535578 &&
+																																					_0x2f2bd6.y === "-53"
 																																			)?.["clues"] ?? "error";
 																																		var _0x9298d1 =
 																																			listHuntClues.find(
-																																				(_0x982b93) =>
-																																					_0x982b93.x === _0x4c73af &&
-																																					_0x982b93.y === "-53"
+																																				(_0xa8dc37) =>
+																																					_0xa8dc37.x === _0x4c73af &&
+																																					_0xa8dc37.y === "-53"
 																																			)?.["clues"] ?? "error";
 																																	} else {
 																																		if (
-																																			_0x2d98cd == -24 &&
+																																			_0x2d98cd == -25 &&
 																																			_0x2c5af7 == -49
 																																		) {
+																																			var _0x48e86 =
+																																				listHuntClues.find(
+																																					(_0x2e13f1) =>
+																																						_0x2e13f1.x === _0x19c59d &&
+																																						_0x2e13f1.y === "-50"
+																																				)?.["clues"] ?? "error";
 																																			var _0x5463e7 =
 																																				listHuntClues.find(
-																																					(_0x5e3c44) =>
-																																						_0x5e3c44.x === _0x48c673 &&
-																																						_0x5e3c44.y === "-50"
+																																					(_0x71dd24) =>
+																																						_0x71dd24.x === _0x48c673 &&
+																																						_0x71dd24.y === "-51"
 																																				)?.["clues"] ?? "error";
 																																			var _0x28e333 =
 																																				listHuntClues.find(
-																																					(_0x1a2012) =>
-																																						_0x1a2012.x === _0x4dd2ee &&
-																																						_0x1a2012.y === "-51"
+																																					(_0x2bd9fb) =>
+																																						_0x2bd9fb.x === _0x4dd2ee &&
+																																						_0x2bd9fb.y === "-52"
 																																				)?.["clues"] ?? "error";
 																																			var _0x15cc9a =
 																																				listHuntClues.find(
-																																					(_0x18c5d0) =>
-																																						_0x18c5d0.x === _0x5ceb99 &&
-																																						_0x18c5d0.y === "-52"
+																																					(_0x392c08) =>
+																																						_0x392c08.x === _0x5ceb99 &&
+																																						_0x392c08.y === "-53"
 																																				)?.["clues"] ?? "error";
 																																			var _0x466a39 =
 																																				listHuntClues.find(
-																																					(_0x48eb07) =>
-																																						_0x48eb07.x === _0x3ce40d &&
-																																						_0x48eb07.y === "-53"
+																																					(_0x46ca20) =>
+																																						_0x46ca20.x === _0x3ce40d &&
+																																						_0x46ca20.y === "-53"
 																																				)?.["clues"] ?? "error";
 																																			var _0x545312 =
 																																				listHuntClues.find(
-																																					(_0x4b2cfb) =>
-																																						_0x4b2cfb.x === _0x3314ef &&
-																																						_0x4b2cfb.y === "-53"
+																																					(_0x4bac49) =>
+																																						_0x4bac49.x === _0x3314ef &&
+																																						_0x4bac49.y === "-53"
 																																				)?.["clues"] ?? "error";
 																																			var _0x2c656b =
 																																				listHuntClues.find(
-																																					(_0x383c01) =>
-																																						_0x383c01.x === _0x13f043 &&
-																																						_0x383c01.y === "-53"
+																																					(_0x15c412) =>
+																																						_0x15c412.x === _0x13f043 &&
+																																						_0x15c412.y === "-53"
 																																				)?.["clues"] ?? "error";
 																																			var _0x4e716c =
 																																				listHuntClues.find(
-																																					(_0x5a26cc) =>
-																																						_0x5a26cc.x === _0x2b9dbf &&
-																																						_0x5a26cc.y === "-53"
+																																					(_0x13f604) =>
+																																						_0x13f604.x === _0x2b9dbf &&
+																																						_0x13f604.y === "-53"
 																																				)?.["clues"] ?? "error";
 																																			var _0x379297 =
 																																				listHuntClues.find(
-																																					(_0x2f2bd6) =>
-																																						_0x2f2bd6.x === _0x535578 &&
-																																						_0x2f2bd6.y === "-53"
-																																				)?.["clues"] ?? "error";
-																																			var _0x9298d1 =
-																																				listHuntClues.find(
-																																					(_0xa8dc37) =>
-																																						_0xa8dc37.x === _0x4c73af &&
-																																						_0xa8dc37.y === "-53"
+																																					(_0x293a12) =>
+																																						_0x293a12.x === _0x535578 &&
+																																						_0x293a12.y === "-53"
 																																				)?.["clues"] ?? "error";
 																																		} else {
 																																			if (
-																																				_0x2d98cd == -25 &&
-																																				_0x2c5af7 == -49
+																																				_0x2d98cd == -26 &&
+																																				_0x2c5af7 == -50
 																																			) {
 																																				var _0x48e86 =
 																																					listHuntClues.find(
-																																						(_0x2e13f1) =>
-																																							_0x2e13f1.x === _0x19c59d &&
-																																							_0x2e13f1.y === "-50"
+																																						(_0x24b2f2) =>
+																																							_0x24b2f2.x === _0x19c59d &&
+																																							_0x24b2f2.y === "-51"
 																																					)?.["clues"] ?? "error";
 																																				var _0x5463e7 =
 																																					listHuntClues.find(
-																																						(_0x71dd24) =>
-																																							_0x71dd24.x === _0x48c673 &&
-																																							_0x71dd24.y === "-51"
+																																						(_0x4e145d) =>
+																																							_0x4e145d.x === _0x48c673 &&
+																																							_0x4e145d.y === "-52"
 																																					)?.["clues"] ?? "error";
 																																				var _0x28e333 =
 																																					listHuntClues.find(
-																																						(_0x2bd9fb) =>
-																																							_0x2bd9fb.x === _0x4dd2ee &&
-																																							_0x2bd9fb.y === "-52"
+																																						(_0x41fe5f) =>
+																																							_0x41fe5f.x === _0x4dd2ee &&
+																																							_0x41fe5f.y === "-53"
 																																					)?.["clues"] ?? "error";
 																																				var _0x15cc9a =
 																																					listHuntClues.find(
-																																						(_0x392c08) =>
-																																							_0x392c08.x === _0x5ceb99 &&
-																																							_0x392c08.y === "-53"
+																																						(_0x53cb11) =>
+																																							_0x53cb11.x === _0x5ceb99 &&
+																																							_0x53cb11.y === "-53"
 																																					)?.["clues"] ?? "error";
 																																				var _0x466a39 =
 																																					listHuntClues.find(
-																																						(_0x46ca20) =>
-																																							_0x46ca20.x === _0x3ce40d &&
-																																							_0x46ca20.y === "-53"
+																																						(_0x23cf7f) =>
+																																							_0x23cf7f.x === _0x3ce40d &&
+																																							_0x23cf7f.y === "-53"
 																																					)?.["clues"] ?? "error";
 																																				var _0x545312 =
 																																					listHuntClues.find(
-																																						(_0x4bac49) =>
-																																							_0x4bac49.x === _0x3314ef &&
-																																							_0x4bac49.y === "-53"
+																																						(_0x2a7a3a) =>
+																																							_0x2a7a3a.x === _0x3314ef &&
+																																							_0x2a7a3a.y === "-53"
 																																					)?.["clues"] ?? "error";
 																																				var _0x2c656b =
 																																					listHuntClues.find(
-																																						(_0x15c412) =>
-																																							_0x15c412.x === _0x13f043 &&
-																																							_0x15c412.y === "-53"
+																																						(_0x78a61f) =>
+																																							_0x78a61f.x === _0x13f043 &&
+																																							_0x78a61f.y === "-53"
 																																					)?.["clues"] ?? "error";
 																																				var _0x4e716c =
 																																					listHuntClues.find(
-																																						(_0x13f604) =>
-																																							_0x13f604.x === _0x2b9dbf &&
-																																							_0x13f604.y === "-53"
-																																					)?.["clues"] ?? "error";
-																																				var _0x379297 =
-																																					listHuntClues.find(
-																																						(_0x293a12) =>
-																																							_0x293a12.x === _0x535578 &&
-																																							_0x293a12.y === "-53"
+																																						(_0x5f4bfb) =>
+																																							_0x5f4bfb.x === _0x2b9dbf &&
+																																							_0x5f4bfb.y === "-53"
 																																					)?.["clues"] ?? "error";
 																																			} else {
 																																				if (
-																																					_0x2d98cd == -26 &&
-																																					_0x2c5af7 == -50
+																																					_0x2d98cd == -27 &&
+																																					_0x2c5af7 == -51
 																																				) {
 																																					var _0x48e86 =
 																																						listHuntClues.find(
-																																							(_0x24b2f2) =>
-																																								_0x24b2f2.x === _0x19c59d &&
-																																								_0x24b2f2.y === "-51"
+																																							(_0x417f40) =>
+																																								_0x417f40.x === _0x19c59d &&
+																																								_0x417f40.y === "-52"
 																																						)?.["clues"] ?? "error";
 																																					var _0x5463e7 =
 																																						listHuntClues.find(
-																																							(_0x4e145d) =>
-																																								_0x4e145d.x === _0x48c673 &&
-																																								_0x4e145d.y === "-52"
+																																							(_0x1cbf0b) =>
+																																								_0x1cbf0b.x === _0x48c673 &&
+																																								_0x1cbf0b.y === "-53"
 																																						)?.["clues"] ?? "error";
 																																					var _0x28e333 =
 																																						listHuntClues.find(
-																																							(_0x41fe5f) =>
-																																								_0x41fe5f.x === _0x4dd2ee &&
-																																								_0x41fe5f.y === "-53"
+																																							(_0x932e66) =>
+																																								_0x932e66.x === _0x4dd2ee &&
+																																								_0x932e66.y === "-53"
 																																						)?.["clues"] ?? "error";
 																																					var _0x15cc9a =
 																																						listHuntClues.find(
-																																							(_0x53cb11) =>
-																																								_0x53cb11.x === _0x5ceb99 &&
-																																								_0x53cb11.y === "-53"
+																																							(_0xc87f87) =>
+																																								_0xc87f87.x === _0x5ceb99 &&
+																																								_0xc87f87.y === "-53"
 																																						)?.["clues"] ?? "error";
 																																					var _0x466a39 =
 																																						listHuntClues.find(
-																																							(_0x23cf7f) =>
-																																								_0x23cf7f.x === _0x3ce40d &&
-																																								_0x23cf7f.y === "-53"
+																																							(_0x25f668) =>
+																																								_0x25f668.x === _0x3ce40d &&
+																																								_0x25f668.y === "-53"
 																																						)?.["clues"] ?? "error";
 																																					var _0x545312 =
 																																						listHuntClues.find(
-																																							(_0x2a7a3a) =>
-																																								_0x2a7a3a.x === _0x3314ef &&
-																																								_0x2a7a3a.y === "-53"
+																																							(_0x449af8) =>
+																																								_0x449af8.x === _0x3314ef &&
+																																								_0x449af8.y === "-53"
 																																						)?.["clues"] ?? "error";
 																																					var _0x2c656b =
 																																						listHuntClues.find(
-																																							(_0x78a61f) =>
-																																								_0x78a61f.x === _0x13f043 &&
-																																								_0x78a61f.y === "-53"
-																																						)?.["clues"] ?? "error";
-																																					var _0x4e716c =
-																																						listHuntClues.find(
-																																							(_0x5f4bfb) =>
-																																								_0x5f4bfb.x === _0x2b9dbf &&
-																																								_0x5f4bfb.y === "-53"
+																																							(_0x558618) =>
+																																								_0x558618.x === _0x13f043 &&
+																																								_0x558618.y === "-53"
 																																						)?.["clues"] ?? "error";
 																																				} else {
 																																					if (
-																																						_0x2d98cd == -27 &&
-																																						_0x2c5af7 == -51
+																																						_0x2d98cd == -28 &&
+																																						_0x2c5af7 == -52
 																																					) {
 																																						var _0x48e86 =
 																																							listHuntClues.find(
-																																								(_0x417f40) =>
-																																									_0x417f40.x === _0x19c59d &&
-																																									_0x417f40.y === "-52"
+																																								(_0xcc538) =>
+																																									_0xcc538.x === _0x19c59d &&
+																																									_0xcc538.y === "-53"
 																																							)?.["clues"] ?? "error";
 																																						var _0x5463e7 =
 																																							listHuntClues.find(
-																																								(_0x1cbf0b) =>
-																																									_0x1cbf0b.x === _0x48c673 &&
-																																									_0x1cbf0b.y === "-53"
+																																								(_0x3f86f2) =>
+																																									_0x3f86f2.x === _0x48c673 &&
+																																									_0x3f86f2.y === "-53"
 																																							)?.["clues"] ?? "error";
 																																						var _0x28e333 =
 																																							listHuntClues.find(
-																																								(_0x932e66) =>
-																																									_0x932e66.x === _0x4dd2ee &&
-																																									_0x932e66.y === "-53"
+																																								(_0x284285) =>
+																																									_0x284285.x === _0x4dd2ee &&
+																																									_0x284285.y === "-53"
 																																							)?.["clues"] ?? "error";
 																																						var _0x15cc9a =
 																																							listHuntClues.find(
-																																								(_0xc87f87) =>
-																																									_0xc87f87.x === _0x5ceb99 &&
-																																									_0xc87f87.y === "-53"
+																																								(_0x2814a2) =>
+																																									_0x2814a2.x === _0x5ceb99 &&
+																																									_0x2814a2.y === "-53"
 																																							)?.["clues"] ?? "error";
 																																						var _0x466a39 =
 																																							listHuntClues.find(
-																																								(_0x25f668) =>
-																																									_0x25f668.x === _0x3ce40d &&
-																																									_0x25f668.y === "-53"
+																																								(_0x3e4f8d) =>
+																																									_0x3e4f8d.x === _0x3ce40d &&
+																																									_0x3e4f8d.y === "-53"
 																																							)?.["clues"] ?? "error";
 																																						var _0x545312 =
 																																							listHuntClues.find(
-																																								(_0x449af8) =>
-																																									_0x449af8.x === _0x3314ef &&
-																																									_0x449af8.y === "-53"
-																																							)?.["clues"] ?? "error";
-																																						var _0x2c656b =
-																																							listHuntClues.find(
-																																								(_0x558618) =>
-																																									_0x558618.x === _0x13f043 &&
-																																									_0x558618.y === "-53"
+																																								(_0x2e499f) =>
+																																									_0x2e499f.x === _0x3314ef &&
+																																									_0x2e499f.y === "-53"
 																																							)?.["clues"] ?? "error";
 																																					} else {
-																																						if (
-																																							_0x2d98cd == -28 &&
-																																							_0x2c5af7 == -52
-																																						) {
-																																							var _0x48e86 =
-																																								listHuntClues.find(
-																																									(_0xcc538) =>
-																																										_0xcc538.x ===
-																																											_0x19c59d &&
-																																										_0xcc538.y === "-53"
-																																								)?.["clues"] ?? "error";
-																																							var _0x5463e7 =
-																																								listHuntClues.find(
-																																									(_0x3f86f2) =>
-																																										_0x3f86f2.x ===
-																																											_0x48c673 &&
-																																										_0x3f86f2.y === "-53"
-																																								)?.["clues"] ?? "error";
-																																							var _0x28e333 =
-																																								listHuntClues.find(
-																																									(_0x284285) =>
-																																										_0x284285.x ===
-																																											_0x4dd2ee &&
-																																										_0x284285.y === "-53"
-																																								)?.["clues"] ?? "error";
-																																							var _0x15cc9a =
-																																								listHuntClues.find(
-																																									(_0x2814a2) =>
-																																										_0x2814a2.x ===
-																																											_0x5ceb99 &&
-																																										_0x2814a2.y === "-53"
-																																								)?.["clues"] ?? "error";
-																																							var _0x466a39 =
-																																								listHuntClues.find(
-																																									(_0x3e4f8d) =>
-																																										_0x3e4f8d.x ===
-																																											_0x3ce40d &&
-																																										_0x3e4f8d.y === "-53"
-																																								)?.["clues"] ?? "error";
-																																							var _0x545312 =
-																																								listHuntClues.find(
-																																									(_0x2e499f) =>
-																																										_0x2e499f.x ===
-																																											_0x3314ef &&
-																																										_0x2e499f.y === "-53"
-																																								)?.["clues"] ?? "error";
-																																						} else {
-																																						}
 																																					}
 																																				}
 																																			}
@@ -26879,60 +26847,173 @@ function huntClueSearch(x, y, direction, clueName) {
 								}
 							}
 						}
-						if (_0x48e86.includes(_0x1e7122)) {
-							var _0xf0e6b9 = listHuntClues.find((_0x1d8c80) => _0x1d8c80.x === _0x19c59d).x;
-							if (_0x2d98cd == 4 && _0x2c5af7 == -8) {
-								var _0xf0e6b9 = String(parseInt(4));
-								var _0x2c5af7 = String(parseInt(-9));
-								
+					}
+					if (_0x48e86.includes(_0x1e7122)) {
+						var _0xf0e6b9 = listHuntClues.find((_0x1d8c80) => _0x1d8c80.x === _0x19c59d).x;
+						if (_0x2d98cd == 4 && _0x2c5af7 == -8) {
+							var _0xf0e6b9 = String(parseInt(4));
+							var _0x2c5af7 = String(parseInt(-9));
+
+							console.log(_0x2c5af7);
+							var _0x2d98cd = String(parseInt(5));
+						} else {
+							if (_0x2d98cd == -30 && _0x2c5af7 == 35) {
+								var _0x2c5af7 = String(parseInt(34));
 								console.log(_0x2c5af7);
-								var _0x2d98cd = String(parseInt(5));
 							} else {
-								if (_0x2d98cd == -30 && _0x2c5af7 == 35) {
-									var _0x2c5af7 = String(parseInt(34));
+								if (_0x2d98cd == -19 && _0x2c5af7 == 37) {
+									var _0xf0e6b9 = String(parseInt(-21));
+									var _0x2c5af7 = String(parseInt(36));
+
 									console.log(_0x2c5af7);
+									var _0x2d98cd = String(parseInt(-20));
 								} else {
-									if (_0x2d98cd == -19 && _0x2c5af7 == 37) {
-										var _0xf0e6b9 = String(parseInt(-21));
-										var _0x2c5af7 = String(parseInt(36));
-										
+									if (_0x2d98cd == -33 && _0x2c5af7 == -15) {
+										var _0x2c5af7 = String(parseInt(-16));
 										console.log(_0x2c5af7);
-										var _0x2d98cd = String(parseInt(-20));
 									} else {
-										if (_0x2d98cd == -33 && _0x2c5af7 == -15) {
-											var _0x2c5af7 = String(parseInt(-16));
+										if (_0x2d98cd == -26 && _0x2c5af7 == 37) {
+											var _0xf0e6b9 = String(parseInt(-28));
+											var _0x2c5af7 = String(parseInt(36));
+
 											console.log(_0x2c5af7);
+											var _0x2d98cd = String(parseInt(-27));
 										} else {
-											if (_0x2d98cd == -26 && _0x2c5af7 == 37) {
+											if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
 												var _0xf0e6b9 = String(parseInt(-28));
-												var _0x2c5af7 = String(parseInt(36));
-												
+												var _0x2c5af7 = String(parseInt(35));
+
 												console.log(_0x2c5af7);
 												var _0x2d98cd = String(parseInt(-27));
 											} else {
-												if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
-													var _0xf0e6b9 = String(parseInt(-28));
-													var _0x2c5af7 = String(parseInt(35));
-													
+												if (_0x2d98cd == -28 && _0x2c5af7 == -52) {
+													var _0x2c5af7 = String(parseInt(-53));
 													console.log(_0x2c5af7);
-													var _0x2d98cd = String(parseInt(-27));
 												} else {
-													if (_0x2d98cd == -28 && _0x2c5af7 == -52) {
-														var _0x2c5af7 = String(parseInt(-53));
+													if (_0x2d98cd == -27 && _0x2c5af7 == -51) {
+														var _0x2c5af7 = String(parseInt(-52));
 														console.log(_0x2c5af7);
 													} else {
-														if (_0x2d98cd == -27 && _0x2c5af7 == -51) {
-															var _0x2c5af7 = String(parseInt(-52));
+														if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
+															var _0x2c5af7 = String(parseInt(-51));
 															console.log(_0x2c5af7);
 														} else {
-															if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
-																var _0x2c5af7 = String(parseInt(-51));
+															if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
+																var _0x2c5af7 = String(parseInt(-50));
 																console.log(_0x2c5af7);
 															} else {
-																if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
-																	var _0x2c5af7 = String(parseInt(-50));
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+
+						console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
+
+						// updateOptionClues();
+						return [_0xf0e6b9, _0x2c5af7];
+					} else {
+						if (_0x5463e7.includes(_0x1e7122)) {
+							var _0xf0e6b9 = listHuntClues.find((_0x4a706a) => _0x4a706a.x === _0x48c673).x;
+							if (_0x2d98cd == 4 && _0x2c5af7 == -8) {
+								var _0xf0e6b9 = String(parseInt(3));
+								var _0x2c5af7 = String(parseInt(-9));
+
+								console.log(_0x2c5af7);
+								var _0x2d98cd = String(parseInt(5));
+							} else {
+								if (_0x2d98cd == 5 && _0x2c5af7 == -8) {
+									var _0xf0e6b9 = String(parseInt(4));
+									var _0x2c5af7 = String(parseInt(-9));
+
+									console.log(_0x2c5af7);
+									var _0x2d98cd = String(parseInt(6));
+								} else {
+									if (_0x2d98cd == -30 && _0x2c5af7 == 35) {
+										var _0x2c5af7 = String(parseInt(34));
+										console.log(_0x2c5af7);
+									} else {
+										if (_0x2d98cd == -29 && _0x2c5af7 == 35) {
+											var _0x2c5af7 = String(parseInt(34));
+											console.log(_0x2c5af7);
+										} else {
+											if (_0x2d98cd == -19 && _0x2c5af7 == 37) {
+												var _0xf0e6b9 = String(parseInt(-22));
+												var _0x2c5af7 = String(parseInt(36));
+
+												console.log(_0x2c5af7);
+												var _0x2d98cd = String(parseInt(-20));
+											} else {
+												if (_0x2d98cd == -18 && _0x2c5af7 == 37) {
+													var _0xf0e6b9 = String(parseInt(-21));
+													var _0x2c5af7 = String(parseInt(36));
+
+													console.log(_0x2c5af7);
+													var _0x2d98cd = String(parseInt(-19));
+												} else {
+													if (_0x2d98cd == -32 && _0x2c5af7 == -15) {
+														var _0x2c5af7 = String(parseInt(-16));
+														console.log(_0x2c5af7);
+													} else {
+														if (_0x2d98cd == -26 && _0x2c5af7 == 37) {
+															var _0xf0e6b9 = String(parseInt(-29));
+															var _0x2c5af7 = String(parseInt(36));
+
+															console.log(_0x2c5af7);
+															var _0x2d98cd = String(parseInt(-27));
+														} else {
+															if (_0x2d98cd == -25 && _0x2c5af7 == 37) {
+																var _0xf0e6b9 = String(parseInt(-28));
+																var _0x2c5af7 = String(parseInt(36));
+
+																console.log(_0x2c5af7);
+																var _0x2d98cd = String(parseInt(-26));
+															} else {
+																if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
+																	var _0xf0e6b9 = String(parseInt(-29));
+																	var _0x2c5af7 = String(parseInt(35));
+
 																	console.log(_0x2c5af7);
+																	var _0x2d98cd = String(parseInt(-27));
 																} else {
+																	if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
+																		var _0xf0e6b9 = String(parseInt(-28));
+																		var _0x2c5af7 = String(parseInt(35));
+
+																		console.log(_0x2c5af7);
+																		var _0x2d98cd = String(parseInt(-26));
+																	} else {
+																		if (_0x2d98cd == -28 && _0x2c5af7 == -52) {
+																			var _0x2c5af7 = String(parseInt(-53));
+																			console.log(_0x2c5af7);
+																		} else {
+																			if (_0x2d98cd == -27 && _0x2c5af7 == -51) {
+																				var _0x2c5af7 = String(parseInt(-53));
+																				console.log(_0x2c5af7);
+																			} else {
+																				if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
+																					var _0x2c5af7 = String(parseInt(-52));
+																					console.log(_0x2c5af7);
+																				} else {
+																					if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
+																						var _0x2c5af7 = String(parseInt(-51));
+																						console.log(_0x2c5af7);
+																					} else {
+																						if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
+																							var _0x2c5af7 = String(parseInt(-50));
+																							console.log(_0x2c5af7);
+																						} else {
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
 																}
 															}
 														}
@@ -26945,100 +27026,118 @@ function huntClueSearch(x, y, direction, clueName) {
 							}
 
 							console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-							
+
 							// updateOptionClues();
 							return [_0xf0e6b9, _0x2c5af7];
 						} else {
-							if (_0x5463e7.includes(_0x1e7122)) {
-								var _0xf0e6b9 = listHuntClues.find((_0x4a706a) => _0x4a706a.x === _0x48c673).x;
+							if (_0x28e333.includes(_0x1e7122)) {
+								var _0xf0e6b9 = listHuntClues.find((_0x350c61) => _0x350c61.x === _0x4dd2ee).x;
 								if (_0x2d98cd == 4 && _0x2c5af7 == -8) {
-									var _0xf0e6b9 = String(parseInt(3));
+									var _0xf0e6b9 = String(parseInt(2));
 									var _0x2c5af7 = String(parseInt(-9));
-									
+
 									console.log(_0x2c5af7);
 									var _0x2d98cd = String(parseInt(5));
 								} else {
 									if (_0x2d98cd == 5 && _0x2c5af7 == -8) {
-										var _0xf0e6b9 = String(parseInt(4));
+										var _0xf0e6b9 = String(parseInt(3));
 										var _0x2c5af7 = String(parseInt(-9));
-										
+
 										console.log(_0x2c5af7);
 										var _0x2d98cd = String(parseInt(6));
 									} else {
-										if (_0x2d98cd == -30 && _0x2c5af7 == 35) {
-											var _0x2c5af7 = String(parseInt(34));
+										if (_0x2d98cd == 6 && _0x2c5af7 == -8) {
+											var _0xf0e6b9 = String(parseInt(4));
+											var _0x2c5af7 = String(parseInt(-9));
+
 											console.log(_0x2c5af7);
+											var _0x2d98cd = String(parseInt(7));
 										} else {
-											if (_0x2d98cd == -29 && _0x2c5af7 == 35) {
+											if (_0x2d98cd == -30 && _0x2c5af7 == 35) {
 												var _0x2c5af7 = String(parseInt(34));
 												console.log(_0x2c5af7);
 											} else {
-												if (_0x2d98cd == -19 && _0x2c5af7 == 37) {
-													var _0xf0e6b9 = String(parseInt(-22));
-													var _0x2c5af7 = String(parseInt(36));
-													
+												if (_0x2d98cd == -29 && _0x2c5af7 == 35) {
+													var _0x2c5af7 = String(parseInt(34));
 													console.log(_0x2c5af7);
-													var _0x2d98cd = String(parseInt(-20));
 												} else {
-													if (_0x2d98cd == -18 && _0x2c5af7 == 37) {
-														var _0xf0e6b9 = String(parseInt(-21));
-														var _0x2c5af7 = String(parseInt(36));
-														
+													if (_0x2d98cd == -28 && _0x2c5af7 == 35) {
+														var _0x2c5af7 = String(parseInt(34));
 														console.log(_0x2c5af7);
-														var _0x2d98cd = String(parseInt(-19));
 													} else {
-														if (_0x2d98cd == -32 && _0x2c5af7 == -15) {
-															var _0x2c5af7 = String(parseInt(-16));
+														if (_0x2d98cd == -19 && _0x2c5af7 == 37) {
+															var _0xf0e6b9 = String(parseInt(-23));
+															var _0x2c5af7 = String(parseInt(36));
+
 															console.log(_0x2c5af7);
+															var _0x2d98cd = String(parseInt(-20));
 														} else {
-															if (_0x2d98cd == -26 && _0x2c5af7 == 37) {
-																var _0xf0e6b9 = String(parseInt(-29));
+															if (_0x2d98cd == -18 && _0x2c5af7 == 37) {
+																var _0xf0e6b9 = String(parseInt(-22));
 																var _0x2c5af7 = String(parseInt(36));
-																
+
 																console.log(_0x2c5af7);
-																var _0x2d98cd = String(parseInt(-27));
+																var _0x2d98cd = String(parseInt(-19));
 															} else {
-																if (_0x2d98cd == -25 && _0x2c5af7 == 37) {
-																	var _0xf0e6b9 = String(parseInt(-28));
-																	var _0x2c5af7 = String(parseInt(36));
-																	
+																if (_0x2d98cd == -31 && _0x2c5af7 == -15) {
+																	var _0x2c5af7 = String(parseInt(-16));
 																	console.log(_0x2c5af7);
-																	var _0x2d98cd = String(parseInt(-26));
 																} else {
-																	if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
-																		var _0xf0e6b9 = String(parseInt(-29));
-																		var _0x2c5af7 = String(parseInt(35));
-																		
+																	if (_0x2d98cd == -26 && _0x2c5af7 == 37) {
+																		var _0xf0e6b9 = String(parseInt(-30));
+																		var _0x2c5af7 = String(parseInt(36));
+
 																		console.log(_0x2c5af7);
 																		var _0x2d98cd = String(parseInt(-27));
 																	} else {
-																		if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
-																			var _0xf0e6b9 = String(parseInt(-28));
-																			var _0x2c5af7 = String(parseInt(35));
-																			
+																		if (_0x2d98cd == -25 && _0x2c5af7 == 37) {
+																			var _0xf0e6b9 = String(parseInt(-29));
+																			var _0x2c5af7 = String(parseInt(36));
+
 																			console.log(_0x2c5af7);
 																			var _0x2d98cd = String(parseInt(-26));
 																		} else {
-																			if (_0x2d98cd == -28 && _0x2c5af7 == -52) {
-																				var _0x2c5af7 = String(parseInt(-53));
+																			if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
+																				var _0xf0e6b9 = String(parseInt(-30));
+																				var _0x2c5af7 = String(parseInt(35));
+
 																				console.log(_0x2c5af7);
+																				var _0x2d98cd = String(parseInt(-27));
 																			} else {
-																				if (_0x2d98cd == -27 && _0x2c5af7 == -51) {
-																					var _0x2c5af7 = String(parseInt(-53));
+																				if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
+																					var _0xf0e6b9 = String(parseInt(-29));
+																					var _0x2c5af7 = String(parseInt(35));
+
 																					console.log(_0x2c5af7);
+																					var _0x2d98cd = String(parseInt(-26));
 																				} else {
-																					if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
-																						var _0x2c5af7 = String(parseInt(-52));
+																					if (_0x2d98cd == -28 && _0x2c5af7 == -52) {
+																						var _0x2c5af7 = String(parseInt(-53));
 																						console.log(_0x2c5af7);
 																					} else {
-																						if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
-																							var _0x2c5af7 = String(parseInt(-51));
+																						if (_0x2d98cd == -27 && _0x2c5af7 == -51) {
+																							var _0x2c5af7 = String(parseInt(-53));
 																							console.log(_0x2c5af7);
 																						} else {
-																							if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
-																								var _0x2c5af7 = String(parseInt(-50));
+																							if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
+																								var _0x2c5af7 = String(parseInt(-53));
 																								console.log(_0x2c5af7);
 																							} else {
+																								if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
+																									var _0x2c5af7 = String(parseInt(-52));
+																									console.log(_0x2c5af7);
+																								} else {
+																									if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
+																										var _0x2c5af7 = String(parseInt(-51));
+																										console.log(_0x2c5af7);
+																									} else {
+																										if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
+																											var _0x2c5af7 = String(parseInt(-50));
+																											console.log(_0x2c5af7);
+																										} else {
+																										}
+																									}
+																								}
 																							}
 																						}
 																					}
@@ -27057,30 +27156,30 @@ function huntClueSearch(x, y, direction, clueName) {
 								}
 
 								console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-								
+
 								// updateOptionClues();
 								return [_0xf0e6b9, _0x2c5af7];
 							} else {
-								if (_0x28e333.includes(_0x1e7122)) {
-									var _0xf0e6b9 = listHuntClues.find((_0x350c61) => _0x350c61.x === _0x4dd2ee).x;
+								if (_0x15cc9a.includes(_0x1e7122)) {
+									var _0xf0e6b9 = listHuntClues.find((_0x97b015) => _0x97b015.x === _0x5ceb99).x;
 									if (_0x2d98cd == 4 && _0x2c5af7 == -8) {
-										var _0xf0e6b9 = String(parseInt(2));
+										var _0xf0e6b9 = String(parseInt(1));
 										var _0x2c5af7 = String(parseInt(-9));
-										
+
 										console.log(_0x2c5af7);
 										var _0x2d98cd = String(parseInt(5));
 									} else {
 										if (_0x2d98cd == 5 && _0x2c5af7 == -8) {
-											var _0xf0e6b9 = String(parseInt(3));
+											var _0xf0e6b9 = String(parseInt(2));
 											var _0x2c5af7 = String(parseInt(-9));
-											
+
 											console.log(_0x2c5af7);
 											var _0x2d98cd = String(parseInt(6));
 										} else {
 											if (_0x2d98cd == 6 && _0x2c5af7 == -8) {
-												var _0xf0e6b9 = String(parseInt(4));
+												var _0xf0e6b9 = String(parseInt(3));
 												var _0x2c5af7 = String(parseInt(-9));
-												
+
 												console.log(_0x2c5af7);
 												var _0x2d98cd = String(parseInt(7));
 											} else {
@@ -27096,49 +27195,46 @@ function huntClueSearch(x, y, direction, clueName) {
 															var _0x2c5af7 = String(parseInt(34));
 															console.log(_0x2c5af7);
 														} else {
-															if (_0x2d98cd == -19 && _0x2c5af7 == 37) {
-																var _0xf0e6b9 = String(parseInt(-23));
-																var _0x2c5af7 = String(parseInt(36));
-																
+															if (_0x2d98cd == -27 && _0x2c5af7 == 35) {
+																var _0x2c5af7 = String(parseInt(34));
 																console.log(_0x2c5af7);
-																var _0x2d98cd = String(parseInt(-20));
 															} else {
-																if (_0x2d98cd == -18 && _0x2c5af7 == 37) {
-																	var _0xf0e6b9 = String(parseInt(-22));
+																if (_0x2d98cd == -19 && _0x2c5af7 == 37) {
+																	var _0xf0e6b9 = String(parseInt(-24));
 																	var _0x2c5af7 = String(parseInt(36));
-																	
+
 																	console.log(_0x2c5af7);
-																	var _0x2d98cd = String(parseInt(-19));
+																	var _0x2d98cd = String(parseInt(-20));
 																} else {
-																	if (_0x2d98cd == -31 && _0x2c5af7 == -15) {
-																		var _0x2c5af7 = String(parseInt(-16));
+																	if (_0x2d98cd == -18 && _0x2c5af7 == 37) {
+																		var _0xf0e6b9 = String(parseInt(-23));
+																		var _0x2c5af7 = String(parseInt(36));
+
 																		console.log(_0x2c5af7);
+																		var _0x2d98cd = String(parseInt(-19));
 																	} else {
-																		if (_0x2d98cd == -26 && _0x2c5af7 == 37) {
-																			var _0xf0e6b9 = String(parseInt(-30));
-																			var _0x2c5af7 = String(parseInt(36));
-																			
+																		if (_0x2d98cd == -30 && _0x2c5af7 == -15) {
+																			var _0x2c5af7 = String(parseInt(-16));
 																			console.log(_0x2c5af7);
-																			var _0x2d98cd = String(parseInt(-27));
 																		} else {
 																			if (_0x2d98cd == -25 && _0x2c5af7 == 37) {
-																				var _0xf0e6b9 = String(parseInt(-29));
+																				var _0xf0e6b9 = String(parseInt(-30));
 																				var _0x2c5af7 = String(parseInt(36));
-																				
+
 																				console.log(_0x2c5af7);
 																				var _0x2d98cd = String(parseInt(-26));
 																			} else {
 																				if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
-																					var _0xf0e6b9 = String(parseInt(-30));
-																					var _0x2c5af7 = String(parseInt(35));
-																					
+																					var _0xf0e6b9 = String(parseInt(-31));
+																					var _0x2c5af7 = String(parseInt(34));
+
 																					console.log(_0x2c5af7);
 																					var _0x2d98cd = String(parseInt(-27));
 																				} else {
 																					if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
-																						var _0xf0e6b9 = String(parseInt(-29));
+																						var _0xf0e6b9 = String(parseInt(-30));
 																						var _0x2c5af7 = String(parseInt(35));
-																						
+
 																						console.log(_0x2c5af7);
 																						var _0x2d98cd = String(parseInt(-26));
 																					} else {
@@ -27155,263 +27251,18 @@ function huntClueSearch(x, y, direction, clueName) {
 																									console.log(_0x2c5af7);
 																								} else {
 																									if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
-																										var _0x2c5af7 = String(parseInt(-52));
+																										var _0x2c5af7 = String(parseInt(-53));
 																										console.log(_0x2c5af7);
 																									} else {
 																										if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
-																											var _0x2c5af7 = String(parseInt(-51));
-																											console.log(_0x2c5af7);
-																										} else {
-																											if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
-																												var _0x2c5af7 = String(parseInt(-50));
-																												console.log(_0x2c5af7);
-																											} else {
-																											}
-																										}
-																									}
-																								}
-																							}
-																						}
-																					}
-																				}
-																			}
-																		}
-																	}
-																}
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-
-									console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-									
-									// updateOptionClues();
-									return [_0xf0e6b9, _0x2c5af7];
-								} else {
-									if (_0x15cc9a.includes(_0x1e7122)) {
-										var _0xf0e6b9 = listHuntClues.find((_0x97b015) => _0x97b015.x === _0x5ceb99).x;
-										if (_0x2d98cd == 4 && _0x2c5af7 == -8) {
-											var _0xf0e6b9 = String(parseInt(1));
-											var _0x2c5af7 = String(parseInt(-9));
-											
-											console.log(_0x2c5af7);
-											var _0x2d98cd = String(parseInt(5));
-										} else {
-											if (_0x2d98cd == 5 && _0x2c5af7 == -8) {
-												var _0xf0e6b9 = String(parseInt(2));
-												var _0x2c5af7 = String(parseInt(-9));
-												
-												console.log(_0x2c5af7);
-												var _0x2d98cd = String(parseInt(6));
-											} else {
-												if (_0x2d98cd == 6 && _0x2c5af7 == -8) {
-													var _0xf0e6b9 = String(parseInt(3));
-													var _0x2c5af7 = String(parseInt(-9));
-													
-													console.log(_0x2c5af7);
-													var _0x2d98cd = String(parseInt(7));
-												} else {
-													if (_0x2d98cd == -30 && _0x2c5af7 == 35) {
-														var _0x2c5af7 = String(parseInt(34));
-														console.log(_0x2c5af7);
-													} else {
-														if (_0x2d98cd == -29 && _0x2c5af7 == 35) {
-															var _0x2c5af7 = String(parseInt(34));
-															console.log(_0x2c5af7);
-														} else {
-															if (_0x2d98cd == -28 && _0x2c5af7 == 35) {
-																var _0x2c5af7 = String(parseInt(34));
-																console.log(_0x2c5af7);
-															} else {
-																if (_0x2d98cd == -27 && _0x2c5af7 == 35) {
-																	var _0x2c5af7 = String(parseInt(34));
-																	console.log(_0x2c5af7);
-																} else {
-																	if (_0x2d98cd == -19 && _0x2c5af7 == 37) {
-																		var _0xf0e6b9 = String(parseInt(-24));
-																		var _0x2c5af7 = String(parseInt(36));
-																		
-																		console.log(_0x2c5af7);
-																		var _0x2d98cd = String(parseInt(-20));
-																	} else {
-																		if (_0x2d98cd == -18 && _0x2c5af7 == 37) {
-																			var _0xf0e6b9 = String(parseInt(-23));
-																			var _0x2c5af7 = String(parseInt(36));
-																			
-																			console.log(_0x2c5af7);
-																			var _0x2d98cd = String(parseInt(-19));
-																		} else {
-																			if (_0x2d98cd == -30 && _0x2c5af7 == -15) {
-																				var _0x2c5af7 = String(parseInt(-16));
-																				console.log(_0x2c5af7);
-																			} else {
-																				if (_0x2d98cd == -25 && _0x2c5af7 == 37) {
-																					var _0xf0e6b9 = String(parseInt(-30));
-																					var _0x2c5af7 = String(parseInt(36));
-																					
-																					console.log(_0x2c5af7);
-																					var _0x2d98cd = String(parseInt(-26));
-																				} else {
-																					if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
-																						var _0xf0e6b9 = String(parseInt(-31));
-																						var _0x2c5af7 = String(parseInt(34));
-																						
-																						console.log(_0x2c5af7);
-																						var _0x2d98cd = String(parseInt(-27));
-																					} else {
-																						if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
-																							var _0xf0e6b9 = String(parseInt(-30));
-																							var _0x2c5af7 = String(parseInt(35));
-																							
-																							console.log(_0x2c5af7);
-																							var _0x2d98cd = String(parseInt(-26));
-																						} else {
-																							if (_0x2d98cd == -28 && _0x2c5af7 == -52) {
-																								var _0x2c5af7 = String(parseInt(-53));
-																								console.log(_0x2c5af7);
-																							} else {
-																								if (_0x2d98cd == -27 && _0x2c5af7 == -51) {
-																									var _0x2c5af7 = String(parseInt(-53));
-																									console.log(_0x2c5af7);
-																								} else {
-																									if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
-																										var _0x2c5af7 = String(parseInt(-53));
-																										console.log(_0x2c5af7);
-																									} else {
-																										if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
-																											var _0x2c5af7 = String(parseInt(-53));
-																											console.log(_0x2c5af7);
-																										} else {
-																											if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
-																												var _0x2c5af7 = String(parseInt(-52));
-																												console.log(_0x2c5af7);
-																											} else {
-																												if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
-																													var _0x2c5af7 = String(parseInt(-51));
-																													console.log(_0x2c5af7);
-																												} else {
-																													if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
-																														var _0x2c5af7 = String(parseInt(-50));
-																														console.log(_0x2c5af7);
-																													} else {
-																													}
-																												}
-																											}
-																										}
-																									}
-																								}
-																							}
-																						}
-																					}
-																				}
-																			}
-																		}
-																	}
-																}
-															}
-														}
-													}
-												}
-											}
-										}
-
-										console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-										
-										// updateOptionClues();
-										return [_0xf0e6b9, _0x2c5af7];
-									} else {
-										if (_0x466a39.includes(_0x1e7122)) {
-											var _0xf0e6b9 = listHuntClues.find((_0x20c062) => _0x20c062.x === _0x3ce40d).x;
-											if (_0x2d98cd == 4 && _0x2c5af7 == -8) {
-												var _0xf0e6b9 = String(parseInt(0));
-												var _0x2c5af7 = String(parseInt(-9));
-												
-												console.log(_0x2c5af7);
-												var _0x2d98cd = String(parseInt(5));
-											} else {
-												if (_0x2d98cd == 5 && _0x2c5af7 == -8) {
-													var _0xf0e6b9 = String(parseInt(1));
-													var _0x2c5af7 = String(parseInt(-9));
-													
-													console.log(_0x2c5af7);
-													var _0x2d98cd = String(parseInt(6));
-												} else {
-													if (_0x2d98cd == 6 && _0x2c5af7 == -8) {
-														var _0xf0e6b9 = String(parseInt(2));
-														var _0x2c5af7 = String(parseInt(-9));
-														
-														console.log(_0x2c5af7);
-														var _0x2d98cd = String(parseInt(7));
-													} else {
-														if (_0x2d98cd == -29 && _0x2c5af7 == 35) {
-															var _0x2c5af7 = String(parseInt(34));
-															console.log(_0x2c5af7);
-														} else {
-															if (_0x2d98cd == -28 && _0x2c5af7 == 35) {
-																var _0x2c5af7 = String(parseInt(34));
-																console.log(_0x2c5af7);
-															} else {
-																if (_0x2d98cd == -27 && _0x2c5af7 == 35) {
-																	var _0x2c5af7 = String(parseInt(34));
-																	console.log(_0x2c5af7);
-																} else {
-																	if (_0x2d98cd == -18 && _0x2c5af7 == 37) {
-																		var _0xf0e6b9 = String(parseInt(-24));
-																		var _0x2c5af7 = String(parseInt(36));
-																		
-																		console.log(_0x2c5af7);
-																		var _0x2d98cd = String(parseInt(-19));
-																	} else {
-																		if (_0x2d98cd == -29 && _0x2c5af7 == -15) {
-																			var _0x2c5af7 = String(parseInt(-16));
-																			console.log(_0x2c5af7);
-																		} else {
-																			if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
-																				var _0xf0e6b9 = String(parseInt(-32));
-																				var _0x2c5af7 = String(parseInt(34));
-																				
-																				console.log(_0x2c5af7);
-																				var _0x2d98cd = String(parseInt(-27));
-																			} else {
-																				if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
-																					var _0xf0e6b9 = String(parseInt(-31));
-																					var _0x2c5af7 = String(parseInt(34));
-																					
-																					console.log(_0x2c5af7);
-																					var _0x2d98cd = String(parseInt(-26));
-																				} else {
-																					if (_0x2d98cd == -28 && _0x2c5af7 == -52) {
-																						var _0x2c5af7 = String(parseInt(-53));
-																						console.log(_0x2c5af7);
-																					} else {
-																						if (_0x2d98cd == -27 && _0x2c5af7 == -51) {
-																							var _0x2c5af7 = String(parseInt(-53));
-																							console.log(_0x2c5af7);
-																						} else {
-																							if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
-																								var _0x2c5af7 = String(parseInt(-53));
-																								console.log(_0x2c5af7);
-																							} else {
-																								if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
-																									var _0x2c5af7 = String(parseInt(-53));
-																									console.log(_0x2c5af7);
-																								} else {
-																									if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
-																										var _0x2c5af7 = String(parseInt(-53));
-																										console.log(_0x2c5af7);
-																									} else {
-																										if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
 																											var _0x2c5af7 = String(parseInt(-52));
 																											console.log(_0x2c5af7);
 																										} else {
-																											if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
+																											if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
 																												var _0x2c5af7 = String(parseInt(-51));
 																												console.log(_0x2c5af7);
 																											} else {
-																												if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
+																												if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
 																													var _0x2c5af7 = String(parseInt(-50));
 																													console.log(_0x2c5af7);
 																												} else {
@@ -27433,58 +27284,71 @@ function huntClueSearch(x, y, direction, clueName) {
 													}
 												}
 											}
+										}
+									}
 
-											console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-											
-											// updateOptionClues();
-											return [_0xf0e6b9, _0x2c5af7];
+									console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
+
+									// updateOptionClues();
+									return [_0xf0e6b9, _0x2c5af7];
+								} else {
+									if (_0x466a39.includes(_0x1e7122)) {
+										var _0xf0e6b9 = listHuntClues.find((_0x20c062) => _0x20c062.x === _0x3ce40d).x;
+										if (_0x2d98cd == 4 && _0x2c5af7 == -8) {
+											var _0xf0e6b9 = String(parseInt(0));
+											var _0x2c5af7 = String(parseInt(-9));
+
+											console.log(_0x2c5af7);
+											var _0x2d98cd = String(parseInt(5));
 										} else {
-											if (_0x545312.includes(_0x1e7122)) {
-												var _0xf0e6b9 = listHuntClues.find((_0x20e511) => _0x20e511.x === _0x3314ef).x;
-												if (_0x2d98cd == 4 && _0x2c5af7 == -8) {
-													var _0xf0e6b9 = String(parseInt(-1));
+											if (_0x2d98cd == 5 && _0x2c5af7 == -8) {
+												var _0xf0e6b9 = String(parseInt(1));
+												var _0x2c5af7 = String(parseInt(-9));
+
+												console.log(_0x2c5af7);
+												var _0x2d98cd = String(parseInt(6));
+											} else {
+												if (_0x2d98cd == 6 && _0x2c5af7 == -8) {
+													var _0xf0e6b9 = String(parseInt(2));
 													var _0x2c5af7 = String(parseInt(-9));
-													
+
 													console.log(_0x2c5af7);
-													var _0x2d98cd = String(parseInt(5));
+													var _0x2d98cd = String(parseInt(7));
 												} else {
-													if (_0x2d98cd == 5 && _0x2c5af7 == -8) {
-														var _0xf0e6b9 = String(parseInt(0));
-														var _0x2c5af7 = String(parseInt(-9));
-														
+													if (_0x2d98cd == -29 && _0x2c5af7 == 35) {
+														var _0x2c5af7 = String(parseInt(34));
 														console.log(_0x2c5af7);
-														var _0x2d98cd = String(parseInt(6));
 													} else {
-														if (_0x2d98cd == 6 && _0x2c5af7 == -8) {
-															var _0xf0e6b9 = String(parseInt(1));
-															var _0x2c5af7 = String(parseInt(-9));
-															
+														if (_0x2d98cd == -28 && _0x2c5af7 == 35) {
+															var _0x2c5af7 = String(parseInt(34));
 															console.log(_0x2c5af7);
-															var _0x2d98cd = String(parseInt(7));
 														} else {
-															if (_0x2d98cd == -28 && _0x2c5af7 == 35) {
+															if (_0x2d98cd == -27 && _0x2c5af7 == 35) {
 																var _0x2c5af7 = String(parseInt(34));
 																console.log(_0x2c5af7);
 															} else {
-																if (_0x2d98cd == -27 && _0x2c5af7 == 35) {
-																	var _0x2c5af7 = String(parseInt(34));
+																if (_0x2d98cd == -18 && _0x2c5af7 == 37) {
+																	var _0xf0e6b9 = String(parseInt(-24));
+																	var _0x2c5af7 = String(parseInt(36));
+
 																	console.log(_0x2c5af7);
+																	var _0x2d98cd = String(parseInt(-19));
 																} else {
-																	if (_0x2d98cd == -28 && _0x2c5af7 == -15) {
+																	if (_0x2d98cd == -29 && _0x2c5af7 == -15) {
 																		var _0x2c5af7 = String(parseInt(-16));
 																		console.log(_0x2c5af7);
 																	} else {
 																		if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
-																			var _0xf0e6b9 = String(parseInt(-33));
+																			var _0xf0e6b9 = String(parseInt(-32));
 																			var _0x2c5af7 = String(parseInt(34));
-																			
+
 																			console.log(_0x2c5af7);
 																			var _0x2d98cd = String(parseInt(-27));
 																		} else {
 																			if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
-																				var _0xf0e6b9 = String(parseInt(-32));
+																				var _0xf0e6b9 = String(parseInt(-31));
 																				var _0x2c5af7 = String(parseInt(34));
-																				
+
 																				console.log(_0x2c5af7);
 																				var _0x2d98cd = String(parseInt(-26));
 																			} else {
@@ -27509,115 +27373,14 @@ function huntClueSearch(x, y, direction, clueName) {
 																									console.log(_0x2c5af7);
 																								} else {
 																									if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
-																										var _0x2c5af7 = String(parseInt(-53));
-																										console.log(_0x2c5af7);
-																									} else {
-																										if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
-																											var _0x2c5af7 = String(parseInt(-52));
-																											console.log(_0x2c5af7);
-																										} else {
-																											if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
-																												var _0x2c5af7 = String(parseInt(-51));
-																												console.log(_0x2c5af7);
-																											} else {
-																												if (_0x2d98cd == -20 && _0x2c5af7 == -49) {
-																													var _0x2c5af7 = String(parseInt(-50));
-																													console.log(_0x2c5af7);
-																												} else {
-																												}
-																											}
-																										}
-																									}
-																								}
-																							}
-																						}
-																					}
-																				}
-																			}
-																		}
-																	}
-																}
-															}
-														}
-													}
-												}
-
-												console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-												
-												// updateOptionClues();
-												return [_0xf0e6b9, _0x2c5af7];
-											} else {
-												if (_0x2c656b.includes(_0x1e7122)) {
-													var _0xf0e6b9 = listHuntClues.find((_0x2823d1) => _0x2823d1.x === _0x13f043).x;
-													if (_0x2d98cd == 5 && _0x2c5af7 == -8) {
-														var _0xf0e6b9 = String(parseInt(-1));
-														var _0x2c5af7 = String(parseInt(-9));
-														
-														console.log(_0x2c5af7);
-														var _0x2d98cd = String(parseInt(6));
-													} else {
-														if (_0x2d98cd == 6 && _0x2c5af7 == -8) {
-															var _0xf0e6b9 = String(parseInt(0));
-															var _0x2c5af7 = String(parseInt(-9));
-															
-															console.log(_0x2c5af7);
-															var _0x2d98cd = String(parseInt(7));
-														} else {
-															if (_0x2d98cd == -27 && _0x2c5af7 == 35) {
-																var _0x2c5af7 = String(parseInt(34));
-																console.log(_0x2c5af7);
-															} else {
-																if (_0x2d98cd == -27 && _0x2c5af7 == -15) {
-																	var _0x2c5af7 = String(parseInt(-16));
-																	console.log(_0x2c5af7);
-																} else {
-																	if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
-																		var _0xf0e6b9 = String(parseInt(-34));
-																		var _0x2c5af7 = String(parseInt(34));
-																		
-																		console.log(_0x2c5af7);
-																		var _0x2d98cd = String(parseInt(-27));
-																	} else {
-																		if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
-																			var _0xf0e6b9 = String(parseInt(-33));
-																			var _0x2c5af7 = String(parseInt(34));
-																			
-																			console.log(_0x2c5af7);
-																			var _0x2d98cd = String(parseInt(-26));
-																		} else {
-																			if (_0x2d98cd == -27 && _0x2c5af7 == -51) {
-																				var _0x2c5af7 = String(parseInt(-53));
-																				console.log(_0x2c5af7);
-																			} else {
-																				if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
-																					var _0x2c5af7 = String(parseInt(-53));
-																					console.log(_0x2c5af7);
-																				} else {
-																					if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
-																						var _0x2c5af7 = String(parseInt(-53));
-																						console.log(_0x2c5af7);
-																					} else {
-																						if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
-																							var _0x2c5af7 = String(parseInt(-53));
-																							console.log(_0x2c5af7);
-																						} else {
-																							if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
-																								var _0x2c5af7 = String(parseInt(-53));
-																								console.log(_0x2c5af7);
-																							} else {
-																								if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
-																									var _0x2c5af7 = String(parseInt(-53));
-																									console.log(_0x2c5af7);
-																								} else {
-																									if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
 																										var _0x2c5af7 = String(parseInt(-52));
 																										console.log(_0x2c5af7);
 																									} else {
-																										if (_0x2d98cd == -20 && _0x2c5af7 == -49) {
+																										if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
 																											var _0x2c5af7 = String(parseInt(-51));
 																											console.log(_0x2c5af7);
 																										} else {
-																											if (_0x2d98cd == -19 && _0x2c5af7 == -49) {
+																											if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
 																												var _0x2c5af7 = String(parseInt(-50));
 																												console.log(_0x2c5af7);
 																											} else {
@@ -27636,66 +27399,103 @@ function huntClueSearch(x, y, direction, clueName) {
 															}
 														}
 													}
+												}
+											}
+										}
 
-													console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-													
-							
-													// updateOptionClues();
-					
-													return [_0xf0e6b9, _0x2c5af7];
+										console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
+
+										// updateOptionClues();
+										return [_0xf0e6b9, _0x2c5af7];
+									} else {
+										if (_0x545312.includes(_0x1e7122)) {
+											var _0xf0e6b9 = listHuntClues.find((_0x20e511) => _0x20e511.x === _0x3314ef).x;
+											if (_0x2d98cd == 4 && _0x2c5af7 == -8) {
+												var _0xf0e6b9 = String(parseInt(-1));
+												var _0x2c5af7 = String(parseInt(-9));
+
+												console.log(_0x2c5af7);
+												var _0x2d98cd = String(parseInt(5));
+											} else {
+												if (_0x2d98cd == 5 && _0x2c5af7 == -8) {
+													var _0xf0e6b9 = String(parseInt(0));
+													var _0x2c5af7 = String(parseInt(-9));
+
+													console.log(_0x2c5af7);
+													var _0x2d98cd = String(parseInt(6));
 												} else {
-													if (_0x4e716c.includes(_0x1e7122)) {
-														var _0xf0e6b9 = listHuntClues.find((_0x19ea20) => _0x19ea20.x === _0x2b9dbf).x;
-														if (_0x2d98cd == 6 && _0x2c5af7 == -8) {
-															var _0xf0e6b9 = String(parseInt(-1));
-															var _0x2c5af7 = String(parseInt(-9));
-															
+													if (_0x2d98cd == 6 && _0x2c5af7 == -8) {
+														var _0xf0e6b9 = String(parseInt(1));
+														var _0x2c5af7 = String(parseInt(-9));
+
+														console.log(_0x2c5af7);
+														var _0x2d98cd = String(parseInt(7));
+													} else {
+														if (_0x2d98cd == -28 && _0x2c5af7 == 35) {
+															var _0x2c5af7 = String(parseInt(34));
 															console.log(_0x2c5af7);
-															var _0x2d98cd = String(parseInt(7));
 														} else {
-															if (_0x2d98cd == -26 && _0x2c5af7 == -15) {
-																var _0x2c5af7 = String(parseInt(-16));
+															if (_0x2d98cd == -27 && _0x2c5af7 == 35) {
+																var _0x2c5af7 = String(parseInt(34));
 																console.log(_0x2c5af7);
 															} else {
-																if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
-																	var _0xf0e6b9 = String(parseInt(-34));
-																	var _0x2c5af7 = String(parseInt(34));
-																	
+																if (_0x2d98cd == -28 && _0x2c5af7 == -15) {
+																	var _0x2c5af7 = String(parseInt(-16));
 																	console.log(_0x2c5af7);
-																	var _0x2d98cd = String(parseInt(-26));
 																} else {
-																	if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
-																		var _0x2c5af7 = String(parseInt(-53));
+																	if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
+																		var _0xf0e6b9 = String(parseInt(-33));
+																		var _0x2c5af7 = String(parseInt(34));
+
 																		console.log(_0x2c5af7);
+																		var _0x2d98cd = String(parseInt(-27));
 																	} else {
-																		if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
-																			var _0x2c5af7 = String(parseInt(-53));
+																		if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
+																			var _0xf0e6b9 = String(parseInt(-32));
+																			var _0x2c5af7 = String(parseInt(34));
+
 																			console.log(_0x2c5af7);
+																			var _0x2d98cd = String(parseInt(-26));
 																		} else {
-																			if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
+																			if (_0x2d98cd == -28 && _0x2c5af7 == -52) {
 																				var _0x2c5af7 = String(parseInt(-53));
 																				console.log(_0x2c5af7);
 																			} else {
-																				if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
+																				if (_0x2d98cd == -27 && _0x2c5af7 == -51) {
 																					var _0x2c5af7 = String(parseInt(-53));
 																					console.log(_0x2c5af7);
 																				} else {
-																					if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
+																					if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
 																						var _0x2c5af7 = String(parseInt(-53));
 																						console.log(_0x2c5af7);
 																					} else {
-																						if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
+																						if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
 																							var _0x2c5af7 = String(parseInt(-53));
 																							console.log(_0x2c5af7);
 																						} else {
-																							if (_0x2d98cd == -20 && _0x2c5af7 == -49) {
-																								var _0x2c5af7 = String(parseInt(-52));
+																							if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
+																								var _0x2c5af7 = String(parseInt(-53));
 																								console.log(_0x2c5af7);
 																							} else {
-																								if (_0x2d98cd == -19 && _0x2c5af7 == -49) {
-																									var _0x2c5af7 = String(parseInt(-51));
+																								if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
+																									var _0x2c5af7 = String(parseInt(-53));
 																									console.log(_0x2c5af7);
 																								} else {
+																									if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
+																										var _0x2c5af7 = String(parseInt(-52));
+																										console.log(_0x2c5af7);
+																									} else {
+																										if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
+																											var _0x2c5af7 = String(parseInt(-51));
+																											console.log(_0x2c5af7);
+																										} else {
+																											if (_0x2d98cd == -20 && _0x2c5af7 == -49) {
+																												var _0x2c5af7 = String(parseInt(-50));
+																												console.log(_0x2c5af7);
+																											} else {
+																											}
+																										}
+																									}
 																								}
 																							}
 																						}
@@ -27707,47 +27507,259 @@ function huntClueSearch(x, y, direction, clueName) {
 																}
 															}
 														}
+													}
+												}
+											}
 
-														console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-														
-														// updateOptionClues();			
-														return [_0xf0e6b9, _0x2c5af7];
+											console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
+
+											// updateOptionClues();
+											return [_0xf0e6b9, _0x2c5af7];
+										} else {
+											if (_0x2c656b.includes(_0x1e7122)) {
+												var _0xf0e6b9 = listHuntClues.find((_0x2823d1) => _0x2823d1.x === _0x13f043).x;
+												if (_0x2d98cd == 5 && _0x2c5af7 == -8) {
+													var _0xf0e6b9 = String(parseInt(-1));
+													var _0x2c5af7 = String(parseInt(-9));
+
+													console.log(_0x2c5af7);
+													var _0x2d98cd = String(parseInt(6));
+												} else {
+													if (_0x2d98cd == 6 && _0x2c5af7 == -8) {
+														var _0xf0e6b9 = String(parseInt(0));
+														var _0x2c5af7 = String(parseInt(-9));
+
+														console.log(_0x2c5af7);
+														var _0x2d98cd = String(parseInt(7));
 													} else {
-														if (_0x379297.includes(_0x1e7122)) {
-															var _0xf0e6b9 = listHuntClues.find((_0x4c924f) => _0x4c924f.x === _0x535578).x;
-															if (_0x2d98cd == -25 && _0x2c5af7 == -15) {
+														if (_0x2d98cd == -27 && _0x2c5af7 == 35) {
+															var _0x2c5af7 = String(parseInt(34));
+															console.log(_0x2c5af7);
+														} else {
+															if (_0x2d98cd == -27 && _0x2c5af7 == -15) {
 																var _0x2c5af7 = String(parseInt(-16));
 																console.log(_0x2c5af7);
 															} else {
-																if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
-																	var _0x2c5af7 = String(parseInt(-53));
+																if (_0x2d98cd == -26 && _0x2c5af7 == 36) {
+																	var _0xf0e6b9 = String(parseInt(-34));
+																	var _0x2c5af7 = String(parseInt(34));
+
 																	console.log(_0x2c5af7);
+																	var _0x2d98cd = String(parseInt(-27));
 																} else {
-																	if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
-																		var _0x2c5af7 = String(parseInt(-53));
+																	if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
+																		var _0xf0e6b9 = String(parseInt(-33));
+																		var _0x2c5af7 = String(parseInt(34));
+
 																		console.log(_0x2c5af7);
+																		var _0x2d98cd = String(parseInt(-26));
 																	} else {
-																		if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
+																		if (_0x2d98cd == -27 && _0x2c5af7 == -51) {
 																			var _0x2c5af7 = String(parseInt(-53));
 																			console.log(_0x2c5af7);
 																		} else {
-																			if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
+																			if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
 																				var _0x2c5af7 = String(parseInt(-53));
 																				console.log(_0x2c5af7);
 																			} else {
-																				if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
+																				if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
 																					var _0x2c5af7 = String(parseInt(-53));
 																					console.log(_0x2c5af7);
 																				} else {
-																					if (_0x2d98cd == -20 && _0x2c5af7 == -49) {
+																					if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
 																						var _0x2c5af7 = String(parseInt(-53));
 																						console.log(_0x2c5af7);
 																					} else {
-																						if (_0x2d98cd == -19 && _0x2c5af7 == -49) {
+																						if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
+																							var _0x2c5af7 = String(parseInt(-53));
+																							console.log(_0x2c5af7);
+																						} else {
+																							if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
+																								var _0x2c5af7 = String(parseInt(-53));
+																								console.log(_0x2c5af7);
+																							} else {
+																								if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
+																									var _0x2c5af7 = String(parseInt(-52));
+																									console.log(_0x2c5af7);
+																								} else {
+																									if (_0x2d98cd == -20 && _0x2c5af7 == -49) {
+																										var _0x2c5af7 = String(parseInt(-51));
+																										console.log(_0x2c5af7);
+																									} else {
+																										if (_0x2d98cd == -19 && _0x2c5af7 == -49) {
+																											var _0x2c5af7 = String(parseInt(-50));
+																											console.log(_0x2c5af7);
+																										} else {
+																										}
+																									}
+																								}
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+
+												console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
+
+												// updateOptionClues();
+
+												return [_0xf0e6b9, _0x2c5af7];
+											} else {
+												if (_0x4e716c.includes(_0x1e7122)) {
+													var _0xf0e6b9 = listHuntClues.find((_0x19ea20) => _0x19ea20.x === _0x2b9dbf).x;
+													if (_0x2d98cd == 6 && _0x2c5af7 == -8) {
+														var _0xf0e6b9 = String(parseInt(-1));
+														var _0x2c5af7 = String(parseInt(-9));
+
+														console.log(_0x2c5af7);
+														var _0x2d98cd = String(parseInt(7));
+													} else {
+														if (_0x2d98cd == -26 && _0x2c5af7 == -15) {
+															var _0x2c5af7 = String(parseInt(-16));
+															console.log(_0x2c5af7);
+														} else {
+															if (_0x2d98cd == -25 && _0x2c5af7 == 36) {
+																var _0xf0e6b9 = String(parseInt(-34));
+																var _0x2c5af7 = String(parseInt(34));
+
+																console.log(_0x2c5af7);
+																var _0x2d98cd = String(parseInt(-26));
+															} else {
+																if (_0x2d98cd == -26 && _0x2c5af7 == -50) {
+																	var _0x2c5af7 = String(parseInt(-53));
+																	console.log(_0x2c5af7);
+																} else {
+																	if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
+																		var _0x2c5af7 = String(parseInt(-53));
+																		console.log(_0x2c5af7);
+																	} else {
+																		if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
+																			var _0x2c5af7 = String(parseInt(-53));
+																			console.log(_0x2c5af7);
+																		} else {
+																			if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
+																				var _0x2c5af7 = String(parseInt(-53));
+																				console.log(_0x2c5af7);
+																			} else {
+																				if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
+																					var _0x2c5af7 = String(parseInt(-53));
+																					console.log(_0x2c5af7);
+																				} else {
+																					if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
+																						var _0x2c5af7 = String(parseInt(-53));
+																						console.log(_0x2c5af7);
+																					} else {
+																						if (_0x2d98cd == -20 && _0x2c5af7 == -49) {
 																							var _0x2c5af7 = String(parseInt(-52));
 																							console.log(_0x2c5af7);
 																						} else {
+																							if (_0x2d98cd == -19 && _0x2c5af7 == -49) {
+																								var _0x2c5af7 = String(parseInt(-51));
+																								console.log(_0x2c5af7);
+																							} else {
+																							}
 																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+
+													console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
+
+													// updateOptionClues();
+													return [_0xf0e6b9, _0x2c5af7];
+												} else {
+													if (_0x379297.includes(_0x1e7122)) {
+														var _0xf0e6b9 = listHuntClues.find((_0x4c924f) => _0x4c924f.x === _0x535578).x;
+														if (_0x2d98cd == -25 && _0x2c5af7 == -15) {
+															var _0x2c5af7 = String(parseInt(-16));
+															console.log(_0x2c5af7);
+														} else {
+															if (_0x2d98cd == -25 && _0x2c5af7 == -49) {
+																var _0x2c5af7 = String(parseInt(-53));
+																console.log(_0x2c5af7);
+															} else {
+																if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
+																	var _0x2c5af7 = String(parseInt(-53));
+																	console.log(_0x2c5af7);
+																} else {
+																	if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
+																		var _0x2c5af7 = String(parseInt(-53));
+																		console.log(_0x2c5af7);
+																	} else {
+																		if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
+																			var _0x2c5af7 = String(parseInt(-53));
+																			console.log(_0x2c5af7);
+																		} else {
+																			if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
+																				var _0x2c5af7 = String(parseInt(-53));
+																				console.log(_0x2c5af7);
+																			} else {
+																				if (_0x2d98cd == -20 && _0x2c5af7 == -49) {
+																					var _0x2c5af7 = String(parseInt(-53));
+																					console.log(_0x2c5af7);
+																				} else {
+																					if (_0x2d98cd == -19 && _0x2c5af7 == -49) {
+																						var _0x2c5af7 = String(parseInt(-52));
+																						console.log(_0x2c5af7);
+																					} else {
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+
+														console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
+
+														// updateOptionClues();
+
+														return [_0xf0e6b9, _0x2c5af7];
+													} else {
+														if (_0x9298d1.includes(_0x1e7122)) {
+															var _0xf0e6b9 = listHuntClues.find((_0x258622) => _0x258622.x === _0x4c73af).x;
+															if (_0x2d98cd == -24 && _0x2c5af7 == -15) {
+																var _0x2c5af7 = String(parseInt(-16));
+																console.log(_0x2c5af7);
+															} else {
+																if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
+																	var _0x2c5af7 = String(parseInt(-53));
+																	console.log(_0x2c5af7);
+																} else {
+																	if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
+																		var _0x2c5af7 = String(parseInt(-53));
+																		console.log(_0x2c5af7);
+																	} else {
+																		if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
+																			var _0x2c5af7 = String(parseInt(-53));
+																			console.log(_0x2c5af7);
+																		} else {
+																			if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
+																				var _0x2c5af7 = String(parseInt(-53));
+																				console.log(_0x2c5af7);
+																			} else {
+																				if (_0x2d98cd == -20 && _0x2c5af7 == -49) {
+																					var _0x2c5af7 = String(parseInt(-53));
+																					console.log(_0x2c5af7);
+																				} else {
+																					if (_0x2d98cd == -19 && _0x2c5af7 == -49) {
+																						var _0x2c5af7 = String(parseInt(-53));
+																						console.log(_0x2c5af7);
+																					} else {
 																					}
 																				}
 																			}
@@ -27757,59 +27769,11 @@ function huntClueSearch(x, y, direction, clueName) {
 															}
 
 															console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-															
-									
 															// updateOptionClues();
-									
+
 															return [_0xf0e6b9, _0x2c5af7];
 														} else {
-															if (_0x9298d1.includes(_0x1e7122)) {
-																var _0xf0e6b9 = listHuntClues.find(
-																	(_0x258622) => _0x258622.x === _0x4c73af
-																).x;
-																if (_0x2d98cd == -24 && _0x2c5af7 == -15) {
-																	var _0x2c5af7 = String(parseInt(-16));
-																	console.log(_0x2c5af7);
-																} else {
-																	if (_0x2d98cd == -24 && _0x2c5af7 == -49) {
-																		var _0x2c5af7 = String(parseInt(-53));
-																		console.log(_0x2c5af7);
-																	} else {
-																		if (_0x2d98cd == -23 && _0x2c5af7 == -49) {
-																			var _0x2c5af7 = String(parseInt(-53));
-																			console.log(_0x2c5af7);
-																		} else {
-																			if (_0x2d98cd == -22 && _0x2c5af7 == -49) {
-																				var _0x2c5af7 = String(parseInt(-53));
-																				console.log(_0x2c5af7);
-																			} else {
-																				if (_0x2d98cd == -21 && _0x2c5af7 == -49) {
-																					var _0x2c5af7 = String(parseInt(-53));
-																					console.log(_0x2c5af7);
-																				} else {
-																					if (_0x2d98cd == -20 && _0x2c5af7 == -49) {
-																						var _0x2c5af7 = String(parseInt(-53));
-																						console.log(_0x2c5af7);
-																					} else {
-																						if (_0x2d98cd == -19 && _0x2c5af7 == -49) {
-																							var _0x2c5af7 = String(parseInt(-53));
-																							console.log(_0x2c5af7);
-																						} else {
-																						}
-																					}
-																				}
-																			}
-																		}
-																	}
-																}
-
-																console.log("[" + _0xf0e6b9 + "," + _0x2c5af7 + "]");
-																// updateOptionClues();
-																
-																return [_0xf0e6b9, _0x2c5af7];
-															} else {
-																console.log("Aucun résultat")
-															}
+															console.log("Aucun résultat");
 														}
 													}
 												}
@@ -27823,7 +27787,6 @@ function huntClueSearch(x, y, direction, clueName) {
 				}
 			}
 		}
-	} else {
 	}
 }
 

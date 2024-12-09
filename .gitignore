@@ -2,3 +2,6 @@
 .vscode/
 .zig-cache/
 zig-out/
+
+update.js	
+well.js

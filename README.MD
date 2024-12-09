@@ -1,4 +1,4 @@
-# Scan a directory for a specific type files (.svg here), and create a Typescript type for every filename
+# FIND THE RESOLUTION OF A WINDOW WITH ZIG
 
 ## ZIG
 

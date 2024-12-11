@@ -12,10 +12,17 @@ pub fn build(b: *std.Build) void {
     });
 
     if (target_os.tag == .macos) {
+        // tell the path for C compiler to find headers while compiling
+        exe.addSystemIncludePath(b.path("libs/sdl2/macos"));
         // on macos you add a path where it will search for xxx.framework
         exe.addFrameworkPath(b.path("libs/sdl2/macos"));
-        // then link it based on that path
-        exe.linkFramework("SDL3");
+        // (run path) add a dynamic path where it will search the framework while compiled
+        exe.addRPath(b.path("libs/sdl2/macos"));
+        // tell the name of the framework we will use
+        exe.linkFramework("SDL2");
+        // coreGraphics is already built-in on macos, so you can just link it, it will search in the system path (/System/Library/Frameworks/)
+        exe.linkFramework("CoreGraphics");
+        exe.linkFramework("CoreFoundation");
     } else if (target_os.tag == .windows) {} else {
         @panic("Unsupported OS");
     }

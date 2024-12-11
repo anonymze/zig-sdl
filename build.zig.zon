@@ -1,0 +1,11 @@
+.{
+    .name = "your-project",
+    .paths = .{
+        "README.MD",
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .version = "0.1.0",
+    .dependencies = .{},
+}

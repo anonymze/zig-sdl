@@ -9,7 +9,7 @@ const takeScreenshot = @import("./screen/screenshot.zig").takeScreenshot;
 const simulateKeyPress = @import("./command.zig").simulateKeyPress;
 const simulateTypeString = @import("./command.zig").simulateTypeString;
 
-const START_COUNT_DOWN = 0;
+const START_COUNT_DOWN = 3;
 
 pub fn main() !void {
     print("========== Start TREASURE HUNTING! ==========\n", .{});

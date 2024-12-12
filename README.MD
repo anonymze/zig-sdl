@@ -11,8 +11,8 @@
 
 ### conditions
 
-- Dofus has to be running.
-- Dofus has to be in full screen
+- Dofus has to be running
 - Dofus has to be on the main screen
+- Dofus has to be in French
 - AZERTY keyboard
 

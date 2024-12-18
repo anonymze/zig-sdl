@@ -16,3 +16,6 @@
 - Dofus has to be in French
 - AZERTY keyboard
 
+
+NEXTJS -> ASTRO -> ANGULAR 
+TAN STACK -> REACT NATIVE -> ZIG
